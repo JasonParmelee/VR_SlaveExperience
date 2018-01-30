@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SlaveVRExperience.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{89FB3239-DF73-4C0E-B7ED-0A6634D15D32}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SlaveVRExperience.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SlaveVRExperienceEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{DA90DCCB-5151-4A5D-B51D-0657AD6C07EE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultScalability.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SlaveVRExperience">
+			<UniqueIdentifier>{F0457CDD-5134-489F-9F73-C95F40E6310D}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SlaveVRExperience\DeckTeleporter.cpp">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\DeckTeleporter.h">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.Build.cs">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.cpp">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.h">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

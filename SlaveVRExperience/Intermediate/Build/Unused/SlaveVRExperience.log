@@ -1,0 +1,11 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading SlaveVRExperienceEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  DeckTeleporter.cpp
+  [2/3] Link UE4Editor-SlaveVRExperience-8877.dll
+  [3/3] Link UE4Editor-SlaveVRExperience-8877.lib
+     Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8877.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8877.exp
+     Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8877.suppressed.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8877.suppressed.exp
+  Deploying SlaveVRExperienceEditor Win64 Development...
+  Total build time: 16.64 seconds (Local executor: 5.34 seconds)

@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "D:\Epic Games\UE_4.18\Engine\Source"
-/I F:\VR_SlaveExperience\SlaveVRExperience\Source
-/I F:\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Inc\SlaveVRExperience
-/I F:\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience
+/I C:\Users\ia474088\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source
+/I C:\Users\ia474088\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Inc\SlaveVRExperience
+/I C:\Users\ia474088\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience
 /I "D:\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "D:\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "D:\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -359,9 +359,9 @@
 /FI"D:\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience\DeckTeleporter.cpp"
-/FI"F:\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\Definitions.SlaveVRExperience.h"
-/Fo"F:\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\DeckTeleporter.cpp.obj"
+"C:\Users\ia474088\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience\DeckTeleporter.cpp"
+/FI"C:\Users\ia474088\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\Definitions.SlaveVRExperience.h"
+/Fo"C:\Users\ia474088\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\DeckTeleporter.cpp.obj"
 /TP
 /GR-
 /W4

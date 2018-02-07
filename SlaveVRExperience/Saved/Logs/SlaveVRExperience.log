@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 02/07/18 13:45:43
+=======
+﻿Log file open, 01/31/18 15:58:22
+>>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
 =======
 ﻿Log file open, 01/31/18 15:58:22
 >>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
@@ -17,7 +21,11 @@ LogInit: Display: Running engine for game: SlaveVRExperience
 LogPlatformFile: Not using cached read wrapper
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogInit: Display: RandInit(29438825) SRandInit(29438825).
+=======
+LogInit: Display: RandInit(-50659822) SRandInit(-50659822).
+>>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
 =======
 LogInit: Display: RandInit(-50659822) SRandInit(-50659822).
 >>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
@@ -30,7 +38,11 @@ LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.725680
+=======
+LogStats: Stats thread started at 0.204465
+>>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
 =======
 LogStats: Stats thread started at 0.204465
 >>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
@@ -219,6 +231,7 @@ LogInit: Base directory: D:/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [2018.02.07-18.45.48:210][  0]LogInit: Selected Device Profile: [Windows]
@@ -11601,6 +11614,8 @@ Please see Output Log for details.
 =======
 =======
 >>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
+=======
+>>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
 [2018.01.31-20.58.23:949][  0]LogInit: Selected Device Profile: [Windows]
 [2018.01.31-20.58.23:949][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.01.31-20.58.23:974][  0]LogInit: Computer: CAH812110809
@@ -14963,6 +14978,9 @@ Please see Output Log for details.
 [2018.01.31-22.34.00:866][862]LogExit: Exiting.
 [2018.01.31-22.34.00:891][862]Log file closed, 01/31/18 17:34:00
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
+=======
 >>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4
 =======
 >>>>>>> fe576f6b1ad7c16075d169e2f2826b205c3211c4

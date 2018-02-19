@@ -1,4 +1,4 @@
-﻿Log file open, 02/07/18 16:49:19
+﻿Log file open, 02/13/18 22:02:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SlaveVRExperience
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(160171851) SRandInit(160171852).
+LogInit: Display: RandInit(113607748) SRandInit(113607748).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.155863
+LogStats: Stats thread started at 0.179595
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-4472.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -190,206 +190,1059 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: D:/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/EpicGames/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.07-21.49.21:025][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.07-21.49.21:025][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.07-21.49.21:035][  0]LogInit: Computer: CAH812110809
-[2018.02.07-21.49.21:035][  0]LogInit: User: ia474088
-[2018.02.07-21.49.21:035][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.07-21.49.21:035][  0]LogInit: High frequency timer resolution =3.906252 MHz
-[2018.02.07-21.49.21:036][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.02.07-21.49.21:036][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.07-21.49.21:036][  0]LogMemory: Process Physical Memory: 272.64 MB used, 272.64 MB peak
-[2018.02.07-21.49.21:036][  0]LogMemory: Process Virtual Memory: 270.16 MB used, 270.16 MB peak
-[2018.02.07-21.49.21:036][  0]LogMemory: Physical Memory: 4169.19 MB used,  12129.71 MB free, 16298.90 MB total
-[2018.02.07-21.49.21:036][  0]LogMemory: Virtual Memory: 644.48 MB used,  12129.71 MB free, 134217728.00 MB total
-[2018.02.07-21.49.21:120][  0]LogInit: Using OS detected language (en-US).
-[2018.02.07-21.49.21:120][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.07-21.49.21:122][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.07-21.49.21:472][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.07-21.49.21:656][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.07-21.49.21:681][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.02.07-21.49.21:681][  0]LogD3D11RHI:       2016/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.07-21.49.21:687][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.02.07-21.49.21:687][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.02.07-21.49.21:689][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.07-21.49.21:689][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.07-21.49.21:689][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.07-21.49.21:693][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.07-21.49.21:693][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.07-21.49.21:694][  0]LogWindows: EnumDisplayDevices:
-[2018.02.07-21.49.21:694][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.02.07-21.49.21:694][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.02.07-21.49.21:694][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.02.07-21.49.21:694][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.02.07-21.49.21:694][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.07-21.49.21:694][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.07-21.49.21:694][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.07-21.49.21:694][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.02.07-21.49.21:694][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.02.07-21.49.21:694][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2018.02.07-21.49.21:694][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2018.02.07-21.49.21:694][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
-[2018.02.07-21.49.21:708][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.07-21.49.21:718][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.07-21.49.21:767][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/5652/).
-[2018.02.07-21.49.21:767][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ia474088/AppData/Local/Temp/UnrealShaderWorkingDir/93581DF946B7681D938984A4032AEE89/'.
-[2018.02.07-21.49.21:767][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.07-21.49.22:519][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.07-21.49.22:551][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.07-21.49.22:584][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.07-21.49.22:615][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.07-21.49.22:648][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.07-21.49.22:680][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.07-21.49.22:712][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.07-21.49.22:745][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.07-21.49.22:771][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.07-21.49.22:806][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.07-21.49.22:839][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.07-21.49.22:871][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.07-21.49.22:905][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.07-21.49.22:937][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.07-21.49.23:005][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.07-21.49.23:005][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.07-21.49.23:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.07-21.49.23:059][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.07-21.49.23:124][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.07-21.49.23:142][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.07-21.49.23:176][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.07-21.49.23:209][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.07-21.49.23:242][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.07-21.49.23:274][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.07-21.49.23:274][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.07-21.49.23:543][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.07-21.49.23:617][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/ia474088/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.07-21.49.23:617][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ia474088/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.07-21.49.23:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.07-21.49.23:617][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.07-21.49.23:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.07-21.49.23:617][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.07-21.49.23:631][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.07-21.49.23:644][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ia474088/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.07-21.49.23:653][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.07-21.49.23:653][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.07-21.49.23:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.07-21.49.23:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.07-21.49.23:935][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.07-21.49.24:152][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.07-21.49.24:175][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.07-21.49.24:175][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.07-21.49.24:175][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.07-21.49.24:175][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.07-21.49.24:175][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.07-21.49.24:194][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
-[2018.02.07-21.49.24:322][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2018.02.07-21.49.24:723][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.061156 seconds
-[2018.02.07-21.49.24:728][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.07-21.49.24:728][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.02.07-21.49.24:728][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.07-21.49.24:756][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.07-21.49.26:628][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.07-21.49.26:657][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.07-21.49.27:111][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.07-21.49.27:386][  0]SourceControl: Source control is disabled
-[2018.02.07-21.49.27:386][  0]SourceControl: Source control is disabled
-[2018.02.07-21.49.27:418][  0]SourceControl: Source control is disabled
-[2018.02.07-21.49.27:452][  0]SourceControl: Source control is disabled
-[2018.02.07-21.49.27:933][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.07-21.49.28:093][  0]LogOcInput: OculusInput pre-init called
-[2018.02.07-21.49.28:267][  0]LogEngine: Initializing Engine...
-[2018.02.07-21.49.30:497][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-CCE699A8
-[2018.02.07-21.49.30:712][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.07-21.49.30:712][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.07-21.49.30:801][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.07-21.49.30:824][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.07-21.49.30:950][  0]LogInit: FAudioDevice initialized.
-[2018.02.07-21.49.31:446][  0]LogDerivedDataCache: Saved boot cache 0.50s 79MB C:/Users/ia474088/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.07-21.49.31:456][  0]LogInit: Texture streaming: Enabled
-[2018.02.07-21.49.31:515][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.07-21.49.31:593][  0]LogInit: Transaction tracking system initialized
-[2018.02.07-21.49.31:781][  0]BlueprintLog: New page: Editor Load
-[2018.02.07-21.49.32:315][  0]LocalizationService: Localization service is disabled
-[2018.02.07-21.49.32:771][  0]LogConsoleResponse: Display: 
-[2018.02.07-21.49.32:911][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.07-21.49.32:911][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.07-21.49.32:911][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.07-21.49.33:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.02s
-[2018.02.07-21.49.33:673][  0]SourceControl: Source control is disabled
-[2018.02.07-21.49.33:674][  0]Cmd: MAP LOAD FILE="C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.07-21.49.33:674][  0]LightingResults: New page: Lighting Build
-[2018.02.07-21.49.33:700][  0]MapCheck: New page: Map Check
-[2018.02.07-21.49.33:701][  0]LightingResults: New page: Lighting Build
-[2018.02.07-21.49.34:868][  0]LogAIModule: Creating AISystem for world Ship
-[2018.02.07-21.49.35:194][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.07-21.49.35:372][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.07-21.49.35:414][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.605ms to complete.
-[2018.02.07-21.49.35:414][  0]LogFileHelpers: Loading map 'Ship' took 1.741
-[2018.02.07-21.49.35:536][  0]LogCollectionManager: Loaded 0 collections in 0.000679 seconds
-[2018.02.07-21.49.35:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
-[2018.02.07-21.49.35:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/ia474088/Collections/' took 0.01s
-[2018.02.07-21.49.35:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ia474088/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
-[2018.02.07-21.49.35:597][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.07-21.49.35:605][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2364 classes and 521 folders.
-[2018.02.07-21.49.35:645][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.02.07-21.49.35:673][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.02.07-21.49.35:700][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.02.07-21.49.35:727][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.07-21.49.35:729][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.07-21.49.35:734][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.07-21.49.35:826][  0]LogRenderer: Reallocating scene render targets to support 1208x660 Format 26 NumSamples 1 (Frame:1).
-[2018.02.07-21.49.35:977][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.02.07-21.49.35:977][  0]LogLoad: (Engine Initialization) Total time: 16.76 seconds
-[2018.02.07-21.49.35:977][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.07-21.49.35:977][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.07-21.49.35:977][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.07-21.49.36:336][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.07-21.49.36:381][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.07-21.49.36:658][  1]LogAssetRegistry: Asset discovery search completed in 12.3579 seconds
-[2018.02.07-21.49.36:660][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.07-21.49.36:660][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
-[2018.02.07-21.50.24:826][593]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.07-21.51.09:191][653]LogTemp: Repeating last play command: VR Preview
-[2018.02.07-21.51.09:260][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.02.07-21.51.09:260][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.07-21.51.09:261][653]PIE: New page: PIE session: Ship (Feb 7, 2018, 11:51:09 AM)
-[2018.02.07-21.51.09:261][653]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
-[2018.02.07-21.51.09:671][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.409860s)
-[2018.02.07-21.51.09:672][653]LogAIModule: Creating AISystem for world Ship
-[2018.02.07-21.51.09:672][653]LogPlayLevel: PIE: World Init took: (0.001055s)
-[2018.02.07-21.51.09:672][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.411317s)
-[2018.02.07-21.51.09:694][653]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.07-21.51.09:704][653]LogInit: FAudioDevice initialized.
-[2018.02.07-21.51.09:794][653]LogLoad: Game class is 'NewGameMode_C'
-[2018.02.07-21.51.09:822][653]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.07-16.51.09
-[2018.02.07-21.51.09:824][653]LogWorld: Bringing up level for play took: 0.028876
-[2018.02.07-21.51.09:853][653]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.02.07-21.51.09:864][653]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.847
-[2018.02.07-21.51.09:864][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.02.07-21.51.09:929][654]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:1).
-[2018.02.07-21.51.12:595][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.02.07-21.51.12:744][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.02.07-21.51.16:083][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
-[2018.02.07-21.51.16:508][190]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
-[2018.02.07-21.51.22:542][649]LogTemp: Repeating last play command: VR Preview
-[2018.02.07-21.51.22:557][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.02.07-21.51.22:557][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.07-21.51.22:557][649]PIE: New page: PIE session: Ship (Feb 7, 2018, 11:51:22 AM)
-[2018.02.07-21.51.22:557][649]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
-[2018.02.07-21.51.22:706][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149034s)
-[2018.02.07-21.51.22:707][649]LogAIModule: Creating AISystem for world Ship
-[2018.02.07-21.51.22:707][649]LogPlayLevel: PIE: World Init took: (0.000686s)
-[2018.02.07-21.51.22:707][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.150023s)
-[2018.02.07-21.51.22:757][649]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.07-21.51.22:767][649]LogInit: FAudioDevice initialized.
-[2018.02.07-21.51.22:855][649]LogLoad: Game class is 'NewGameMode_C'
-[2018.02.07-21.51.22:887][649]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.07-16.51.22
-[2018.02.07-21.51.22:889][649]LogWorld: Bringing up level for play took: 0.033724
-[2018.02.07-21.51.22:897][649]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.12
-[2018.02.07-21.51.22:898][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.02.07-21.55.21:598][505]LogCharacterMovement: NPC3_728 is stuck and failed to move! Velocity: X=39.65 Y=24.65 Z=0.00 Location: X=1016.86 Y=632.44 Z=579.15 Normal: X=-0.78 Y=-0.50 Z=-0.39 PenetrationDepth:7.710 Actor:BP_MotionController_C_1 Component:HandMesh BoneName:hand_r (0 other events since notify)
-[2018.02.07-21.57.40:696][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.02.07-21.57.40:847][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-03.02.55:167][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-03.02.55:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.14-03.02.55:189][  0]LogInit: Computer: DESKTOP-0C0A9VL
+[2018.02.14-03.02.55:189][  0]LogInit: User: WyattBaldree
+[2018.02.14-03.02.55:189][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.14-03.02.55:189][  0]LogInit: High frequency timer resolution =3.117191 MHz
+[2018.02.14-03.02.55:189][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.14-03.02.55:189][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.14-03.02.55:189][  0]LogMemory: Process Physical Memory: 272.23 MB used, 272.23 MB peak
+[2018.02.14-03.02.55:189][  0]LogMemory: Process Virtual Memory: 263.83 MB used, 263.83 MB peak
+[2018.02.14-03.02.55:189][  0]LogMemory: Physical Memory: 5768.57 MB used,  10530.93 MB free, 16299.50 MB total
+[2018.02.14-03.02.55:189][  0]LogMemory: Virtual Memory: 670.84 MB used,  10530.93 MB free, 134217728.00 MB total
+[2018.02.14-03.02.55:357][  0]LogInit: Using OS detected language (en-US).
+[2018.02.14-03.02.55:357][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.14-03.02.55:359][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.14-03.02.55:790][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.14-03.02.56:079][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.14-03.02.56:127][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.14-03.02.56:127][  0]LogD3D11RHI:       8088/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.02.14-03.02.56:130][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.14-03.02.56:130][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.14-03.02.56:130][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.14-03.02.56:137][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.14-03.02.56:137][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.14-03.02.56:137][  0]LogWindows: EnumDisplayDevices:
+[2018.02.14-03.02.56:137][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.14-03.02.56:137][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.14-03.02.56:137][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.14-03.02.56:137][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.14-03.02.56:138][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.14-03.02.56:138][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.14-03.02.56:138][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.14-03.02.56:138][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.14-03.02.56:138][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.02.14-03.02.56:163][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.14-03.02.56:181][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.14-03.02.56:232][  0]LogShaderCompilers: Guid format shader working directory is -59 characters bigger than the processId version (../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/1496/).
+[2018.02.14-03.02.56:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Wyatt Baldree/AppData/Local/Temp/UnrealShaderWorkingDir/80A211184E7E959B30F187942361B4AF/'.
+[2018.02.14-03.02.56:233][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.14-03.02.57:270][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.14-03.02.57:333][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.14-03.02.57:392][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.14-03.02.57:455][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.14-03.02.57:513][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.14-03.02.57:577][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.14-03.02.57:640][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.14-03.02.57:698][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.14-03.02.57:756][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.14-03.02.57:814][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.14-03.02.57:878][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.14-03.02.57:937][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.14-03.02.57:994][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.14-03.02.58:055][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.14-03.02.58:177][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.14-03.02.58:177][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.14-03.02.58:238][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.14-03.02.58:283][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.14-03.02.58:385][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.14-03.02.58:412][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.14-03.02.58:472][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.14-03.02.58:528][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.14-03.02.58:591][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.14-03.02.58:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.14-03.02.58:653][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.14-03.02.59:178][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.14-03.02.59:258][  0]LogDerivedDataCache: Loaded boot cache 0.08s 92MB C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.14-03.02.59:274][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.14-03.02.59:288][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.14-03.02.59:297][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.14-03.02.59:298][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.14-03.02.59:299][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-03.02.59:299][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-03.02.59:690][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-03.03.00:067][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.14-03.03.00:120][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.14-03.03.00:157][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.02.14-03.03.00:346][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.02.14-03.03.00:924][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.120271 seconds
+[2018.02.14-03.03.00:928][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.14-03.03.00:928][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.14-03.03.00:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.14-03.03.00:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.14-03.03.04:096][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.14-03.03.04:143][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.14-03.03.04:997][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.14-03.03.05:504][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.05:504][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.05:566][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.05:633][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.06:622][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.14-03.03.06:973][  0]LogOcInput: OculusInput pre-init called
+[2018.02.14-03.03.07:306][  0]LogEngine: Initializing Engine...
+[2018.02.14-03.03.07:309][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.14-03.03.07:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.14-03.03.07:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.14-03.03.07:705][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.14-03.03.07:725][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-03.03.07:744][  0]LogInit: FAudioDevice initialized.
+[2018.02.14-03.03.07:828][  0]LogDerivedDataCache: Saved boot cache 0.08s 92MB C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-03.03.07:845][  0]LogInit: Texture streaming: Enabled
+[2018.02.14-03.03.07:946][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.14-03.03.08:096][  0]LogInit: Transaction tracking system initialized
+[2018.02.14-03.03.08:475][  0]BlueprintLog: New page: Editor Load
+[2018.02.14-03.03.09:536][  0]LocalizationService: Localization service is disabled
+[2018.02.14-03.03.10:521][  0]LogConsoleResponse: Display: 
+[2018.02.14-03.03.10:931][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.14-03.03.10:932][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.14-03.03.10:932][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.14-03.03.11:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.02s
+[2018.02.14-03.03.12:388][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.12:388][  0]LightingResults: New page: Lighting Build
+[2018.02.14-03.03.12:442][  0]MapCheck: New page: Map Check
+[2018.02.14-03.03.12:442][  0]LightingResults: New page: Lighting Build
+[2018.02.14-03.03.17:241][  0]LogMaterial: Incomplete cached shader map for material M_Water_Ocean, compiling. 
+[2018.02.14-03.03.17:351][  0]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-03.03.31:778][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.14-03.03.31:992][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.14-03.03.32:092][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.542ms to complete.
+[2018.02.14-03.03.32:092][  0]LogFileHelpers: Loading map 'Ship' took 19.704
+[2018.02.14-03.03.32:318][  0]LogCollectionManager: Loaded 0 collections in 0.002008 seconds
+[2018.02.14-03.03.32:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.02.14-03.03.32:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Developers/WyattBaldree/Collections/' took 0.01s
+[2018.02.14-03.03.32:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.02.14-03.03.32:440][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.14-03.03.32:452][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2365 classes and 521 folders.
+[2018.02.14-03.03.32:545][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.14-03.03.32:959][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.14-03.03.33:024][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.14-03.03.33:601][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-03.03.33:603][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.14-03.03.33:616][  0]LogSlate: Took 0.007528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.14-03.03.33:785][  0]LogRenderer: Reallocating scene render targets to support 1184x632 Format 26 NumSamples 1 (Frame:1).
+[2018.02.14-03.03.34:003][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.02.14-03.03.34:003][  0]LogLoad: (Engine Initialization) Total time: 42.25 seconds
+[2018.02.14-03.03.34:003][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.14-03.03.34:003][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.14-03.03.34:003][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.14-03.03.34:013][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.14-03.03.34:038][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.14-03.03.34:104][  0]LogSlate: Took 0.006290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-03.03.34:123][  1]LogAssetRegistry: Asset discovery search completed in 33.7988 seconds
+[2018.02.14-03.03.34:125][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.14-03.03.34:125][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.02.14-03.13.44:911][546]LogEditorViewport: Clicking on Actor (LMB): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.13.45:783][638]LogEditorViewport: Clicking on Actor (LMB): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.13.46:135][675]LogEditorViewport: Clicking on Actor (LMB): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.13.47:082][777]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.02.14-03.13.49:259][ 18]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (BottomDeckNavmesh)
+[2018.02.14-03.13.51:877][292]Cmd: EDCALLBACK SURFPROPS
+[2018.02.14-03.13.57:875][989]Cmd: EDCALLBACK SURFPROPS
+[2018.02.14-03.13.59:641][199]LogEditorViewport: Clicking on Actor (LMB): NPCWorkstation (NPCWorkstation9)
+[2018.02.14-03.15.47:446][858]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-03.15.56:586][882]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-03.15.59:068][882]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-03.16.00:856][882]LogSavePackage: Save=4160.48ms
+[2018.02.14-03.16.00:856][882]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto128A837324AFD8FEE8CD8EF831AEC7C46.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap'
+[2018.02.14-03.16.00:888][882]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap
+[2018.02.14-03.16.00:905][882]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 4.287
+[2018.02.14-03.16.00:905][882]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.287
+[2018.02.14-03.27.10:065][887]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.27.10:080][887]Candidate modules for hot reload:
+[2018.02.14-03.27.10:080][887]  SlaveVRExperience
+[2018.02.14-03.27.10:080][887]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 3214 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.27.10:085][887]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.27.19:960][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.20:782][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.21:425][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.22:107][283]LogEditorViewport: Clicking on Actor (double click): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.27.23:894][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.24:444][548]LogEditorViewport: Clicking on Actor (LMB): NPCWorkstation (NPCWorkstation9)
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:27:32 PM
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.27.32:998][564]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 10.981755 seconds
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: [4/5] Link UE4Editor-SlaveVRExperience-3214.dll
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: [5/5] Link UE4Editor-SlaveVRExperience-3214.lib
+[2018.02.14-03.27.32:999][564]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.exp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.suppressed.exp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: Total build time: 22.62 seconds (Local executor: 10.07 seconds)
+[2018.02.14-03.27.32:999][564]LogMainFrame: MainFrame: Module compiling took 22.935 seconds
+[2018.02.14-03.27.33:066][564]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-03.27.33:067][564]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-03.27.33:249][564]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-03.27.33:375][564]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2018.02.14-03.27.33:377][564]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.27.33:455][564]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2367 classes and 525 folders.
+[2018.02.14-03.27.33:455][564]Display: HotReload took 23.4s.
+[2018.02.14-03.27.35:736][833]LogSlate: Took 0.004949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.14-03.27.45:970][ 52]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.14-03.28.07:054][444]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.28.07:064][444]Candidate modules for hot reload:
+[2018.02.14-03.28.07:064][444]  SlaveVRExperience
+[2018.02.14-03.28.07:064][444]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 1110 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.28.07:068][444]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:28:20 PM
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.28.20:316][963]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 10.5625016 seconds
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.28.20:316][963]LogMainFrame: MainFrame: Module compiling took 13.262 seconds
+[2018.02.14-03.28.20:316][963]Warning: HotReload failed, recompile failed
+[2018.02.14-03.29.18:744][486]LogEditorActor: Deleted Actor: NPCWorkstation
+[2018.02.14-03.29.18:754][486]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2018.02.14-03.29.24:035][116]LogEditor: Attempting to add actor of class 'NPCWorkstation' to level at -395.00,383.00,446.00
+[2018.02.14-03.29.25:551][296]LogEditor: Attempting to add actor of class 'NPCWorkstation' to level at -100.00,424.00,446.00
+[2018.02.14-03.30.06:217][784]Cmd: EDCALLBACK SURFPROPS
+[2018.02.14-03.30.46:415][337]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.30.46:424][337]Candidate modules for hot reload:
+[2018.02.14-03.30.46:424][337]  SlaveVRExperience
+[2018.02.14-03.30.46:425][337]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 7607 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.30.46:429][337]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.31.08:167][788]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:31:08 PM
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (modules to compile have changed)
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.31.08:168][788]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 10.7433683 seconds
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: [4/5] Link UE4Editor-SlaveVRExperience-7607.dll
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: [5/5] Link UE4Editor-SlaveVRExperience-7607.lib
+[2018.02.14-03.31.08:168][788]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.suppressed.exp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.exp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Total build time: 21.48 seconds (Local executor: 2.34 seconds)
+[2018.02.14-03.31.08:168][788]LogMainFrame: MainFrame: Module compiling took 21.753 seconds
+[2018.02.14-03.31.08:233][788]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-03.31.08:235][788]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-03.31.08:417][788]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-03.31.08:563][788]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2018.02.14-03.31.08:565][788]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.31.08:608][788]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2367 classes and 525 folders.
+[2018.02.14-03.31.08:608][788]Display: HotReload took 22.2s.
+[2018.02.14-03.32.26:538][521]LogSlate: Took 0.006834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.14-03.32.53:547][736]Running C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" -game -rocket -progress
+[2018.02.14-03.32.53:851][736]Discovering modules, targets and source code for project...
+[2018.02.14-03.32.57:478][736]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.32.57:487][736]Candidate modules for hot reload:
+[2018.02.14-03.32.57:487][736]  SlaveVRExperience
+[2018.02.14-03.32.57:488][736]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 180 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:33:14 PM
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (new files with reflected types)
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.33.14:775][736]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 8.0671059 seconds
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPC.gen.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPC.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: [6/7] Link UE4Editor-SlaveVRExperience-180.dll
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: [7/7] Link UE4Editor-SlaveVRExperience-180.lib
+[2018.02.14-03.33.14:775][736]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.exp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.suppressed.exp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Total build time: 17.09 seconds (Local executor: 2.23 seconds)
+[2018.02.14-03.33.14:775][736]LogMainFrame: MainFrame: Module compiling took 17.298 seconds
+[2018.02.14-03.33.14:841][736]LogClass: Could not find existing class NPC in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-03.33.14:843][736]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-03.33.15:023][736]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-03.33.15:163][736]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2018.02.14-03.33.15:165][736]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.33.15:208][736]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-03.33.15:208][736]Display: HotReload took 17.7s.
+[2018.02.14-03.33.15:210][736]Warning: HotReload operation took 17.7s.
+[2018.02.14-03.33.15:232][736]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-180.dll
+[2018.02.14-03.33.15:276][737]LogHotReload: Starting Hot-Reload from IDE
+[2018.02.14-03.33.15:355][737]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2018.02.14-03.33.15:356][737]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.33.15:376][737]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-03.33.15:385][737]Display: HotReload took  0.1s.
+[2018.02.14-03.33.48:109][659]LogSavePackage: Save=2637.71ms
+[2018.02.14-03.33.48:109][659]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto2BE85F02B42251AFE7FE0558A0B940F08.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto2.umap'
+[2018.02.14-03.33.48:116][659]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto2.umap
+[2018.02.14-03.33.48:125][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.724
+[2018.02.14-03.33.48:125][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.724
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld_C' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld:Path.K2Node_FunctionEntry_29' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.SKEL_NPCOld_C' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:605][593]LogSavePackage: Save=53.43ms
+[2018.02.14-03.39.55:605][593]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPCOld7492CAB14B0E6E8FCA5982BDE7966117.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPCOld.uasset'
+[2018.02.14-03.39.55:612][593]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPCOld.uasset
+[2018.02.14-03.39.55:631][593]LogSavePackage: Save=5.29ms
+[2018.02.14-03.39.55:632][593]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC8CA88AB848D19453BF06AEBE58DFEE52.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC.uasset'
+[2018.02.14-03.39.55:638][593]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC.uasset
+[2018.02.14-03.41.20:032][ 59]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'TargetActor' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'NPC Speed Max' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.43.45:840][139]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.14-03.44.10:124][897]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "NPC Speed Max" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get NPC Speed Max
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "TargetActor" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get TargetActor
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Set currentDelta
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get currentDelta
+[2018.02.14-03.44.10:139][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Set currentDelta
+[2018.02.14-03.44.10:139][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get currentDelta
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Target Actor  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  NPC Speed Max  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:445][897]LogBlueprint: Warning: [Compiler NPC_bp] [2478.69] Compile of NPC_bp failed. 6 Fatal Issue(s) 6 Warning(s) [in 321 ms] (/Game/Blueprints/NPC_bp.NPC_bp)
+[2018.02.14-03.44.11:011][932]LogSlate: Took 0.005366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.02.14-03.45.33:478][929]LogSavePackage: Save=2352.79ms
+[2018.02.14-03.45.33:478][929]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto3B0D5E54F426B4C05DB8805BB25EACB06.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto3.umap'
+[2018.02.14-03.45.33:482][929]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto3.umap
+[2018.02.14-03.45.33:488][929]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.407
+[2018.02.14-03.45.33:488][929]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.407
+[2018.02.14-03.45.33:493][929]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/NPC_bp] ([1] browsable assets)...
+[2018.02.14-03.45.33:502][929]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NPC_bp.NPC_bp]
+[2018.02.14-03.45.33:502][929]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NPC_bp]
+[2018.02.14-03.45.33:556][929]LogSavePackage: Save=50.22ms
+[2018.02.14-03.45.33:556][929]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp_Auto3527248844D65108283A0498F5103530E.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto3.uasset'
+[2018.02.14-03.45.33:559][929]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto3.uasset
+[2018.02.14-03.45.33:559][929]LogFileHelpers: Auto-saving content packages took 0.069
+[2018.02.14-03.46.01:646][ 98]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.531 s
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: === Handled ensure: ===
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: 
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: Ensure condition failed: !FPackageName::IsShortPackageName(Path) [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp] [Line: 45]
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: Cannot create SoftObjectPath with short package name 'False'! You must pass in fully qualified package names
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: Stack: 
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000820C2786 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000081E6123A UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000081E7B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9C9CF8C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9BBB42F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9BD29FF UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9BCB30C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9969024 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007E2E3F6C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1E7F2C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A21DF4C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1DDE77 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1D99E5 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1D8C79 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007E2DB33C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007E2EF393 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007D394FF9 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007D322A67 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007D326DC7 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FEF3675 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FD08CAA UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FD0938C UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FCED221 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FC67605 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FD00D97 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FCEABE2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FCDD253 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97CE5EE UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97C1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97D03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97BD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C4F1B85D USER32.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C4F1B1EF USER32.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97D1516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000322150C8 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000032225430 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000322254AA UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000032232379 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000032233D57 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C3D01FE4 KERNEL32.DLL!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C688EFB1 ntdll.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: 
+[2018.02.14-03.46.01:655][ 98]LogStats:                SubmitErrorReport -  0.000 s
+[2018.02.14-03.46.02:383][ 98]LogStats:                    SendNewReport -  0.727 s
+[2018.02.14-03.46.02:383][ 98]LogStats:             FDebug::EnsureFailed -  1.267 s
+[2018.02.14-03.46.08:411][545]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-03.46.08:424][545]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "NPC Speed Max" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get NPC Speed Max
+[2018.02.14-03.46.08:426][545]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  NPC Speed Max  could not be found
+[2018.02.14-03.46.08:427][545]LogClass: Warning: Type mismatch in CurrentDelta of NPC_bp_C - Previous (BoolProperty) Current(FloatProperty) for package:  FObjectReader
+[2018.02.14-03.46.08:427][545]LogBlueprint: Warning: [Compiler NPC_bp] Can't parse default value 'False' for  <None> . Property: NPCSpeedMax.
+[2018.02.14-03.46.08:427][545]LogBlueprint: Warning: [Compiler NPC_bp] Can't parse default value 'False' for  Current Delta . Property: CurrentDelta.
+[2018.02.14-03.46.08:714][545]LogBlueprint: Warning: [Compiler NPC_bp] [2596.96] Compile of NPC_bp failed. 1 Fatal Issue(s) 3 Warning(s) [in 303 ms] (/Game/Blueprints/NPC_bp.NPC_bp)
+[2018.02.14-03.47.47:345][127]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-03.47.51:014][368]LogSavePackage: Save=54.41ms
+[2018.02.14-03.47.51:014][368]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bpD09BC4F2438D234B61B1429FE4B0B372.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-03.47.51:023][368]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-03.48.00:718][216]LogEditorViewport: Clicking on Actor (LMB): NPCOld_C (NPC1)
+[2018.02.14-03.48.02:134][316]LogEditorViewport: Clicking on Actor (LMB): NPCOld_C (NPC2)
+[2018.02.14-03.48.02:922][365]LogEditorViewport: Clicking on Actor (LMB): NPCOld_C (NPC1)
+[2018.02.14-03.48.04:900][540]Cmd: DELETE
+[2018.02.14-03.48.04:900][540]Cmd: ACTOR DELETE
+[2018.02.14-03.48.04:930][540]LogEditorActor: Deleted Actor: NPCOld_C
+[2018.02.14-03.48.04:931][540]LogEditorActor: Deleted Actor: NPCOld_C
+[2018.02.14-03.48.04:931][540]LogEditorActor: Deleted Actor: NPCOld_C
+[2018.02.14-03.48.04:949][540]LogEditorActor: Deleted 3 Actors (0.048 secs)
+[2018.02.14-03.48.14:572][513]LogEditorViewport: Clicking on Actor (LMB): NPCOld_C (NPCOld)
+[2018.02.14-03.48.15:634][619]Cmd: DELETE
+[2018.02.14-03.48.15:634][619]Cmd: ACTOR DELETE
+[2018.02.14-03.48.15:664][619]LogEditorActor: Deleted Actor: NPCOld_C
+[2018.02.14-03.48.15:680][619]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.02.14-03.48.23:219][426]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-03.48.41:688][209]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-03.48.44:825][490]LogEditorViewport: Clicking on Actor (LMB): Actor (NPCDestination3)
+[2018.02.14-03.48.47:365][712]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-03.49.31:536][ 24]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-03.49.35:740][424]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-03.49.57:143][422]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-03.49.59:341][570]LogSavePackage: Save=55.18ms
+[2018.02.14-03.49.59:341][570]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp493533A14247D97B16C6849D4F5A3AAA.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-03.49.59:348][570]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-03.51.18:883][466]LogSavePackage: Save=51.94ms
+[2018.02.14-03.51.18:883][466]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bpF8977AC64D3373975B40FC933EDDA74D.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-03.51.18:891][466]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-03.51.21:773][725]LogSavePackage: Save=42.39ms
+[2018.02.14-03.51.21:773][725]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp6A93002B4824304C46D1A9994CA59CC5.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-03.51.21:776][725]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-03.51.25:534][ 78]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-03.51.27:637][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.14-03.51.28:847][363]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.51.28:858][363]Candidate modules for hot reload:
+[2018.02.14-03.51.28:858][363]  SlaveVRExperience
+[2018.02.14-03.51.28:858][363]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 9249 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.51.28:862][363]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.51.41:701][836]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:51:41 PM
+[2018.02.14-03.51.41:703][836]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.51.41:703][836]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.51.41:703][836]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.51.41:703][836]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.51.41:703][836]CompilerResultsLog: Error: C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/NPC.h(22)  : LogCompile: Error: Unknown variable specifier 'EditableAnywhere'
+[2018.02.14-03.51.41:703][836]CompilerResultsLog: Error: C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/NPC.h(23)  : Error: Unrecognized type 'char' - type must be a UCLASS, USTRUCT or UENUM
+[2018.02.14-03.51.41:703][836]CompilerResultsLog: UnrealHeaderTool failed for target 'SlaveVRExperienceEditor' (platform: Win64, module info: C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest).
+[2018.02.14-03.51.41:703][836]LogMainFrame: MainFrame: Module compiling took 12.856 seconds
+[2018.02.14-03.51.41:703][836]Warning: HotReload failed, recompile failed
+[2018.02.14-03.52.00:436][655]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.52.00:445][655]Candidate modules for hot reload:
+[2018.02.14-03.52.00:445][655]  SlaveVRExperience
+[2018.02.14-03.52.00:445][655]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 4498 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.52.00:449][655]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.52.12:503][ 14]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:52:12 PM
+[2018.02.14-03.52.12:503][ 14]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.52.12:503][ 14]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.52.12:503][ 14]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.52.12:503][ 14]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.52.12:503][ 14]CompilerResultsLog: Error: C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/NPC.h(23)  : Error: Unrecognized type 'char' - type must be a UCLASS, USTRUCT or UENUM
+[2018.02.14-03.52.12:503][ 14]CompilerResultsLog: UnrealHeaderTool failed for target 'SlaveVRExperienceEditor' (platform: Win64, module info: C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest).
+[2018.02.14-03.52.12:503][ 14]LogMainFrame: MainFrame: Module compiling took 12.068 seconds
+[2018.02.14-03.52.12:503][ 14]Warning: HotReload failed, recompile failed
+[2018.02.14-03.52.52:218][874]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.52.52:227][874]Candidate modules for hot reload:
+[2018.02.14-03.52.52:227][874]  SlaveVRExperience
+[2018.02.14-03.52.52:227][874]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 1012 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.52.52:232][874]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:53:09 PM
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.53.09:299][792]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 11.1719137 seconds
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: NPC.gen.cpp
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: NPC.cpp
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: [4/5] Link UE4Editor-SlaveVRExperience-1012.dll
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: [5/5] Link UE4Editor-SlaveVRExperience-1012.lib
+[2018.02.14-03.53.09:299][792]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1012.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1012.suppressed.exp
+[2018.02.14-03.53.09:299][792]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1012.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1012.exp
+[2018.02.14-03.53.09:299][792]CompilerResultsLog: Total build time: 16.80 seconds (Local executor: 4.07 seconds)
+[2018.02.14-03.53.09:299][792]LogMainFrame: MainFrame: Module compiling took 17.081 seconds
+[2018.02.14-03.53.09:370][792]LogClass: Could not find existing class NPC in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-03.53.09:373][792]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-03.53.09:652][792]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.02.14-03.53.10:111][792]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-03.53.10:301][792]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2018.02.14-03.53.10:304][792]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.53.10:591][792]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-03.53.10:591][792]Display: HotReload took 18.4s.
+[2018.02.14-03.55.36:862][157]LogSavePackage: Save=2503.06ms
+[2018.02.14-03.55.36:862][157]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto49F71CD704D5F77515BB4F099816A9BAC.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto4.umap'
+[2018.02.14-03.55.36:868][157]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto4.umap
+[2018.02.14-03.55.36:875][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.598
+[2018.02.14-03.55.36:875][157]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.598
+[2018.02.14-04.03.27:243][569]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-04.03.27:254][569]Candidate modules for hot reload:
+[2018.02.14-04.03.27:254][569]  SlaveVRExperience
+[2018.02.14-04.03.27:255][569]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 6816 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-04.03.27:258][569]Warning: Starting HotReload took  0.0s.
+[2018.02.14-04.03.37:556][426]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 6:03:37 PM
+[2018.02.14-04.03.37:556][426]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-04.03.37:556][426]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-04.03.37:556][426]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-04.03.37:556][426]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-04.03.37:557][426]LogMainFrame: MainFrame: Module compiling took 10.313 seconds
+[2018.02.14-04.03.37:557][426]Warning: HotReload failed, recompile failed
+[2018.02.14-04.03.47:801][596]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-04.03.47:812][596]Candidate modules for hot reload:
+[2018.02.14-04.03.47:812][596]  SlaveVRExperience
+[2018.02.14-04.03.47:812][596]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 1222 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-04.03.47:816][596]Warning: Starting HotReload took  0.0s.
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 6:04:01 PM
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-04.04.01:920][228]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 10.9755998 seconds
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: NPC.cpp
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: NPC.gen.cpp
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Error: C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience\NPC.cpp(23) : error C2660: 'AActor::NotifyActorBeginOverlap': function does not take 0 arguments
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Binaries\Win64\UE4Editor-SlaveVRExperience-1222.dll
+[2018.02.14-04.04.01:920][228]CompilerResultsLog: Total build time: 13.87 seconds (Local executor: 0.00 seconds)
+[2018.02.14-04.04.01:920][228]LogMainFrame: MainFrame: Module compiling took 14.119 seconds
+[2018.02.14-04.04.01:920][228]Warning: HotReload failed, recompile failed
+[2018.02.14-04.04.25:438][864]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-04.04.25:447][864]Candidate modules for hot reload:
+[2018.02.14-04.04.25:447][864]  SlaveVRExperience
+[2018.02.14-04.04.25:448][864]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 9206 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-04.04.25:452][864]Warning: Starting HotReload took  0.0s.
+[2018.02.14-04.04.29:196][295]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 6:04:29 PM
+[2018.02.14-04.04.29:196][295]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-04.04.29:196][295]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-04.04.29:196][295]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.14-04.04.29:196][295]CompilerResultsLog: NPC.cpp
+[2018.02.14-04.04.29:197][295]CompilerResultsLog: [2/3] Link UE4Editor-SlaveVRExperience-9206.dll
+[2018.02.14-04.04.29:197][295]CompilerResultsLog: [3/3] Link UE4Editor-SlaveVRExperience-9206.lib
+[2018.02.14-04.04.29:197][295]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9206.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9206.suppressed.exp
+[2018.02.14-04.04.29:197][295]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9206.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9206.exp
+[2018.02.14-04.04.29:197][295]CompilerResultsLog: Total build time: 3.48 seconds (Local executor: 2.24 seconds)
+[2018.02.14-04.04.29:197][295]LogMainFrame: MainFrame: Module compiling took 3.759 seconds
+[2018.02.14-04.04.29:301][295]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-04.04.29:565][295]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-04.04.29:747][295]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0008 seconds. Added 3 classes and 2 folders.
+[2018.02.14-04.04.29:749][295]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-04.04.30:032][295]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-04.04.30:032][295]Display: HotReload took  4.6s.
+[2018.02.14-04.04.36:906][ 80]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.04.36:968][ 80]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.36:969][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.04.36:971][ 80]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:04:36 PM)
+[2018.02.14-04.04.36:971][ 80]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.04.37:128][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156195s)
+[2018.02.14-04.04.37:128][ 80]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.04.37:129][ 80]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2018.02.14-04.04.37:130][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.158139s)
+[2018.02.14-04.04.37:189][ 80]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.04.37:200][ 80]LogInit: FAudioDevice initialized.
+[2018.02.14-04.04.37:253][ 80]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.04.37:291][ 80]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.04.37
+[2018.02.14-04.04.37:307][ 80]LogWorld: Bringing up level for play took: 0.043228
+[2018.02.14-04.04.37:382][ 80]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.02.14-04.04.37:401][ 80]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 1.272
+[2018.02.14-04.04.37:401][ 80]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.38:473][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.38:513][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.42:482][651]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.04.42:503][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.42:503][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.04.42:503][651]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:04:42 PM)
+[2018.02.14-04.04.42:503][651]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.04.42:643][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139789s)
+[2018.02.14-04.04.42:643][651]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.04.42:644][651]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.02.14-04.04.42:644][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.140661s)
+[2018.02.14-04.04.42:668][651]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.04.42:678][651]LogInit: FAudioDevice initialized.
+[2018.02.14-04.04.42:708][651]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.04.42:735][651]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.04.42
+[2018.02.14-04.04.42:736][651]LogWorld: Bringing up level for play took: 0.026713
+[2018.02.14-04.04.42:742][651]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.612
+[2018.02.14-04.04.42:742][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.44:174][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.44:211][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.04.56:539][264]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-04.05.12:142][ 57]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.05.12:162][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.05.12:162][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.05.12:162][ 57]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:05:12 PM)
+[2018.02.14-04.05.12:162][ 57]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.05.12:306][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143219s)
+[2018.02.14-04.05.12:306][ 57]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.05.12:307][ 57]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2018.02.14-04.05.12:307][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.144062s)
+[2018.02.14-04.05.12:330][ 57]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.05.12:340][ 57]LogInit: FAudioDevice initialized.
+[2018.02.14-04.05.12:375][ 57]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.05.12:400][ 57]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.05.12
+[2018.02.14-04.05.12:401][ 57]LogWorld: Bringing up level for play took: 0.026205
+[2018.02.14-04.05.12:407][ 57]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.278
+[2018.02.14-04.05.12:408][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.05.13:324][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.05.13:362][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.05.29:954][ 44]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.02.14-04.05.58:219][ 73]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.14-04.05.59:819][249]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.14-04.06.01:792][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-04.06.10:343][401]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.14-04.06.12:362][631]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.14-04.06.14:067][825]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.14-04.06.19:309][414]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.14-04.06.20:889][589]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.14-04.06.28:847][285]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.14-04.06.28:908][286]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SlaveVRExperience
+[2018.02.14-04.06.28:908][286]LogTemp: CWD: C:\EpicGames\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.14-04.06.28:908][286]LogTemp: Initial Dir: C:\EpicGames\UE_4.18
+[2018.02.14-04.06.28:908][286]LogTemp: Env CWD: C:\EpicGames\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.14-04.06.28:908][286]LogTemp: BranchPath = DESKTOP-0C0A9VL/C/EpicGames/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-0C0A9VL/C/EpicGames/UE_4.18/Engine/Binaries
+[2018.02.14-04.06.28:938][287]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Wyatt Baldree\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.14-04.06.33:746][733]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.14-04.06.48:338][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.06.48:357][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.48:357][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.06.48:358][ 91]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:06:48 PM)
+[2018.02.14-04.06.48:358][ 91]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.06.48:501][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143255s)
+[2018.02.14-04.06.48:502][ 91]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.06.48:502][ 91]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2018.02.14-04.06.48:502][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.144434s)
+[2018.02.14-04.06.48:529][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.06.48:539][ 91]LogInit: FAudioDevice initialized.
+[2018.02.14-04.06.48:569][ 91]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.06.48:595][ 91]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.06.48
+[2018.02.14-04.06.48:596][ 91]LogWorld: Bringing up level for play took: 0.026956
+[2018.02.14-04.06.48:601][ 91]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.472
+[2018.02.14-04.06.48:601][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.50:628][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.50:668][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.53:176][508]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.14-04.06.55:751][749]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.06.55:772][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.55:772][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.06.55:772][749]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:06:55 PM)
+[2018.02.14-04.06.55:772][749]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.06.55:913][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140043s)
+[2018.02.14-04.06.55:913][749]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.06.55:913][749]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2018.02.14-04.06.55:913][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.140926s)
+[2018.02.14-04.06.55:939][749]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.06.55:948][749]LogInit: FAudioDevice initialized.
+[2018.02.14-04.06.55:980][749]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.06.56:006][749]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.06.56
+[2018.02.14-04.06.56:007][749]LogWorld: Bringing up level for play took: 0.026489
+[2018.02.14-04.06.56:013][749]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.116
+[2018.02.14-04.06.56:014][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.57:690][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.57:728][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.59:839][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.06.59:860][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.06.59:860][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.06.59:860][ 92]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:06:59 PM)
+[2018.02.14-04.06.59:860][ 92]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.07.00:001][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140390s)
+[2018.02.14-04.07.00:002][ 92]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.07.00:002][ 92]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2018.02.14-04.07.00:002][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.141408s)
+[2018.02.14-04.07.00:029][ 92]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.07.00:038][ 92]LogInit: FAudioDevice initialized.
+[2018.02.14-04.07.00:066][ 92]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.07.00:092][ 92]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.07.00
+[2018.02.14-04.07.00:093][ 92]LogWorld: Bringing up level for play took: 0.026583
+[2018.02.14-04.07.00:097][ 92]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.032
+[2018.02.14-04.07.00:098][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.07.08:471][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ShipBorder)
+[2018.02.14-04.07.09:147][897]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.07.09:185][897]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.07.11:149][ 80]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.14-04.07.48:174][512]LogEditorViewport: Clicking on Actor (LMB): Actor (NPCDestination2)
+[2018.02.14-04.07.55:554][197]LogEditorViewport: Clicking on Actor (context menu): Actor (NPCDestination2)
+[2018.02.14-04.08.17:058][ 22]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-04.08.30:820][169]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.08.30:840][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.08.30:840][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.08.30:840][169]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:08:30 PM)
+[2018.02.14-04.08.30:840][169]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.08.30:981][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141722s)
+[2018.02.14-04.08.30:982][169]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.08.30:982][169]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2018.02.14-04.08.30:982][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.142705s)
+[2018.02.14-04.08.31:015][169]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.08.31:024][169]LogInit: FAudioDevice initialized.
+[2018.02.14-04.08.31:057][169]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.08.31:083][169]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.08.31
+[2018.02.14-04.08.31:084][169]LogWorld: Bringing up level for play took: 0.026097
+[2018.02.14-04.08.31:088][169]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.959
+[2018.02.14-04.08.31:089][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.08.42:724][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.08.42:764][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.08.48:170][799]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-04.08.58:762][704]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.08.58:782][704]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.08.58:782][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.08.58:782][704]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:08:58 PM)
+[2018.02.14-04.08.58:783][704]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.08.58:920][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137585s)
+[2018.02.14-04.08.58:921][704]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.08.58:921][704]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2018.02.14-04.08.58:921][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.138613s)
+[2018.02.14-04.08.58:947][704]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.08.58:956][704]LogInit: FAudioDevice initialized.
+[2018.02.14-04.08.58:985][704]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.08.59:012][704]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.08.59
+[2018.02.14-04.08.59:013][704]LogWorld: Bringing up level for play took: 0.027055
+[2018.02.14-04.08.59:017][704]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.888
+[2018.02.14-04.08.59:018][704]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.05:996][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.06:033][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.07:376][510]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-04.09.30:882][286]LogSavePackage: Save=52.73ms
+[2018.02.14-04.09.30:882][286]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bpA757768A40069EAC45AACDA875466FB9.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-04.09.30:888][286]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-04.09.31:575][338]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.09.31:595][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.31:595][338]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.14-04.09.31:601][338]LogPlayLevel: [PlayLevel] Compiling NPC_bp before play...
+[2018.02.14-04.09.32:086][338]LogPlayLevel: PlayLevel: Blueprint regeneration took 491 ms (1 blueprints)
+[2018.02.14-04.09.32:086][338]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:09:32 PM)
+[2018.02.14-04.09.32:087][338]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.09.32:228][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141658s)
+[2018.02.14-04.09.32:229][338]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.09.32:229][338]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2018.02.14-04.09.32:229][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.142906s)
+[2018.02.14-04.09.32:258][338]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.09.32:267][338]LogInit: FAudioDevice initialized.
+[2018.02.14-04.09.32:300][338]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.09.32:326][338]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.09.32
+[2018.02.14-04.09.32:328][338]LogWorld: Bringing up level for play took: 0.027365
+[2018.02.14-04.09.32:333][338]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.203
+[2018.02.14-04.09.32:333][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.41:620][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.41:662][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.42:850][302]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-04.09.48:868][757]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.09.48:893][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.48:893][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.09.48:893][757]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:09:48 PM)
+[2018.02.14-04.09.48:893][757]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.09.49:033][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139598s)
+[2018.02.14-04.09.49:033][757]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.09.49:034][757]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2018.02.14-04.09.49:034][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.140664s)
+[2018.02.14-04.09.49:061][757]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.09.49:070][757]LogInit: FAudioDevice initialized.
+[2018.02.14-04.09.49:101][757]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.09.49:128][757]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.09.49
+[2018.02.14-04.09.49:129][757]LogWorld: Bringing up level for play took: 0.027495
+[2018.02.14-04.09.49:134][757]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 1.005
+[2018.02.14-04.09.49:134][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.58:377][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.09.58:421][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.22:265][475]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.02.14-04.10.28:435][755]LogSavePackage: Save=2361.16ms
+[2018.02.14-04.10.28:436][755]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship3072D8A74CAC27D23AD3228A215E4FE2.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.02.14-04.10.28:447][755]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.02.14-04.10.31:918][755]LogSavePackage: Save=3048.69ms
+[2018.02.14-04.10.31:918][755]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltData3EB7B79E498C2CD114FCCFA6ABDB0B1D.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.02.14-04.10.31:927][755]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset
+[2018.02.14-04.10.32:750][818]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.10.32:770][818]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.32:770][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.10.32:770][818]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:10:32 PM)
+[2018.02.14-04.10.32:770][818]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.10.32:913][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142993s)
+[2018.02.14-04.10.32:914][818]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.10.32:914][818]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2018.02.14-04.10.32:914][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.143934s)
+[2018.02.14-04.10.32:943][818]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.10.32:952][818]LogInit: FAudioDevice initialized.
+[2018.02.14-04.10.32:984][818]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.10.33:011][818]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.10.33
+[2018.02.14-04.10.33:012][818]LogWorld: Bringing up level for play took: 0.027372
+[2018.02.14-04.10.33:016][818]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.887
+[2018.02.14-04.10.33:017][818]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.37:611][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.37:651][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.38:543][308]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.10.38:564][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.38:564][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.10.38:564][308]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:10:38 PM)
+[2018.02.14-04.10.38:564][308]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.10.38:708][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144270s)
+[2018.02.14-04.10.38:709][308]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.10.38:709][308]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2018.02.14-04.10.38:709][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.145085s)
+[2018.02.14-04.10.38:738][308]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.10.38:749][308]LogInit: FAudioDevice initialized.
+[2018.02.14-04.10.38:780][308]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.10.38:807][308]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.10.38
+[2018.02.14-04.10.38:809][308]LogWorld: Bringing up level for play took: 0.026943
+[2018.02.14-04.10.38:813][308]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.683
+[2018.02.14-04.10.38:813][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.42:554][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.42:595][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.47:592][ 67]LogEditorViewport: Clicking on Actor (LMB): NPCWorkstation (NPCWorkstation1)
+[2018.02.14-04.10.51:460][368]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.10.51:480][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.51:480][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.10.51:480][368]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:10:51 PM)
+[2018.02.14-04.10.51:480][368]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.10.51:622][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141054s)
+[2018.02.14-04.10.51:622][368]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.10.51:622][368]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2018.02.14-04.10.51:622][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.141901s)
+[2018.02.14-04.10.51:648][368]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.10.51:657][368]LogInit: FAudioDevice initialized.
+[2018.02.14-04.10.51:689][368]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.10.51:715][368]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.10.51
+[2018.02.14-04.10.51:716][368]LogWorld: Bringing up level for play took: 0.026039
+[2018.02.14-04.10.51:720][368]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.409
+[2018.02.14-04.10.51:727][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.53:904][557]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.10.53:945][557]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.13.22:001][196]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-04.13.22:012][196]Candidate modules for hot reload:
+[2018.02.14-04.13.22:012][196]  SlaveVRExperience
+[2018.02.14-04.13.22:012][196]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 9548 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-04.13.22:016][196]Warning: Starting HotReload took  0.0s.
+[2018.02.14-04.13.34:484][332]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 6:13:34 PM
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (ini files are newer than UBTMakefile)
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: NPC.cpp
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: [3/4] Link UE4Editor-SlaveVRExperience-9548.dll
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: [4/4] Link UE4Editor-SlaveVRExperience-9548.lib
+[2018.02.14-04.13.34:485][332]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9548.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9548.suppressed.exp
+[2018.02.14-04.13.34:485][332]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9548.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-9548.exp
+[2018.02.14-04.13.34:485][332]CompilerResultsLog: Total build time: 12.17 seconds (Local executor: 2.95 seconds)
+[2018.02.14-04.13.34:485][332]LogMainFrame: MainFrame: Module compiling took 12.484 seconds
+[2018.02.14-04.13.34:567][332]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-04.13.34:843][332]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-04.13.35:033][332]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2018.02.14-04.13.35:035][332]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-04.13.35:318][332]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-04.13.35:318][332]Display: HotReload took 13.3s.
+[2018.02.14-04.13.38:464][607]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.14-04.13.38:484][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.13.38:484][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-04.13.38:485][607]PIE: New page: PIE session: Ship (Feb 13, 2018, 6:13:38 PM)
+[2018.02.14-04.13.38:485][607]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.02.14-04.13.38:628][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143724s)
+[2018.02.14-04.13.38:629][607]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-04.13.38:629][607]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2018.02.14-04.13.38:629][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.144665s)
+[2018.02.14-04.13.38:674][607]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-04.13.38:683][607]LogInit: FAudioDevice initialized.
+[2018.02.14-04.13.38:711][607]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.14-04.13.38:738][607]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.02.13-23.13.38
+[2018.02.14-04.13.38:739][607]LogWorld: Bringing up level for play took: 0.027250
+[2018.02.14-04.13.38:743][607]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.614
+[2018.02.14-04.13.38:743][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.13.42:410][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.13.42:452][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.02.14-04.24.15:666][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.027
+[2018.02.14-04.24.15:669][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewGameMode] ([1] browsable assets)...
+[2018.02.14-04.24.15:669][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewGameMode]
+[2018.02.14-04.24.15:694][168]LogSavePackage: Save=13.04ms
+[2018.02.14-04.24.15:694][168]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NewGameMode_Auto5DB9BAAA64429EA165F18CDAEF08C3DDA.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NewGameMode_Auto5.uasset'
+[2018.02.14-04.24.15:698][168]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NewGameMode_Auto5.uasset
+[2018.02.14-04.24.15:698][168]LogFileHelpers: Auto-saving content packages took 0.031
+[2018.02.14-15.29.33:992][606]LogSavePackage: Save=46.67ms
+[2018.02.14-15.29.33:993][606]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp074B4B7441EFE10E1DE98483C100DEDB.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-15.29.34:003][606]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-15.29.59:424][ 10]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-5289.dll
+[2018.02.14-15.30.00:106][ 13]LogHotReload: Starting Hot-Reload from IDE
+[2018.02.14-15.30.00:459][ 13]LogClass: Could not find existing class NPC in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-15.30.00:459][ 13]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-15.30.00:463][ 13]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-15.30.00:888][ 13]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.02.14-15.30.01:583][ 13]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-15.30.01:810][ 13]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2018.02.14-15.30.01:813][ 13]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-15.30.02:181][ 13]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-15.30.02:192][ 13]Display: HotReload took  2.1s.
+[2018.02.14-15.30.14:238][ 41]LogSavePackage: Save=2539.59ms
+[2018.02.14-15.30.14:238][ 41]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto6EF8FA61F47E500F2853A98B3D4808E2C.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto6.umap'
+[2018.02.14-15.30.14:243][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto6.umap
+[2018.02.14-15.30.14:249][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.667
+[2018.02.14-15.30.14:249][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.667
+[2018.02.14-15.31.15:626][226]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-15.31.15:638][226]Candidate modules for hot reload:
+[2018.02.14-15.31.15:638][226]  SlaveVRExperience
+[2018.02.14-15.31.15:638][226]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 4360 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-15.31.15:643][226]Warning: Starting HotReload took  0.0s.
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: New page: Compilation - Feb 14, 2018, 5:31:31 AM
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (modules to compile have changed)
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-15.31.31:958][670]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 7.5944541 seconds
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: NPC.cpp
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: NPC.gen.cpp
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: [3/4] Link UE4Editor-SlaveVRExperience-4360.dll
+[2018.02.14-15.31.31:958][670]CompilerResultsLog: [4/4] Link UE4Editor-SlaveVRExperience-4360.lib
+[2018.02.14-15.31.31:958][670]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-4360.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-4360.exp
+[2018.02.14-15.31.31:958][670]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-4360.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-4360.suppressed.exp
+[2018.02.14-15.31.31:959][670]CompilerResultsLog: Total build time: 16.06 seconds (Local executor: 1.32 seconds)
+[2018.02.14-15.31.31:959][670]LogMainFrame: MainFrame: Module compiling took 16.333 seconds
+[2018.02.14-15.31.32:061][670]LogClass: ENPCStateEnum HotReload.
+[2018.02.14-15.31.32:061][670]LogClass: ENPCTypeEnum HotReload.
+[2018.02.14-15.31.32:063][670]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-15.31.32:390][670]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.02.14-15.31.33:172][670]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-15.31.33:396][670]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2018.02.14-15.31.33:399][670]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-15.31.33:688][670]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-15.31.33:688][670]Display: HotReload took 18.1s.
+[2018.02.14-15.34.24:230][849]LogSavePackage: Save=43.89ms
+[2018.02.14-15.34.24:230][849]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bpF8D0B59440FA65B8B8DF948DB573913F.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-15.34.24:238][849]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-15.34.42:955][ 15]LogSavePackage: Save=40.54ms
+[2018.02.14-15.34.42:955][ 15]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bpAC16A1BD48F111664B4423900FB0A6C5.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-15.34.42:961][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-15.34.43:813][116]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-15.36.39:371][494]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2018.02.14-15.41.04:104][ 49]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.14-15.47.59:330][978]LogSavePackage: Save=2338.93ms
+[2018.02.14-15.47.59:330][978]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto75455680545B7B878478530AC07E891B6.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto7.umap'
+[2018.02.14-15.47.59:334][978]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto7.umap
+[2018.02.14-15.47.59:337][978]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.411
+[2018.02.14-15.47.59:337][978]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.411
+[2018.02.14-15.47.59:342][978]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/NPC_bp] ([1] browsable assets)...
+[2018.02.14-15.47.59:352][978]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NPC_bp.NPC_bp]
+[2018.02.14-15.47.59:352][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NPC_bp]
+[2018.02.14-15.47.59:418][978]LogSavePackage: Save=54.29ms
+[2018.02.14-15.47.59:418][978]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp_Auto7AB84D9104DA0A986BEE0D8AE5D003BDB.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto7.uasset'
+[2018.02.14-15.47.59:421][978]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto7.uasset
+[2018.02.14-15.47.59:421][978]LogFileHelpers: Auto-saving content packages took 0.082
+[2018.02.14-15.57.42:602][744]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-15.58.46:319][911]LogSavePackage: Save=2330.49ms
+[2018.02.14-15.58.46:319][911]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto8083632B54D152AD0BAE789AE35D623E5.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto8.umap'
+[2018.02.14-15.58.46:323][911]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto8.umap
+[2018.02.14-15.58.46:326][911]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.383
+[2018.02.14-15.58.46:326][911]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.383
+[2018.02.14-15.58.46:330][911]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/NPC_bp] ([1] browsable assets)...
+[2018.02.14-15.58.46:340][911]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NPC_bp.NPC_bp]
+[2018.02.14-15.58.46:340][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NPC_bp]
+[2018.02.14-15.58.46:411][911]LogSavePackage: Save=59.60ms
+[2018.02.14-15.58.46:411][911]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp_Auto88A73A76F4FF05CF983BC9FA22571091D.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto8.uasset'
+[2018.02.14-15.58.46:414][911]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto8.uasset
+[2018.02.14-15.58.46:414][911]LogFileHelpers: Auto-saving content packages took 0.086
+[2018.02.14-15.58.53:416][236]LogSavePackage: Save=2321.86ms
+[2018.02.14-15.58.53:416][236]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/ShipAEED79E44EF42960233225A3F1CB3517.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.02.14-15.58.53:426][236]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.02.14-15.58.53:466][236]LogFileHelpers: Saving map 'Ship' took 4.210
+[2018.02.14-15.58.53:524][236]LogSavePackage: Save=48.04ms
+[2018.02.14-15.58.53:524][236]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp90196D8A47CB16763D855B921C42537E.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-15.58.53:530][236]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-15.58.53:556][236]LogSavePackage: Save=12.19ms
+[2018.02.14-15.58.53:556][236]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NewGameModeA5B7A22845BEFD45F745A38920DD84F0.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NewGameMode.uasset'
+[2018.02.14-15.58.53:565][236]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NewGameMode.uasset
+[2018.02.14-16.10.25:832][582]LogSavePackage: Save=2537.02ms
+[2018.02.14-16.10.25:833][582]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto903255F2049B9E0C0A54D3397D1AC456A.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto9.umap'
+[2018.02.14-16.10.25:838][582]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto9.umap
+[2018.02.14-16.10.25:844][582]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.615
+[2018.02.14-16.10.25:844][582]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.615
+[2018.02.14-16.10.25:849][582]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/NPC_bp] ([1] browsable assets)...
+[2018.02.14-16.10.25:860][582]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NPC_bp.NPC_bp]
+[2018.02.14-16.10.25:860][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NPC_bp]
+[2018.02.14-16.10.25:935][582]LogSavePackage: Save=62.08ms
+[2018.02.14-16.10.25:935][582]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp_Auto94FA4B65B4162229B2A8251AB19088EA3.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto9.uasset'
+[2018.02.14-16.10.25:939][582]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto9.uasset
+[2018.02.14-16.10.25:939][582]LogFileHelpers: Auto-saving content packages took 0.092
+[2018.02.14-16.10.31:298][599]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-16.10.49:873][638]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-6404.dll
+[2018.02.14-16.10.50:602][686]LogHotReload: Starting Hot-Reload from IDE
+[2018.02.14-16.10.50:703][686]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-16.10.50:703][686]LogClass: ENPCStateEnum HotReload.
+[2018.02.14-16.10.50:703][686]LogClass: ENPCTypeEnum HotReload.
+[2018.02.14-16.10.50:705][686]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-16.10.51:045][686]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.02.14-16.10.51:646][686]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-16.10.51:879][686]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2018.02.14-16.10.51:882][686]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-16.10.52:214][686]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-16.10.52:223][686]Display: HotReload took  1.6s.
+[2018.02.14-16.11.46:150][356]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-2996.dll
+[2018.02.14-16.11.46:834][359]LogHotReload: Starting Hot-Reload from IDE
+[2018.02.14-16.11.46:993][359]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-16.11.46:993][359]LogClass: ENPCStateEnum HotReload.
+[2018.02.14-16.11.46:993][359]LogClass: ENPCTypeEnum HotReload.
+[2018.02.14-16.11.46:996][359]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-16.11.47:402][359]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.02.14-16.11.48:244][359]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-16.11.48:518][359]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2018.02.14-16.11.48:521][359]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-16.11.48:839][359]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-16.11.48:848][359]Display: HotReload took  2.0s.
+[2018.02.14-16.17.56:779][625]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-1022.dll
+[2018.02.14-16.17.57:459][628]LogHotReload: Starting Hot-Reload from IDE
+[2018.02.14-16.17.57:592][628]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-16.17.57:592][628]LogClass: ENPCStateEnum HotReload.
+[2018.02.14-16.17.57:592][628]LogClass: ENPCTypeEnum HotReload.
+[2018.02.14-16.17.57:593][628]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-16.17.57:993][628]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.02.14-16.17.58:981][628]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-16.17.59:253][628]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2018.02.14-16.17.59:256][628]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-16.17.59:575][628]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-16.17.59:585][628]Display: HotReload took  2.1s.
+[2018.02.14-16.20.37:495][ 94]LogSavePackage: Save=2439.41ms
+[2018.02.14-16.20.37:495][ 94]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto033D248D54374B58FF87F97B506C61F73.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto0.umap'
+[2018.02.14-16.20.37:500][ 94]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto0.umap
+[2018.02.14-16.20.37:503][ 94]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.525
+[2018.02.14-16.20.37:503][ 94]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.525
+[2018.02.14-16.20.37:508][ 94]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/NPC_bp] ([1] browsable assets)...
+[2018.02.14-16.20.37:518][ 94]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NPC_bp.NPC_bp]
+[2018.02.14-16.20.37:518][ 94]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NPC_bp]
+[2018.02.14-16.20.37:594][ 94]LogSavePackage: Save=63.54ms
+[2018.02.14-16.20.37:594][ 94]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp_Auto0AA7FDE134B479F68D14C55B527932BE2.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto0.uasset'
+[2018.02.14-16.20.37:597][ 94]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto0.uasset
+[2018.02.14-16.20.37:597][ 94]LogFileHelpers: Auto-saving content packages took 0.091
+[2018.02.14-16.25.37:168][157]LogSavePackage: Save=62.10ms
+[2018.02.14-16.25.37:169][157]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp4E03D7E649E5CCD30B66F1BE2B7C5FBF.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset'
+[2018.02.14-16.25.37:179][157]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC_bp.uasset
+[2018.02.14-16.25.42:289][416]LogSavePackage: Save=2474.96ms
+[2018.02.14-16.25.42:289][416]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship41855A1E4483667D64A488A7672FBE1B.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.02.14-16.25.42:297][416]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.02.14-16.25.42:345][416]LogFileHelpers: Saving map 'Ship' took 2.658

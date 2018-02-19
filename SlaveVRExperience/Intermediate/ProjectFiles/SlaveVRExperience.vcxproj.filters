@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SlaveVRExperience.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{1321945E-E19F-426D-8198-7C0103BF9D8F}</UniqueIdentifier>
+			<UniqueIdentifier>{ABCE8ACB-8AF0-4787-BBEE-8562634E1FB0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SlaveVRExperience.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{3304D0C0-6783-4F58-8F88-1B97D9E1CFCA}</UniqueIdentifier>
+			<UniqueIdentifier>{8B2E7F5D-AC00-412B-A82B-5E786D199593}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -34,12 +34,24 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SlaveVRExperience">
-			<UniqueIdentifier>{4EE0E7D1-CD4A-4A23-8B0B-354C797C4409}</UniqueIdentifier>
+			<UniqueIdentifier>{ECF93975-9301-4B2F-A6A0-651DFC68D691}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\SlaveVRExperience\DeckTeleporter.cpp">
 			<Filter>Source\SlaveVRExperience</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\SlaveVRExperience\DeckTeleporter.h">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SlaveVRExperience\NPC.cpp">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\NPC.h">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SlaveVRExperience\NPCWorkstation.cpp">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\NPCWorkstation.h">
 			<Filter>Source\SlaveVRExperience</Filter>
 		</ClInclude >
 		<None Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.Build.cs">

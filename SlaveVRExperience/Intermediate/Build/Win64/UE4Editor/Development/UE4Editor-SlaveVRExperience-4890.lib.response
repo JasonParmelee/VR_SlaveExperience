@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SlaveVRExperience-4890.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\EpicGames\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\DeckTeleporter.cpp.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\NPC.cpp.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\NPCWorkstation.cpp.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\SlaveVRExperience.cpp.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\DeckTeleporter.gen.cpp.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\NPC.gen.cpp.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\NPCWorkstation.gen.cpp.obj"
+"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\SlaveVRExperience.init.gen.cpp.obj"
+"C:\EpicGames\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\PCLaunch.rc.res"
+"C:\EpicGames\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-4890.lib"

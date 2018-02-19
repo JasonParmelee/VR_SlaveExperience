@@ -1,0 +1,600 @@
+﻿Log file open, 02/13/18 22:02:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SlaveVRExperience
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(113607748) SRandInit(113607748).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.179595
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-4472.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/EpicGames/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.14-03.02.55:167][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-03.02.55:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.14-03.02.55:189][  0]LogInit: Computer: DESKTOP-0C0A9VL
+[2018.02.14-03.02.55:189][  0]LogInit: User: WyattBaldree
+[2018.02.14-03.02.55:189][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.14-03.02.55:189][  0]LogInit: High frequency timer resolution =3.117191 MHz
+[2018.02.14-03.02.55:189][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.14-03.02.55:189][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.14-03.02.55:189][  0]LogMemory: Process Physical Memory: 272.23 MB used, 272.23 MB peak
+[2018.02.14-03.02.55:189][  0]LogMemory: Process Virtual Memory: 263.83 MB used, 263.83 MB peak
+[2018.02.14-03.02.55:189][  0]LogMemory: Physical Memory: 5768.57 MB used,  10530.93 MB free, 16299.50 MB total
+[2018.02.14-03.02.55:189][  0]LogMemory: Virtual Memory: 670.84 MB used,  10530.93 MB free, 134217728.00 MB total
+[2018.02.14-03.02.55:357][  0]LogInit: Using OS detected language (en-US).
+[2018.02.14-03.02.55:357][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.14-03.02.55:359][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.14-03.02.55:790][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.14-03.02.56:079][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.14-03.02.56:127][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.14-03.02.56:127][  0]LogD3D11RHI:       8088/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.02.14-03.02.56:130][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.14-03.02.56:130][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.14-03.02.56:130][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.14-03.02.56:137][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.14-03.02.56:137][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.14-03.02.56:137][  0]LogWindows: EnumDisplayDevices:
+[2018.02.14-03.02.56:137][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.14-03.02.56:137][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.14-03.02.56:137][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.02.14-03.02.56:137][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.14-03.02.56:138][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.14-03.02.56:138][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.14-03.02.56:138][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.14-03.02.56:138][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.14-03.02.56:138][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.02.14-03.02.56:163][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.14-03.02.56:181][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.14-03.02.56:232][  0]LogShaderCompilers: Guid format shader working directory is -59 characters bigger than the processId version (../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/1496/).
+[2018.02.14-03.02.56:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Wyatt Baldree/AppData/Local/Temp/UnrealShaderWorkingDir/80A211184E7E959B30F187942361B4AF/'.
+[2018.02.14-03.02.56:233][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.14-03.02.57:270][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.14-03.02.57:333][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.14-03.02.57:392][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.14-03.02.57:455][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.14-03.02.57:513][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.14-03.02.57:577][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.14-03.02.57:640][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.14-03.02.57:698][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.14-03.02.57:756][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.14-03.02.57:814][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.14-03.02.57:878][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.14-03.02.57:937][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.14-03.02.57:994][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.14-03.02.58:055][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.14-03.02.58:177][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.14-03.02.58:177][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.14-03.02.58:238][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.14-03.02.58:283][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.14-03.02.58:385][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.14-03.02.58:412][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.14-03.02.58:472][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.14-03.02.58:528][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.14-03.02.58:591][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.14-03.02.58:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.14-03.02.58:653][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.14-03.02.59:178][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.14-03.02.59:258][  0]LogDerivedDataCache: Loaded boot cache 0.08s 92MB C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.14-03.02.59:259][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.14-03.02.59:274][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.14-03.02.59:288][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.14-03.02.59:297][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.14-03.02.59:298][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.14-03.02.59:299][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-03.02.59:299][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-03.02.59:690][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-03.03.00:067][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.14-03.03.00:120][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.14-03.03.00:120][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.14-03.03.00:157][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.02.14-03.03.00:346][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.02.14-03.03.00:924][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.120271 seconds
+[2018.02.14-03.03.00:928][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.14-03.03.00:928][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.14-03.03.00:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.14-03.03.00:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.14-03.03.04:096][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.14-03.03.04:143][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.14-03.03.04:997][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.14-03.03.05:504][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.05:504][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.05:566][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.05:633][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.06:622][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.14-03.03.06:973][  0]LogOcInput: OculusInput pre-init called
+[2018.02.14-03.03.07:306][  0]LogEngine: Initializing Engine...
+[2018.02.14-03.03.07:309][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.14-03.03.07:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.14-03.03.07:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.14-03.03.07:705][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.14-03.03.07:725][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-03.03.07:744][  0]LogInit: FAudioDevice initialized.
+[2018.02.14-03.03.07:828][  0]LogDerivedDataCache: Saved boot cache 0.08s 92MB C:/Users/Wyatt Baldree/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.14-03.03.07:845][  0]LogInit: Texture streaming: Enabled
+[2018.02.14-03.03.07:946][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.14-03.03.08:096][  0]LogInit: Transaction tracking system initialized
+[2018.02.14-03.03.08:475][  0]BlueprintLog: New page: Editor Load
+[2018.02.14-03.03.09:536][  0]LocalizationService: Localization service is disabled
+[2018.02.14-03.03.10:521][  0]LogConsoleResponse: Display: 
+[2018.02.14-03.03.10:931][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.14-03.03.10:932][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.14-03.03.10:932][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.14-03.03.11:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.02s
+[2018.02.14-03.03.12:388][  0]SourceControl: Source control is disabled
+[2018.02.14-03.03.12:388][  0]LightingResults: New page: Lighting Build
+[2018.02.14-03.03.12:442][  0]MapCheck: New page: Map Check
+[2018.02.14-03.03.12:442][  0]LightingResults: New page: Lighting Build
+[2018.02.14-03.03.17:241][  0]LogMaterial: Incomplete cached shader map for material M_Water_Ocean, compiling. 
+[2018.02.14-03.03.17:351][  0]LogAIModule: Creating AISystem for world Ship
+[2018.02.14-03.03.31:778][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.14-03.03.31:992][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.14-03.03.32:092][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.542ms to complete.
+[2018.02.14-03.03.32:092][  0]LogFileHelpers: Loading map 'Ship' took 19.704
+[2018.02.14-03.03.32:318][  0]LogCollectionManager: Loaded 0 collections in 0.002008 seconds
+[2018.02.14-03.03.32:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.02.14-03.03.32:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Developers/WyattBaldree/Collections/' took 0.01s
+[2018.02.14-03.03.32:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.02.14-03.03.32:440][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.14-03.03.32:452][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2365 classes and 521 folders.
+[2018.02.14-03.03.32:545][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.14-03.03.32:959][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.14-03.03.33:024][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.14-03.03.33:601][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-03.03.33:603][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.14-03.03.33:616][  0]LogSlate: Took 0.007528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.14-03.03.33:785][  0]LogRenderer: Reallocating scene render targets to support 1184x632 Format 26 NumSamples 1 (Frame:1).
+[2018.02.14-03.03.34:003][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.02.14-03.03.34:003][  0]LogLoad: (Engine Initialization) Total time: 42.25 seconds
+[2018.02.14-03.03.34:003][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.14-03.03.34:003][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.14-03.03.34:003][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.14-03.03.34:013][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.14-03.03.34:038][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.14-03.03.34:104][  0]LogSlate: Took 0.006290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-03.03.34:123][  1]LogAssetRegistry: Asset discovery search completed in 33.7988 seconds
+[2018.02.14-03.03.34:125][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.14-03.03.34:125][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.02.14-03.13.44:911][546]LogEditorViewport: Clicking on Actor (LMB): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.13.45:783][638]LogEditorViewport: Clicking on Actor (LMB): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.13.46:135][675]LogEditorViewport: Clicking on Actor (LMB): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.13.47:082][777]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.02.14-03.13.49:259][ 18]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (BottomDeckNavmesh)
+[2018.02.14-03.13.51:877][292]Cmd: EDCALLBACK SURFPROPS
+[2018.02.14-03.13.57:875][989]Cmd: EDCALLBACK SURFPROPS
+[2018.02.14-03.13.59:641][199]LogEditorViewport: Clicking on Actor (LMB): NPCWorkstation (NPCWorkstation9)
+[2018.02.14-03.15.47:446][858]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-03.15.56:586][882]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-03.15.59:068][882]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-03.16.00:856][882]LogSavePackage: Save=4160.48ms
+[2018.02.14-03.16.00:856][882]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto128A837324AFD8FEE8CD8EF831AEC7C46.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap'
+[2018.02.14-03.16.00:888][882]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap
+[2018.02.14-03.16.00:905][882]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 4.287
+[2018.02.14-03.16.00:905][882]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.287
+[2018.02.14-03.27.10:065][887]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.27.10:080][887]Candidate modules for hot reload:
+[2018.02.14-03.27.10:080][887]  SlaveVRExperience
+[2018.02.14-03.27.10:080][887]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 3214 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.27.10:085][887]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.27.19:960][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.20:782][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.21:425][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.22:107][283]LogEditorViewport: Clicking on Actor (double click): Brush (BottomDeck_MastConnector)
+[2018.02.14-03.27.23:894][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TopDeck_Base)
+[2018.02.14-03.27.24:444][548]LogEditorViewport: Clicking on Actor (LMB): NPCWorkstation (NPCWorkstation9)
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:27:32 PM
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.27.32:998][564]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.27.32:998][564]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 10.981755 seconds
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: [4/5] Link UE4Editor-SlaveVRExperience-3214.dll
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: [5/5] Link UE4Editor-SlaveVRExperience-3214.lib
+[2018.02.14-03.27.32:999][564]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.exp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3214.suppressed.exp
+[2018.02.14-03.27.32:999][564]CompilerResultsLog: Total build time: 22.62 seconds (Local executor: 10.07 seconds)
+[2018.02.14-03.27.32:999][564]LogMainFrame: MainFrame: Module compiling took 22.935 seconds
+[2018.02.14-03.27.33:066][564]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-03.27.33:067][564]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-03.27.33:249][564]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-03.27.33:375][564]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2018.02.14-03.27.33:377][564]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.27.33:455][564]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2367 classes and 525 folders.
+[2018.02.14-03.27.33:455][564]Display: HotReload took 23.4s.
+[2018.02.14-03.27.35:736][833]LogSlate: Took 0.004949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.14-03.27.45:970][ 52]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.14-03.28.07:054][444]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.28.07:064][444]Candidate modules for hot reload:
+[2018.02.14-03.28.07:064][444]  SlaveVRExperience
+[2018.02.14-03.28.07:064][444]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 1110 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.28.07:068][444]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:28:20 PM
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.28.20:315][963]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.28.20:316][963]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 10.5625016 seconds
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.28.20:316][963]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.28.20:316][963]LogMainFrame: MainFrame: Module compiling took 13.262 seconds
+[2018.02.14-03.28.20:316][963]Warning: HotReload failed, recompile failed
+[2018.02.14-03.29.18:744][486]LogEditorActor: Deleted Actor: NPCWorkstation
+[2018.02.14-03.29.18:754][486]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2018.02.14-03.29.24:035][116]LogEditor: Attempting to add actor of class 'NPCWorkstation' to level at -395.00,383.00,446.00
+[2018.02.14-03.29.25:551][296]LogEditor: Attempting to add actor of class 'NPCWorkstation' to level at -100.00,424.00,446.00
+[2018.02.14-03.30.06:217][784]Cmd: EDCALLBACK SURFPROPS
+[2018.02.14-03.30.46:415][337]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.30.46:424][337]Candidate modules for hot reload:
+[2018.02.14-03.30.46:424][337]  SlaveVRExperience
+[2018.02.14-03.30.46:425][337]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 7607 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.30.46:429][337]Warning: Starting HotReload took  0.0s.
+[2018.02.14-03.31.08:167][788]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:31:08 PM
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (modules to compile have changed)
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.31.08:168][788]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 10.7433683 seconds
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: [4/5] Link UE4Editor-SlaveVRExperience-7607.dll
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: [5/5] Link UE4Editor-SlaveVRExperience-7607.lib
+[2018.02.14-03.31.08:168][788]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.suppressed.exp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7607.exp
+[2018.02.14-03.31.08:168][788]CompilerResultsLog: Total build time: 21.48 seconds (Local executor: 2.34 seconds)
+[2018.02.14-03.31.08:168][788]LogMainFrame: MainFrame: Module compiling took 21.753 seconds
+[2018.02.14-03.31.08:233][788]LogClass: Could not find existing class NPCWorkstation in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-03.31.08:235][788]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-03.31.08:417][788]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-03.31.08:563][788]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2018.02.14-03.31.08:565][788]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.31.08:608][788]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2367 classes and 525 folders.
+[2018.02.14-03.31.08:608][788]Display: HotReload took 22.2s.
+[2018.02.14-03.32.26:538][521]LogSlate: Took 0.006834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.14-03.32.53:547][736]Running C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" -game -rocket -progress
+[2018.02.14-03.32.53:851][736]Discovering modules, targets and source code for project...
+[2018.02.14-03.32.57:478][736]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.14-03.32.57:487][736]Candidate modules for hot reload:
+[2018.02.14-03.32.57:487][736]  SlaveVRExperience
+[2018.02.14-03.32.57:488][736]Launching UnrealBuildTool... [C:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 180 Win64 Development -editorrecompile -canskiplink "C:/Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: New page: Compilation - Feb 13, 2018, 5:33:14 PM
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (new files with reflected types)
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.02.14-03.33.14:775][736]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 8.0671059 seconds
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPCWorkstation.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPC.gen.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: NPC.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: [6/7] Link UE4Editor-SlaveVRExperience-180.dll
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: [7/7] Link UE4Editor-SlaveVRExperience-180.lib
+[2018.02.14-03.33.14:775][736]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.exp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog:    Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-180.suppressed.exp
+[2018.02.14-03.33.14:775][736]CompilerResultsLog: Total build time: 17.09 seconds (Local executor: 2.23 seconds)
+[2018.02.14-03.33.14:775][736]LogMainFrame: MainFrame: Module compiling took 17.298 seconds
+[2018.02.14-03.33.14:841][736]LogClass: Could not find existing class NPC in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.02.14-03.33.14:843][736]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.02.14-03.33.15:023][736]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.02.14-03.33.15:163][736]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2018.02.14-03.33.15:165][736]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.33.15:208][736]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-03.33.15:208][736]Display: HotReload took 17.7s.
+[2018.02.14-03.33.15:210][736]Warning: HotReload operation took 17.7s.
+[2018.02.14-03.33.15:232][736]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-180.dll
+[2018.02.14-03.33.15:276][737]LogHotReload: Starting Hot-Reload from IDE
+[2018.02.14-03.33.15:355][737]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2018.02.14-03.33.15:356][737]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.14-03.33.15:376][737]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2368 classes and 525 folders.
+[2018.02.14-03.33.15:385][737]Display: HotReload took  0.1s.
+[2018.02.14-03.33.48:109][659]LogSavePackage: Save=2637.71ms
+[2018.02.14-03.33.48:109][659]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto2BE85F02B42251AFE7FE0558A0B940F08.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto2.umap'
+[2018.02.14-03.33.48:116][659]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto2.umap
+[2018.02.14-03.33.48:125][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.724
+[2018.02.14-03.33.48:125][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.724
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld_C' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.NPCOld:Path.K2Node_FunctionEntry_29' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:456][593]LogMetaData: Removing '/Game/Blueprints/NPCOld.SKEL_NPCOld_C' ref from Metadata '/Game/Blueprints/NPC.PackageMetaData'
+[2018.02.14-03.39.55:605][593]LogSavePackage: Save=53.43ms
+[2018.02.14-03.39.55:605][593]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPCOld7492CAB14B0E6E8FCA5982BDE7966117.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPCOld.uasset'
+[2018.02.14-03.39.55:612][593]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPCOld.uasset
+[2018.02.14-03.39.55:631][593]LogSavePackage: Save=5.29ms
+[2018.02.14-03.39.55:632][593]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC8CA88AB848D19453BF06AEBE58DFEE52.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC.uasset'
+[2018.02.14-03.39.55:638][593]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Content/Blueprints/NPC.uasset
+[2018.02.14-03.41.20:032][ 59]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'currentDelta' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'TargetActor' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.41.43:548][154]LogBlueprint: Warning: [NPC_bp] 'NPC Speed Max' variable not found. Base class was probably changed. /Game/Blueprints/NPC_bp.NPC_bp
+[2018.02.14-03.43.45:840][139]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.14-03.44.10:124][897]BlueprintLog: New page: Compile NPC_bp
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "NPC Speed Max" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get NPC Speed Max
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "TargetActor" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get TargetActor
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Set currentDelta
+[2018.02.14-03.44.10:138][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get currentDelta
+[2018.02.14-03.44.10:139][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Set currentDelta
+[2018.02.14-03.44.10:139][897]LogBlueprint: Warning: [Compiler NPC_bp] Could not find a variable named "currentDelta" in 'NPC_bp_C'.
+Make sure 'NPC_bp_C' has been compiled for  Get currentDelta
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Target Actor  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  NPC Speed Max  could not be found
+[2018.02.14-03.44.10:140][897]LogBlueprint: Error: [Compiler NPC_bp] The property associated with  Current Delta  could not be found
+[2018.02.14-03.44.10:445][897]LogBlueprint: Warning: [Compiler NPC_bp] [2478.69] Compile of NPC_bp failed. 6 Fatal Issue(s) 6 Warning(s) [in 321 ms] (/Game/Blueprints/NPC_bp.NPC_bp)
+[2018.02.14-03.44.11:011][932]LogSlate: Took 0.005366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.02.14-03.45.33:478][929]LogSavePackage: Save=2352.79ms
+[2018.02.14-03.45.33:478][929]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto3B0D5E54F426B4C05DB8805BB25EACB06.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto3.umap'
+[2018.02.14-03.45.33:482][929]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto3.umap
+[2018.02.14-03.45.33:488][929]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 2.407
+[2018.02.14-03.45.33:488][929]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.407
+[2018.02.14-03.45.33:493][929]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/NPC_bp] ([1] browsable assets)...
+[2018.02.14-03.45.33:502][929]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NPC_bp.NPC_bp]
+[2018.02.14-03.45.33:502][929]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NPC_bp]
+[2018.02.14-03.45.33:556][929]LogSavePackage: Save=50.22ms
+[2018.02.14-03.45.33:556][929]LogSavePackage: Moving '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_bp_Auto3527248844D65108283A0498F5103530E.tmp' to '../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto3.uasset'
+[2018.02.14-03.45.33:559][929]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Wyatt Baldree/Documents/Unreal Projects/SlaveExperience/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Blueprints/NPC_bp_Auto3.uasset
+[2018.02.14-03.45.33:559][929]LogFileHelpers: Auto-saving content packages took 0.069
+[2018.02.14-03.46.01:646][ 98]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.531 s
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: === Handled ensure: ===
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: 
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: Ensure condition failed: !FPackageName::IsShortPackageName(Path) [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp] [Line: 45]
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: Cannot create SoftObjectPath with short package name 'False'! You must pass in fully qualified package names
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: Stack: 
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000820C2786 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000081E6123A UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000081E7B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9C9CF8C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9BBB42F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9BD29FF UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9BCB30C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A9969024 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007E2E3F6C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1E7F2C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A21DF4C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1DDE77 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1D99E5 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007A1D8C79 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007E2DB33C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007E2EF393 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007D394FF9 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007D322A67 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000007D326DC7 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FEF3675 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FD08CAA UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FD0938C UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FCED221 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FC67605 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FD00D97 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FCEABE2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x000000008FCDD253 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97CE5EE UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97C1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97D03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97BD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C4F1B85D USER32.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C4F1B1EF USER32.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000A97D1516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000322150C8 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000032225430 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000322254AA UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000032232379 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x0000000032233D57 UE4Editor.exe!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C3D01FE4 KERNEL32.DLL!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: [Callstack] 0x00000000C688EFB1 ntdll.dll!UnknownFunction []
+[2018.02.14-03.46.01:647][ 98]LogOutputDevice: Error: 
+[2018.02.14-03.46.01:655][ 98]LogStats:                SubmitErrorReport -  0.000 s

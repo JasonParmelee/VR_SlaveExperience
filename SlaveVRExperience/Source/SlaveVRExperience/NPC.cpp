@@ -13,8 +13,7 @@ ANPC::ANPC()
 
 	CurrentDelta = FMath::FRand();
 
-	UCharacterMovementComponent* MyCharacterMovement = GetCharacterMovement();
-	MyCharacterMovement->MaxWalkSpeed = NPCMaxSpeed;
+	
 }
 
 // Called when the game starts or when spawned
@@ -22,6 +21,8 @@ void ANPC::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	UCharacterMovementComponent* MyCharacterMovement = GetCharacterMovement();
+	MyCharacterMovement->MaxWalkSpeed = NPCMaxSpeed;
 }
 
 void ANPC::NotifyActorBeginOverlap(AActor * OtherActor)

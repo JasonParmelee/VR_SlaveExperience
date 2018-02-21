@@ -21,7 +21,8 @@ enum class ENPCStateEnum : uint8
 	VE_MoveToTarget 		UMETA(DisplayName = "MoveToTarget"),
 	VE_WorkstationBegin		UMETA(DisplayName = "WorkstationBegin"),
 	VE_WorkstationLoop		UMETA(DisplayName = "WorkstationLoop"),
-	VE_WorkstationExit		UMETA(DisplayName = "WorkstationExit")
+	VE_WorkstationExit		UMETA(DisplayName = "WorkstationExit"),
+	VE_MoveToPlayer			UMETA(DisplayName = "MoveToPlayer")
 };
 
 UCLASS()
@@ -54,6 +55,8 @@ protected:
 
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor);
 
+	
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -61,5 +64,6 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	
+	UFUNCTION()
+	void Debug1();
 };

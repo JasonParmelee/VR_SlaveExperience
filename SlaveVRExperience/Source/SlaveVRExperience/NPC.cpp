@@ -3,6 +3,8 @@
 #include "NPC.h"
 #include "NPCWorkstation.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/PlayerController.h"
 
 
 // Sets default values
@@ -23,6 +25,17 @@ void ANPC::BeginPlay()
 	
 	UCharacterMovementComponent* MyCharacterMovement = GetCharacterMovement();
 	MyCharacterMovement->MaxWalkSpeed = NPCMaxSpeed;
+
+	EnableInput(UGameplayStatics::GetPlayerController(GetWorld(), 0));
+}
+
+// Called to bind functionality to input
+void ANPC::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	// Set up "movement" bindings
+	PlayerInputComponent->BindAction("DebugButton1", IE_Pressed, this, &ANPC::Debug1);
 }
 
 void ANPC::NotifyActorBeginOverlap(AActor * OtherActor)
@@ -47,18 +60,19 @@ void ANPC::NotifyActorBeginOverlap(AActor * OtherActor)
 	}
 }
 
+void ANPC::Debug1() 
+{
+	if (GEngine) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, TEXT("Headshot!"));
+	}
+	NPCState = ENPCStateEnum::VE_MoveToPlayer;
+}
+
 // Called every frame
 void ANPC::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 	
-}
-
-// Called to bind functionality to input
-void ANPC::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 

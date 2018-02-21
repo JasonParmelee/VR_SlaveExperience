@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SlaveVRExperience.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{ABCE8ACB-8AF0-4787-BBEE-8562634E1FB0}</UniqueIdentifier>
+			<UniqueIdentifier>{0FEDC10F-7B04-48DC-9BDE-9A5D69C55900}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SlaveVRExperience.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{8B2E7F5D-AC00-412B-A82B-5E786D199593}</UniqueIdentifier>
+			<UniqueIdentifier>{83FFFFC4-0BEB-434E-A564-36F210DF094E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -34,8 +34,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SlaveVRExperience">
-			<UniqueIdentifier>{ECF93975-9301-4B2F-A6A0-651DFC68D691}</UniqueIdentifier>
+			<UniqueIdentifier>{00F84F7C-83BC-47E5-8A48-035249C59983}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\SlaveVRExperience\CustomPlayerController.cpp">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\CustomPlayerController.h">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\SlaveVRExperience\DeckTeleporter.cpp">
 			<Filter>Source\SlaveVRExperience</Filter>
 		</ClCompile >
@@ -62,6 +68,30 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.h">
 			<Filter>Source\SlaveVRExperience</Filter>
+		</ClInclude >
+		<Filter Include="Source\SlaveVRExperience\FP_FirstPerson">
+			<UniqueIdentifier>{AA89A3C5-831D-400C-A06D-D97E4511284F}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPerson.h">
+			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPersonCharacter.cpp">
+			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPersonCharacter.h">
+			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPersonGameMode.cpp">
+			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPersonGameMode.h">
+			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPersonHUD.cpp">
+			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPersonHUD.h">
+			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>

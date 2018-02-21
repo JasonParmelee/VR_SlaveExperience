@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 	SLAVEVREXPERIENCE_API UClass* Z_Construct_UClass_ANPC_NoRegister();
 	SLAVEVREXPERIENCE_API UClass* Z_Construct_UClass_ANPC();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	SLAVEVREXPERIENCE_API UFunction* Z_Construct_UFunction_ANPC_Debug1();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	static UEnum* ENPCStateEnum_StaticEnum()
@@ -31,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ENPCStateEnum(ENPCStateEnum_StaticEnum, TEXT("/Script/SlaveVRExperience"), TEXT("ENPCStateEnum"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SlaveVRExperience_ENPCStateEnum_CRC() { return 1422829446U; }
+	uint32 Get_Z_Construct_UEnum_SlaveVRExperience_ENPCStateEnum_CRC() { return 3423611336U; }
 	UEnum* Z_Construct_UEnum_SlaveVRExperience_ENPCStateEnum()
 	{
 #if WITH_HOT_RELOAD
@@ -48,6 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 				{ "ENPCStateEnum::VE_WorkstationBegin", (int64)ENPCStateEnum::VE_WorkstationBegin },
 				{ "ENPCStateEnum::VE_WorkstationLoop", (int64)ENPCStateEnum::VE_WorkstationLoop },
 				{ "ENPCStateEnum::VE_WorkstationExit", (int64)ENPCStateEnum::VE_WorkstationExit },
+				{ "ENPCStateEnum::VE_MoveToPlayer", (int64)ENPCStateEnum::VE_MoveToPlayer },
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
@@ -55,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 				{ "ModuleRelativePath", "NPC.h" },
 				{ "ToolTip", "\"BlueprintType\" is essential to include" },
 				{ "VE_Idle.DisplayName", "Idle" },
+				{ "VE_MoveToPlayer.DisplayName", "MoveToPlayer" },
 				{ "VE_MoveToTarget.DisplayName", "MoveToTarget" },
 				{ "VE_WorkstationBegin.DisplayName", "WorkstationBegin" },
 				{ "VE_WorkstationExit.DisplayName", "WorkstationExit" },
@@ -131,6 +134,26 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 	}
 	void ANPC::StaticRegisterNativesANPC()
 	{
+		UClass* Class = ANPC::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Debug1", (Native)&ANPC::execDebug1 },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_ANPC_Debug1()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "NPC.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ANPC, "Debug1", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ANPC_NoRegister()
 	{
@@ -144,6 +167,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 			static UObject* (*const DependentSingletons[])() = {
 				(UObject* (*)())Z_Construct_UClass_ACharacter,
 				(UObject* (*)())Z_Construct_UPackage__Script_SlaveVRExperience,
+			};
+			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_ANPC_Debug1, "Debug1" }, // 2066042492
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -205,7 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 				&ANPC::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
-				nullptr, 0,
+				FuncInfo, ARRAY_COUNT(FuncInfo),
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -216,7 +242,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC, 4132570937);
+	IMPLEMENT_CLASS(ANPC, 3138161624);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANPC(Z_Construct_UClass_ANPC, &ANPC::StaticClass, TEXT("/Script/SlaveVRExperience"), TEXT("ANPC"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANPC);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -18,6 +18,7 @@ AScrubbingSpots::AScrubbingSpots(const FObjectInitializer& objectInitializer)
 
 	trueFalse = false;
 	scaleNumber = 1.0f;
+	scallingNum = 1.0f;
 	timerNum = 0;
 
 	_collision = CreateDefaultSubobject<USphereComponent>(TEXT("RootCollision"));
@@ -56,15 +57,23 @@ void AScrubbingSpots::BeginPlay()
 void AScrubbingSpots::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	/*
-	int i = 0;
-	while (trueFalse == true && i < 1000)
-	{
-	_collision->SetWorldScale3D(FVector(.999f));
+	
 
-	i++;
+	if (trueFalse == true && scallingNum > 0)
+	{
+		_collision->SetWorldScale3D(FVector(scallingNum));
+		scallingNum -= .001f;
+
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("trueFalse is True"));
 	}
-	*/
+
+	if (scallingNum <= 0)
+	{
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("scallingNum is less than or equal to 0"));
+	}
+	
 
 }
 
@@ -72,17 +81,6 @@ void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 {
 	if ((OtherActor == nullptr) || (OtherActor == this) || (OtherComp == nullptr))
 		return;
-
-
-
-	scaleNumber += .2f;
-
-	//SphereVisual->SetHiddenInGame(trueFalse);
-	//SphereVisual->SetWorldScale3D(FVector(scaleNumber));
-	FVector NewLocation = OtherActor->GetActorLocation();
-	//NewLocation.Z += 600.0f;
-	OtherActor->SetActorLocation(NewLocation, false);
-	//_collision->SetWorldScale3D(FVector(scaleNumber));
 
 	if (OtherActor->GetName().Equals("Scrubber"))
 	{
@@ -92,19 +90,19 @@ void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 	/*
 	for (TActorIterator<AStaticMeshActor> ActorItr(GetWorld()); ActorItr; ++ActorItr)
 	{
-	// Same as with the Object Iterator, access the subclass instance with the * or -> operators.
-	AStaticMeshActor *Mesh = *ActorItr;
-	if (GEngine)
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Actor: %s"), *ActorItr->GetName()));
+		// Same as with the Object Iterator, access the subclass instance with the * or -> operators.
+		AStaticMeshActor *Mesh = *ActorItr;
+		if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Actor: %s"), *ActorItr->GetName()));
 
 
-	if (ActorItr->GetName().Equals("Scrubber"))
-	{
-	trueFalse = true;
-	//OtherActor->SetActorLocation(ActorItr->GetActorLocation(), false);
-	if (GEngine)
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("True Actor: %s"), *ActorItr->GetName()));
-	}
+		if (ActorItr->GetName().Equals("Scrubber"))
+		{
+		trueFalse = true;
+		//OtherActor->SetActorLocation(ActorItr->GetActorLocation(), false);
+		if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("True Actor: %s"), *ActorItr->GetName()));
+		}
 	}
 	*/
 

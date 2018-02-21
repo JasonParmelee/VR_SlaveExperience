@@ -37,6 +37,7 @@ private:
 	UStaticMeshComponent* SphereVisual;
 	bool trueFalse;
 	float scaleNumber;
+	float scallingNum;
 	int timerNum;
 	FTimerHandle timerHandler;
 

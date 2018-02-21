@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ENPCStateEnum(ENPCStateEnum_StaticEnum, TEXT("/Script/SlaveVRExperience"), TEXT("ENPCStateEnum"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SlaveVRExperience_ENPCStateEnum_CRC() { return 3423611336U; }
+	uint32 Get_Z_Construct_UEnum_SlaveVRExperience_ENPCStateEnum_CRC() { return 4109210418U; }
 	UEnum* Z_Construct_UEnum_SlaveVRExperience_ENPCStateEnum()
 	{
 #if WITH_HOT_RELOAD
@@ -47,7 +47,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 				{ "ENPCStateEnum::VE_Idle", (int64)ENPCStateEnum::VE_Idle },
 				{ "ENPCStateEnum::VE_MoveToTarget", (int64)ENPCStateEnum::VE_MoveToTarget },
 				{ "ENPCStateEnum::VE_WorkstationBegin", (int64)ENPCStateEnum::VE_WorkstationBegin },
+				{ "ENPCStateEnum::VE_WorkstationEntering", (int64)ENPCStateEnum::VE_WorkstationEntering },
 				{ "ENPCStateEnum::VE_WorkstationLoop", (int64)ENPCStateEnum::VE_WorkstationLoop },
+				{ "ENPCStateEnum::VE_WorkstationExiting", (int64)ENPCStateEnum::VE_WorkstationExiting },
 				{ "ENPCStateEnum::VE_WorkstationExit", (int64)ENPCStateEnum::VE_WorkstationExit },
 				{ "ENPCStateEnum::VE_MoveToPlayer", (int64)ENPCStateEnum::VE_MoveToPlayer },
 			};
@@ -60,7 +62,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 				{ "VE_MoveToPlayer.DisplayName", "MoveToPlayer" },
 				{ "VE_MoveToTarget.DisplayName", "MoveToTarget" },
 				{ "VE_WorkstationBegin.DisplayName", "WorkstationBegin" },
+				{ "VE_WorkstationEntering.DisplayName", "WorkstationEntering" },
 				{ "VE_WorkstationExit.DisplayName", "WorkstationExit" },
+				{ "VE_WorkstationExiting.DisplayName", "WorkstationExiting" },
 				{ "VE_WorkstationLoop.DisplayName", "WorkstationLoop" },
 			};
 #endif
@@ -179,6 +183,13 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timer_MetaData[] = {
+				{ "Category", "Settings" },
+				{ "ModuleRelativePath", "NPC.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timer = { UE4CodeGen_Private::EPropertyClass::Float, "timer", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000004, 1, nullptr, STRUCT_OFFSET(ANPC, timer), METADATA_PARAMS(NewProp_timer_MetaData, ARRAY_COUNT(NewProp_timer_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetActor_MetaData[] = {
 				{ "Category", "Settings" },
 				{ "ModuleRelativePath", "NPC.h" },
@@ -216,6 +227,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 			static const UE4CodeGen_Private::FEnumPropertyParams NewProp_NPCType = { UE4CodeGen_Private::EPropertyClass::Enum, "NPCType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ANPC, NPCType), Z_Construct_UEnum_SlaveVRExperience_ENPCTypeEnum, METADATA_PARAMS(NewProp_NPCType_MetaData, ARRAY_COUNT(NewProp_NPCType_MetaData)) };
 			static const UE4CodeGen_Private::FBytePropertyParams NewProp_NPCType_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_timer,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TargetActor,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentDelta,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_NPCMaxSpeed,
@@ -242,7 +254,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC, 3138161624);
+	IMPLEMENT_CLASS(ANPC, 2821015018);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANPC(Z_Construct_UClass_ANPC, &ANPC::StaticClass, TEXT("/Script/SlaveVRExperience"), TEXT("ANPC"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANPC);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

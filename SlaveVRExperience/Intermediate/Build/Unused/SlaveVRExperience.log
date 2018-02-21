@@ -3,15 +3,15 @@
   Compiling game modules for hot reload
   Parsing headers for SlaveVRExperienceEditor
     Running UnrealHeaderTool "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SlaveVRExperienceEditor in 7.9915824 seconds
+  Reflection code generated for SlaveVRExperienceEditor in 7.9066746 seconds
   Performing 6 actions (4 in parallel)
-  CustomPlayerController.cpp
-  SlaveVRExperience.init.gen.cpp
-  NPC.cpp
   NPC.gen.cpp
-  [5/6] Link UE4Editor-SlaveVRExperience-7434.dll
-  [6/6] Link UE4Editor-SlaveVRExperience-7434.lib
-     Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7434.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7434.exp
-     Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7434.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7434.suppressed.exp
+  NPC.cpp
+  SlaveVRExperience.init.gen.cpp
+  CustomPlayerController.cpp
+  [5/6] Link UE4Editor-SlaveVRExperience-1346.dll
+  [6/6] Link UE4Editor-SlaveVRExperience-1346.lib
+     Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1346.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1346.exp
+     Creating library C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1346.suppressed.lib and object C:\Users\Wyatt Baldree\Documents\Unreal Projects\SlaveExperience\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1346.suppressed.exp
   Deploying SlaveVRExperienceEditor Win64 Development...
-  Total build time: 17.04 seconds (Local executor: 1.93 seconds)
+  Total build time: 17.96 seconds (Local executor: 2.93 seconds)

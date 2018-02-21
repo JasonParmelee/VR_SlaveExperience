@@ -20,7 +20,9 @@ enum class ENPCStateEnum : uint8
 	VE_Idle 				UMETA(DisplayName = "Idle"),
 	VE_MoveToTarget 		UMETA(DisplayName = "MoveToTarget"),
 	VE_WorkstationBegin		UMETA(DisplayName = "WorkstationBegin"),
+	VE_WorkstationEntering	UMETA(DisplayName = "WorkstationEntering"),
 	VE_WorkstationLoop		UMETA(DisplayName = "WorkstationLoop"),
+	VE_WorkstationExiting	UMETA(DisplayName = "WorkstationExiting"),
 	VE_WorkstationExit		UMETA(DisplayName = "WorkstationExit"),
 	VE_MoveToPlayer			UMETA(DisplayName = "MoveToPlayer")
 };
@@ -53,6 +55,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
 	AActor* TargetActor = NULL;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Settings")
+	float timer = 0;
+
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor);
 
 	
@@ -66,4 +71,5 @@ public:
 
 	UFUNCTION()
 	void Debug1();
+
 };

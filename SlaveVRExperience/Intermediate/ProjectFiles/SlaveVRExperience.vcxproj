@@ -418,6 +418,8 @@
 		<None Include="..\..\Config\DefaultScalability.ini" />
 		<ClCompile Include="..\..\Source\SlaveVRExperience\DeckTeleporter.cpp" />
 		<ClInclude Include="..\..\Source\SlaveVRExperience\DeckTeleporter.h" />
+		<ClCompile Include="..\..\Source\SlaveVRExperience\ScrubbingSpots.cpp" />
+		<ClInclude Include="..\..\Source\SlaveVRExperience\ScrubbingSpots.h" />
 		<None Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.Build.cs" />
 		<ClCompile Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.cpp" />
 		<ClInclude Include="..\..\Source\SlaveVRExperience\SlaveVRExperience.h" />

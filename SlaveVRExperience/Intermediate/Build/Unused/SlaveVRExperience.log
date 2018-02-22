@@ -1,10 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading SlaveVRExperienceEditor (game project files are newer)
   Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
-  ScrubbingSpots.cpp
-  [2/3] Link UE4Editor-SlaveVRExperience-437.dll
-  [3/3] Link UE4Editor-SlaveVRExperience-437.lib
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-437.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-437.exp
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-437.suppressed.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-437.suppressed.exp
+  Target is up to date
   Deploying SlaveVRExperienceEditor Win64 Development...
-  Total build time: 1.87 seconds (Local executor: 1.31 seconds)
+  Failed to write dependency cache: Could not find a part of the path 'D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor'.
+  Total build time: 5.81 seconds (NoActionsToExecute executor: 0.00 seconds)

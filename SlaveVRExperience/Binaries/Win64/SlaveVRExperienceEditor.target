@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-SlaveVRExperience-2987.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-SlaveVRExperience-9224.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-SlaveVRExperience-2987.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-SlaveVRExperience-9224.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SlaveVRExperience-2987.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SlaveVRExperience-9224.lib",
 			"Type": "ImportLibrary"
 		},
 		{

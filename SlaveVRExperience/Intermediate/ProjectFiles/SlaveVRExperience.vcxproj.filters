@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SlaveVRExperience.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{564627D6-7347-44F3-8D0C-D0FE44746DE3}</UniqueIdentifier>
+			<UniqueIdentifier>{AA3791AE-F022-4493-A08F-1AE13CA57D6E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SlaveVRExperience.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{E8233683-F048-4A32-B52A-764065252C6D}</UniqueIdentifier>
+			<UniqueIdentifier>{D919567C-26EB-4B49-ADAA-6770F371F30E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -34,7 +34,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SlaveVRExperience">
-			<UniqueIdentifier>{E85B2F6D-DC0E-414B-9A76-8C4877E67244}</UniqueIdentifier>
+			<UniqueIdentifier>{69667A76-0E67-4ED1-A97D-B6ECE9C1ED0C}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\SlaveVRExperience\DeckTeleporter.cpp">
 			<Filter>Source\SlaveVRExperience</Filter>

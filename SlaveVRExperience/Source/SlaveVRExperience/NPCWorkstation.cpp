@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "NPCWorkstation.h"
+#include "CustomGameMode.h"
 
 
 // Sets default values
@@ -28,6 +29,10 @@ ANPCWorkstation::ANPCWorkstation()
 void ANPCWorkstation::BeginPlay()
 {
 	Super::BeginPlay();
+
+	/*//When this NPC is created, add it to the NPCArray in our NPCManager.
+	ACustomGameMode* GameMode = (ACustomGameMode*)GetWorld()->GetAuthGameMode();
+	GameMode->MyNPCManager->WorkstationList.Add(this);*/
 	
 }
 

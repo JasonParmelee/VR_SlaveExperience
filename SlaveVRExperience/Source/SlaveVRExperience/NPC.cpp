@@ -4,6 +4,7 @@
 #include "NPCWorkstation.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "CustomGameMode.h"
 #include "GameFramework/PlayerController.h"
 
 
@@ -26,7 +27,21 @@ void ANPC::BeginPlay()
 	UCharacterMovementComponent* MyCharacterMovement = GetCharacterMovement();
 	MyCharacterMovement->MaxWalkSpeed = NPCMaxSpeed;
 
-	EnableInput(UGameplayStatics::GetPlayerController(GetWorld(), 0));
+
+	//When this NPC is created, add it to the NPCArray in our NPCManager.
+	ACustomGameMode* GameMode = (ACustomGameMode*)GetWorld()->GetAuthGameMode();
+	ANPCManager* NPCManager = GameMode->MyNPCManager;
+
+	if (NPCManager == NULL) { 
+		GameMode->MakeNPCManager();
+		NPCManager = GameMode->MyNPCManager;
+	}
+
+	NPCManager->NPCList.Add(this);
+	if (GEngine) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::FromInt(NPCManager->NPCList.Num()));
+	}//this->IsValidLowLevel();//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 }
 
 // Called to bind functionality to input

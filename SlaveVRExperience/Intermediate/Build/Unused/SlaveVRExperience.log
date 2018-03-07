@@ -1,3 +1,11 @@
-﻿  '"D:\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat"' is not recognized as an internal or external command,
-  operable program or batch file.
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: The command ""D:\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" SlaveVRExperienceEditor Win64 Development "C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" -waitmutex" exited with code 9009.
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading SlaveVRExperienceEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  ScrubbingSpots.cpp
+  [2/3] Link UE4Editor-SlaveVRExperience-1283.dll
+  [3/3] Link UE4Editor-SlaveVRExperience-1283.lib
+     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.exp
+     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.suppressed.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.suppressed.exp
+  Deploying SlaveVRExperienceEditor Win64 Development...
+  Total build time: 5.01 seconds (Local executor: 1.22 seconds)

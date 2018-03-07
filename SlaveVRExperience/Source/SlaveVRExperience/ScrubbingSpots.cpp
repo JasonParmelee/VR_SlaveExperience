@@ -59,7 +59,7 @@ void AScrubbingSpots::Tick(float DeltaTime)
 	
 	FVector newVector = FVector(0);
 
-	if (trueFalse == true && scallingNum > 0 && !scrubber->GetVelocity().IsNearlyZero(5.0f))
+	if (trueFalse == true && scallingNum > 0 /*&& !scrubber->GetVelocity().IsNearlyZero(5.0f)*/)
 	{
 		_collision->SetWorldScale3D(FVector(scallingNum));
 		scallingNum -= .001f;

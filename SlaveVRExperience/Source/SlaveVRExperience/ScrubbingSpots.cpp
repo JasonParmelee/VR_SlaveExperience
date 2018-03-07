@@ -17,9 +17,9 @@ AScrubbingSpots::AScrubbingSpots(const FObjectInitializer& objectInitializer)
 	PrimaryActorTick.bCanEverTick = true;
 
 	trueFalse = false;
-	scaleNumber = 1.0f;
 	scallingNum = 1.0f;
 	timerNum = 0;
+
 
 	_collision = CreateDefaultSubobject<USphereComponent>(TEXT("RootCollision"));
 
@@ -32,12 +32,11 @@ AScrubbingSpots::AScrubbingSpots(const FObjectInitializer& objectInitializer)
 	SphereVisual = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisualRepresentation"));
 	SphereVisual->SetupAttachment(RootComponent);
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereVisualAsset(TEXT("/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereVisualAsset(TEXT("/Game/Models/Dirt_Spot.Dirt_Spot"));
 	if (SphereVisualAsset.Succeeded())
 	{
 		SphereVisual->SetStaticMesh(SphereVisualAsset.Object);
-		SphereVisual->SetRelativeLocation(FVector(0.0f, 0.0f, -40.0f));
-		//SphereVisual->SetWorldScale3D(FVector(0.8f));
+		SphereVisual->SetRelativeLocation(FVector(0.0f, 0.0f, -80.0f));
 	}
 
 
@@ -58,20 +57,20 @@ void AScrubbingSpots::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+	FVector newVector = FVector(0);
 
-	if (trueFalse == true && scallingNum > 0)
+	if (trueFalse == true && scallingNum > 0 && !scrubber->GetVelocity().IsNearlyZero(5.0f))
 	{
 		_collision->SetWorldScale3D(FVector(scallingNum));
 		scallingNum -= .001f;
-
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("trueFalse is True"));
 	}
 
 	if (scallingNum <= 0)
 	{
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("scallingNum is less than or equal to 0"));
+
+		this->Destroy();
 	}
 	
 
@@ -84,8 +83,11 @@ void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 
 	if (OtherActor->GetName().Equals("Scrubber"))
 	{
+		scrubber = OtherActor;
 		trueFalse = true;
 	}
+
+	GetWorldTimerManager().SetTimer(timerHandler, this, &AScrubbingSpots::TimerFunction, 1.0f, true);
 
 	/*
 	for (TActorIterator<AStaticMeshActor> ActorItr(GetWorld()); ActorItr; ++ActorItr)
@@ -104,12 +106,10 @@ void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("True Actor: %s"), *ActorItr->GetName()));
 		}
 	}
-	*/
-
-	GetWorldTimerManager().SetTimer(timerHandler, this, &AScrubbingSpots::TimerFunction, 1.0f, true);
 
 	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Collide Actor: %s"), *OtherActor->GetName()));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Collide Actor: %s"), *OtherActor->GetName()));
+	*/
 }
 
 void AScrubbingSpots::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
@@ -121,8 +121,12 @@ void AScrubbingSpots::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* 
 			trueFalse = false;
 		}
 
+		GetWorldTimerManager().ClearTimer(timerHandler);
+
+		/*
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Leaving Actor: %s"), *OtherActor->GetName()));
+		*/
 	}
 }
 

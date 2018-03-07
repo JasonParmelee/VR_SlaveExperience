@@ -1,7 +1,3 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading SlaveVRExperienceEditor (game project files are newer)
-  Compiling game modules for hot reload
-  Target is up to date
-  Deploying SlaveVRExperienceEditor Win64 Development...
-  Failed to write dependency cache: Could not find a part of the path 'D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor'.
-  Total build time: 5.81 seconds (NoActionsToExecute executor: 0.00 seconds)
+﻿  '"D:\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat"' is not recognized as an internal or external command,
+  operable program or batch file.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: The command ""D:\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" SlaveVRExperienceEditor Win64 Development "C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" -waitmutex" exited with code 9009.

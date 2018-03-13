@@ -30,14 +30,12 @@ ADeckTeleporter::ADeckTeleporter(const FObjectInitializer& objectInitializer)
 void ADeckTeleporter::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void ADeckTeleporter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 
@@ -65,7 +63,6 @@ void ADeckTeleporter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 
 	if (GEngine)
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Colliding begin %s"), *OtherActor->GetName()));
-
 }
 
 

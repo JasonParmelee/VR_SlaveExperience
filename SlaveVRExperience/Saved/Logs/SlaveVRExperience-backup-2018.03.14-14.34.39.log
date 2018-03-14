@@ -1,0 +1,588 @@
+﻿Log file open, 03/14/18 14:04:15
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SlaveVRExperience
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1969207943) SRandInit(1969207943).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.204250
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-1283.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.14-18.04.18:675][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-18.04.18:675][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.14-18.04.18:708][  0]LogInit: Computer: IDEA-PC
+[2018.03.14-18.04.18:708][  0]LogInit: User: Nutty000
+[2018.03.14-18.04.18:709][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.14-18.04.18:709][  0]LogInit: High frequency timer resolution =2.923051 MHz
+[2018.03.14-18.04.18:709][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.03.14-18.04.18:709][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.04.18:709][  0]LogMemory: Process Physical Memory: 273.81 MB used, 273.81 MB peak
+[2018.03.14-18.04.18:709][  0]LogMemory: Process Virtual Memory: 271.69 MB used, 271.69 MB peak
+[2018.03.14-18.04.18:709][  0]LogMemory: Physical Memory: 5024.92 MB used,  3124.70 MB free, 8149.62 MB total
+[2018.03.14-18.04.18:709][  0]LogMemory: Virtual Memory: 669.49 MB used,  3124.70 MB free, 134217728.00 MB total
+[2018.03.14-18.04.18:999][  0]LogInit: Using OS detected language (en-US).
+[2018.03.14-18.04.18:999][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.14-18.04.19:004][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.14-18.04.19:468][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.14-18.04.19:830][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.14-18.04.19:912][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.14-18.04.19:912][  0]LogD3D11RHI:       8096/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.14-18.04.19:915][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.14-18.04.19:915][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.14-18.04.19:915][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.14-18.04.19:923][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.14-18.04.19:923][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.14-18.04.19:923][  0]LogWindows: EnumDisplayDevices:
+[2018.03.14-18.04.19:923][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.14-18.04.19:923][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.04.19:923][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.04.19:924][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.04.19:924][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.14-18.04.19:924][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.14-18.04.19:924][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.14-18.04.19:924][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.14-18.04.19:924][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.03.14-18.04.19:956][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.14-18.04.19:989][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.14-18.04.19:991][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/8956/).
+[2018.03.14-18.04.19:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nutty_000/AppData/Local/Temp/UnrealShaderWorkingDir/D387E75D4960DE6B5D78378309589DF4/'.
+[2018.03.14-18.04.19:991][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.14-18.04.21:274][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.14-18.04.21:370][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.14-18.04.21:465][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.14-18.04.21:559][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.14-18.04.21:653][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.14-18.04.21:748][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.14-18.04.21:845][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.14-18.04.21:943][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.14-18.04.22:028][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.14-18.04.22:120][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.14-18.04.22:211][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.14-18.04.22:303][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.14-18.04.22:398][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.14-18.04.22:494][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.14-18.04.22:684][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.14-18.04.22:684][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.14-18.04.22:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.14-18.04.22:859][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.14-18.04.23:008][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.14-18.04.23:056][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.14-18.04.23:151][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.14-18.04.23:243][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.14-18.04.23:336][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.14-18.04.23:430][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.14-18.04.23:430][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.14-18.04.24:329][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.14-18.04.24:426][  0]LogDerivedDataCache: Loaded boot cache 0.10s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-18.04.24:426][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.14-18.04.24:426][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.14-18.04.24:426][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.14-18.04.24:426][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.14-18.04.24:426][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.14-18.04.24:445][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.14-18.04.24:459][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nutty_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.14-18.04.24:474][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.14-18.04.24:474][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.14-18.04.24:475][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-18.04.24:475][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-18.04.25:093][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-18.04.25:699][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.14-18.04.25:783][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.14-18.04.25:783][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.14-18.04.25:783][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.14-18.04.25:783][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.14-18.04.25:783][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.14-18.04.25:834][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.03.14-18.04.26:101][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
+[2018.03.14-18.04.26:962][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.119574 seconds
+[2018.03.14-18.04.26:968][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.14-18.04.26:968][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.14-18.04.26:968][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.14-18.04.27:089][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.14-18.05.14:017][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.14-18.05.14:099][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.14-18.05.16:141][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.14-18.05.17:097][  0]SourceControl: Source control is disabled
+[2018.03.14-18.05.17:097][  0]SourceControl: Source control is disabled
+[2018.03.14-18.05.17:239][  0]SourceControl: Source control is disabled
+[2018.03.14-18.05.17:388][  0]SourceControl: Source control is disabled
+[2018.03.14-18.05.19:699][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.14-18.05.20:378][  0]LogOcInput: OculusInput pre-init called
+[2018.03.14-18.05.21:008][  0]LogEngine: Initializing Engine...
+[2018.03.14-18.05.21:075][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.03.14-18.05.21:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.14-18.05.21:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.14-18.05.21:718][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.14-18.05.21:743][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.14-18.05.21:769][  0]LogInit: FAudioDevice initialized.
+[2018.03.14-18.05.21:942][  0]LogDerivedDataCache: Saved boot cache 0.17s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-18.05.21:961][  0]LogInit: Texture streaming: Enabled
+[2018.03.14-18.05.22:284][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.14-18.05.22:565][  0]LogInit: Transaction tracking system initialized
+[2018.03.14-18.05.23:415][  0]BlueprintLog: New page: Editor Load
+[2018.03.14-18.05.25:747][  0]LocalizationService: Localization service is disabled
+[2018.03.14-18.05.27:714][  0]LogConsoleResponse: Display: 
+[2018.03.14-18.05.28:386][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.14-18.05.28:387][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.14-18.05.28:387][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.14-18.05.29:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.03s
+[2018.03.14-18.05.31:690][  0]SourceControl: Source control is disabled
+[2018.03.14-18.05.31:690][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-18.05.31:691][  0]LightingResults: New page: Lighting Build
+[2018.03.14-18.05.31:778][  0]MapCheck: New page: Map Check
+[2018.03.14-18.05.31:778][  0]LightingResults: New page: Lighting Build
+[2018.03.14-18.05.33:061][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.05.33:081][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap.
+[2018.03.14-18.05.33:081][  0]LoadErrors: Error: /Game/Maps/Levels/Ship : Can't find file for asset. /Game/Models/ShipUpdate/DM_Ship
+[2018.03.14-18.05.33:099][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.05.33:099][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap.
+[2018.03.14-18.05.33:099][  0]LoadErrors: Error: /Game/Maps/Levels/Ship : Can't find file for asset. /Game/Models/ShipUpdate/DM_Ship
+[2018.03.14-18.05.33:102][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.05.33:102][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading NULL.
+[2018.03.14-18.05.33:102][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.05.33:102][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading NULL.
+[2018.03.14-18.05.34:590][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.05.34:591][  0]LoadErrors: Failed to load /Game/Models/ShipUpdate/DM_Ship.DM_Ship Referenced by StaticMeshComponent0
+[2018.03.14-18.05.34:591][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading NULL.
+[2018.03.14-18.05.34:591][  0]LoadErrors: Failed to load /Game/Models/ShipUpdate/DM_Ship.DM_Ship Referenced by StaticMeshComponent0
+[2018.03.14-18.05.35:364][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_300_001_ncl1_2, compiling. 
+[2018.03.14-18.05.35:940][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_300_001_ncl1_1, compiling. 
+[2018.03.14-18.05.35:986][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_300_001, compiling. 
+[2018.03.14-18.05.36:019][  0]LogMaterial: Missing cached shader map for material dbl_Group_001_ncl1_3, compiling. 
+[2018.03.14-18.05.36:077][  0]LogMaterial: Missing cached shader map for material dbl_Group_001_ncl1_2, compiling. 
+[2018.03.14-18.05.36:128][  0]LogMaterial: Missing cached shader map for material dbl_Group_001_ncl1_1, compiling. 
+[2018.03.14-18.05.36:167][  0]LogMaterial: Missing cached shader map for material dbl_Group_001, compiling. 
+[2018.03.14-18.05.36:239][  0]LogStaticMesh: Building static mesh 3d-model...
+[2018.03.14-18.05.36:497][  0]LogStaticMesh: Built static mesh [0.29s] /Game/Models/EnvironmentModels/Seagull/3d-model.3d-model
+[2018.03.14-18.05.52:906][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_305_003_ncl1_1, compiling. 
+[2018.03.14-18.05.53:391][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_305_003, compiling. 
+[2018.03.14-18.05.53:425][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_305_002_ncl1_1, compiling. 
+[2018.03.14-18.05.53:463][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_305_002, compiling. 
+[2018.03.14-18.05.53:500][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_305_001_ncl1_1, compiling. 
+[2018.03.14-18.05.53:539][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_305_001, compiling. 
+[2018.03.14-18.05.53:577][  0]LogMaterial: Missing cached shader map for material dbl_Gruppe_300_001_ncl1_3, compiling. 
+[2018.03.14-18.05.53:610][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave 91072__lxx-70__on-a-wooden-ship-at-sea-02...
+[2018.03.14-18.05.58:271][  0]LogAIModule: Creating AISystem for world Ship
+[2018.03.14-18.06.07:084][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.06.07:084][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.06.07:084][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.06.07:091][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.06.07:095][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-18.06.07:371][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-18.06.07:516][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 144.6ms to complete.
+[2018.03.14-18.06.07:516][  0]LogFileHelpers: Loading map 'Ship' took 35.826
+[2018.03.14-18.06.07:893][  0]LogCollectionManager: Loaded 0 collections in 0.004045 seconds
+[2018.03.14-18.06.08:034][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.03.14-18.06.08:034][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/Nutty000/Collections/' took 0.01s
+[2018.03.14-18.06.08:035][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.03.14-18.06.08:035][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.14-18.06.08:049][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2369 classes and 522 folders.
+[2018.03.14-18.06.08:196][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2018.03.14-18.06.09:933][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2018.03.14-18.06.10:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.03.14-18.06.10:208][  0]LogSlate: Took 0.020349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-18.06.10:225][  0]LogSlate: Took 0.014586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.14-18.06.10:263][  0]LogSlate: Took 0.020952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.14-18.06.10:524][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2018.03.14-18.06.11:314][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2018.03.14-18.06.11:314][  0]LogLoad: (Engine Initialization) Total time: 117.94 seconds
+[2018.03.14-18.06.11:314][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.14-18.06.11:314][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.14-18.06.11:314][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.14-18.06.11:390][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-18.06.11:436][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.14-18.06.11:632][  1]LogAssetRegistry: Asset discovery search completed in 105.5534 seconds
+[2018.03.14-18.06.11:635][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.14-18.06.11:635][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2018.03.14-18.06.15:590][ 41]LogSlate: Took 0.011956 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.06.16:619][134]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 5.22s
+[2018.03.14-18.08.37:590][919]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.09.21:245][919]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/DM_Ship.fbx)
+[2018.03.14-18.09.43:964][919]LogSlate: Took 0.015891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: Material, ItemCount : 7
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.14-18.09.46:080][919]LogFbx: ItemName: Video, ItemCount : 2
+[2018.03.14-18.09.46:118][919]LogFbx: Loading FBX Scene from D:/DM_Ship.fbx
+[2018.03.14-18.11.01:007][919]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.11.55:049][919]LogFbx: Loading FBX Scene from D:/DM_Ship.fbx
+[2018.03.14-18.13.23:231][919]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.13.24:109][919]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.03.14-18.13.24:792][919]LogMaterial: Missing cached shader map for material rope_lambert, compiling. 
+[2018.03.14-18.13.25:860][919]LogTexture: Display: Building textures: bowspritUV (AutoDXT, 1000X1000)
+[2018.03.14-18.13.26:285][919]LogMaterial: Missing cached shader map for material bowsprit_lambert, compiling. 
+[2018.03.14-18.13.26:774][919]LogMaterial: Missing cached shader map for material rebar_lambert, compiling. 
+[2018.03.14-18.13.26:920][919]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2018.03.14-18.13.28:068][919]LogTexture: Display: Building textures: shipUV (AutoDXT, 1000X1000)
+[2018.03.14-18.13.28:416][919]LogMaterial: Missing cached shader map for material ship_lambert, compiling. 
+[2018.03.14-18.13.29:549][919]LogMaterial: Missing cached shader map for material net_lambert, compiling. 
+[2018.03.14-18.13.34:074][919]LogFbx: Warning: Triangulating static mesh ship1
+[2018.03.14-18.14.37:969][919]LogStaticMesh: Building static mesh DM_Ship...
+[2018.03.14-18.14.56:321][919]LogStaticMesh: Built static mesh [18.37s] /Game/Models/ShipUpdate/DM_Ship.DM_Ship
+[2018.03.14-18.15.07:083][919]LogStaticMesh: Warning: DM_Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.03.14-18.15.07:083][919]LogStaticMesh: Warning: DM_Ship has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.03.14-18.15.18:477][919]FBXImport: Warning: DM_Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.03.14-18.15.18:477][919]FBXImport: Warning: DM_Ship has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.03.14-18.15.56:185][375]LogSlate: Took 0.009104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.16.17:333][245]LogRenderer: Reallocating scene render targets to support 1208x616 Format 26 NumSamples 1 (Frame:1).
+[2018.03.14-18.16.51:748][969]LogSavePackage: Save=10135.51ms
+[2018.03.14-18.16.51:748][969]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto194D149F1492B8C66653FABBDA9B4F38F.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap'
+[2018.03.14-18.16.51:822][969]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap
+[2018.03.14-18.16.51:885][969]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 11.245
+[2018.03.14-18.16.51:885][969]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 11.245
+[2018.03.14-18.16.51:943][969]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/ShipUpdate/DM_Ship] ([1] browsable assets)...
+[2018.03.14-18.16.51:971][969]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/ShipUpdate/DM_Ship.DM_Ship]
+[2018.03.14-18.16.51:971][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ShipUpdate/DM_Ship]
+[2018.03.14-18.16.54:844][969]LogSavePackage: Save=2865.78ms
+[2018.03.14-18.16.54:845][969]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/DM_Ship_Auto1D9C5CB104FC04EFECDDD7E95C6922621.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Models/ShipUpdate/DM_Ship_Auto1.uasset'
+[2018.03.14-18.16.54:927][969]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Models/ShipUpdate/DM_Ship_Auto1.uasset
+[2018.03.14-18.16.54:927][969]LogFileHelpers: Auto-saving content packages took 3.037
+[2018.03.14-18.17.03:812][374]LogSavePackage: Save=2340.04ms
+[2018.03.14-18.17.03:812][374]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/DM_Ship78F4956B46DA13500BF623AB1DF874B2.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset'
+[2018.03.14-18.17.03:830][374]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset
+[2018.03.14-18.17.55:299][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cannon)
+[2018.03.14-18.18.11:091][368]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nutty_000/Videos/VR-Experience/Cannon2.fbx)
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: Model, ItemCount : 2
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: Material, ItemCount : 1
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.14-18.18.11:241][368]LogFbx: ItemName: Video, ItemCount : 2
+[2018.03.14-18.18.11:326][368]LogFbx: Loading FBX Scene from ../../../../../../Users/Nutty_000/Videos/VR-Experience/Cannon2.fbx
+[2018.03.14-18.18.11:440][368]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.18.14:048][368]LogFbx: Loading FBX Scene from ../../../../../../Users/Nutty_000/Videos/VR-Experience/Cannon2.fbx
+[2018.03.14-18.18.14:071][368]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.18.14:143][368]LogLinker: Can't find file '/Game/Models/Cannon_1Surface_Color'
+[2018.03.14-18.18.14:144][368]LogLinker: Can't find file '/Game/Models/Cannon_1Surface_Color'
+[2018.03.14-18.18.14:621][368]LogTexture: Display: Building textures: Cannon_1Surface_Color (AutoDXT, 2048X2048)
+[2018.03.14-18.18.18:209][368]LogMaterial: Missing cached shader map for material Cannon1, compiling. 
+[2018.03.14-18.18.18:257][368]LogFbx: Warning: Triangulating static mesh Cannon
+[2018.03.14-18.18.18:796][368]LogStaticMesh: Building static mesh Cannon2...
+[2018.03.14-18.18.19:084][368]LogStaticMesh: Built static mesh [0.36s] /Game/Models/Cannon2.Cannon2
+[2018.03.14-18.18.19:929][368]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.14-18.18.33:796][362]LogActorFactory: Actor Factory created Cannon2
+[2018.03.14-18.18.35:850][519]LogActorFactory: Actor Factory created Cannon2
+[2018.03.14-18.18.37:588][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cannon)
+[2018.03.14-18.18.38:780][725]Cmd: DELETE
+[2018.03.14-18.18.38:780][725]Cmd: ACTOR DELETE
+[2018.03.14-18.18.39:581][725]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.14-18.18.39:746][725]LogEditorActor: Deleted 1 Actors (0.305 secs)
+[2018.03.14-18.18.40:440][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cannon3)
+[2018.03.14-18.18.54:868][957]LogActorFactory: Actor Factory created Cannon2
+[2018.03.14-18.18.55:692][ 17]LogActorFactory: Actor Factory created Cannon2
+[2018.03.14-18.19.00:049][356]Cmd: TRANSACTION UNDO
+[2018.03.14-18.19.00:049][356]LogEditorTransaction: Undo Rotate Actors
+[2018.03.14-18.19.05:615][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cannon2)
+[2018.03.14-18.19.06:389][849]Cmd: DELETE
+[2018.03.14-18.19.06:389][849]Cmd: ACTOR DELETE
+[2018.03.14-18.19.06:435][849]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.14-18.19.06:446][849]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2018.03.14-18.19.08:594][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cannon4)
+[2018.03.14-18.19.23:639][283]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.03.14-18.19.36:438][333]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (Scrubber)
+[2018.03.14-18.19.57:604][712]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nutty_000/Videos/VR-Experience/Scrubber.fbx)
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: Model, ItemCount : 2
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: Material, ItemCount : 1
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.14-18.19.57:621][712]LogFbx: ItemName: Video, ItemCount : 2
+[2018.03.14-18.19.57:627][712]LogFbx: Loading FBX Scene from ../../../../../../Users/Nutty_000/Videos/VR-Experience/Scrubber.fbx
+[2018.03.14-18.19.57:676][712]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.19.59:059][712]LogFbx: Loading FBX Scene from ../../../../../../Users/Nutty_000/Videos/VR-Experience/Scrubber.fbx
+[2018.03.14-18.19.59:071][712]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.19.59:072][712]LogLinker: Can't find file '/Game/Models/Scrubber'
+[2018.03.14-18.19.59:076][712]LogLinker: Can't find file '/Game/Models/ScrubberSurface_Color'
+[2018.03.14-18.19.59:076][712]LogLinker: Can't find file '/Game/Models/ScrubberSurface_Color'
+[2018.03.14-18.19.59:111][712]LogTexture: Display: Building textures: ScrubberSurface_Color (AutoDXT, 512X512)
+[2018.03.14-18.19.59:390][712]LogMaterial: Missing cached shader map for material Scrubber1, compiling. 
+[2018.03.14-18.19.59:429][712]LogFbx: Warning: Triangulating static mesh Scrubber_1
+[2018.03.14-18.19.59:486][712]LogStaticMesh: Building static mesh Scrubber...
+[2018.03.14-18.19.59:497][712]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Scrubber.Scrubber
+[2018.03.14-18.19.59:516][712]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.14-18.20.06:884][250]LogSlate: Took 0.015347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.14-18.20.15:840][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheel)
+[2018.03.14-18.20.18:791][232]Cmd: DELETE
+[2018.03.14-18.20.18:791][232]Cmd: ACTOR DELETE
+[2018.03.14-18.20.18:838][232]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.14-18.20.18:851][232]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2018.03.14-18.20.27:130][506]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nutty_000/Videos/VR-Experience/Wheel.fbx)
+[2018.03.14-18.20.27:171][506]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.14-18.20.27:171][506]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.03.14-18.20.27:171][506]LogFbx: ItemName: Model, ItemCount : 2
+[2018.03.14-18.20.27:171][506]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2018.03.14-18.20.27:172][506]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.14-18.20.27:172][506]LogFbx: ItemName: Material, ItemCount : 1
+[2018.03.14-18.20.27:172][506]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.14-18.20.27:172][506]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.14-18.20.27:172][506]LogFbx: ItemName: Video, ItemCount : 1
+[2018.03.14-18.20.27:177][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Nutty_000/Videos/VR-Experience/Wheel.fbx
+[2018.03.14-18.20.27:301][506]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.20.29:500][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Nutty_000/Videos/VR-Experience/Wheel.fbx
+[2018.03.14-18.20.29:633][506]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.20.29:646][506]LogLinker: Can't find file '/Game/Models/Array'
+[2018.03.14-18.20.29:647][506]LogLinker: Can't find file '/Game/Models/Array'
+[2018.03.14-18.20.29:651][506]LogLinker: Can't find file '/Game/Models/Array_3Surface_Color'
+[2018.03.14-18.20.29:651][506]LogLinker: Can't find file '/Game/Models/Array_3Surface_Color'
+[2018.03.14-18.20.29:891][506]LogTexture: Display: Building textures: Array_3Surface_Color (AutoDXT, 2048X2048)
+[2018.03.14-18.20.31:654][506]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.20.31:695][506]LogFbx: Warning: Triangulating static mesh Array
+[2018.03.14-18.20.38:639][506]LogStaticMesh: Building static mesh Wheel...
+[2018.03.14-18.20.41:098][506]LogStaticMesh: Built static mesh [2.49s] /Game/Models/Wheel.Wheel
+[2018.03.14-18.20.42:617][506]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.14-18.20.48:048][917]LogActorFactory: Actor Factory created Wheel
+[2018.03.14-18.20.50:792][203]LogActorFactory: Actor Factory created Wheel
+[2018.03.14-18.21.29:168][147]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0372 seconds. Added 1 classes and 0 folders.
+[2018.03.14-18.21.29:200][147]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.29:562][147]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.29:604][147]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.29:700][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.14-18.21.29:737][147]LogSlate: Took 0.011673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.14-18.21.33:285][306]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.33:317][306]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.34:569][374]LogMaterialEditor: Saving and Compiling material Array
+[2018.03.14-18.21.37:538][374]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.37:631][374]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.37:687][374]LogMaterial: Missing cached shader map for material Array, compiling. 
+[2018.03.14-18.21.37:815][374]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Array, compiling. 
+[2018.03.14-18.21.39:405][374]TextureStreamingBuild: Display: Compiling optional shaders took 1.595 seconds.
+[2018.03.14-18.21.41:660][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Array" FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Array.uasset" SILENT=true
+[2018.03.14-18.21.41:690][374]LogSavePackage: Save=25.49ms
+[2018.03.14-18.21.41:690][374]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Array11F3FC7145A52758D998D1B24C70E180.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Array.uasset'
+[2018.03.14-18.21.41:699][374]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Array.uasset
+[2018.03.14-18.21.41:709][374]MaterialEditorStats: Base pass shader: 152 instructions
+[2018.03.14-18.21.41:709][374]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
+[2018.03.14-18.21.41:709][374]MaterialEditorStats: Vertex shader: 127 instructions
+[2018.03.14-18.21.41:709][374]MaterialEditorStats: Texture samplers: 4/16
+[2018.03.14-18.21.41:709][374]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.14-18.21.48:728][879]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.03.14-18.22.06:471][486]LogSavePackage: Save=3357.47ms
+[2018.03.14-18.22.06:471][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship7117BDA04F2F382CE3381DBCCB99B2CF.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.14-18.22.06:489][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.14-18.22.06:544][486]LogFileHelpers: Saving map 'Ship' took 9.025
+[2018.03.14-18.22.06:567][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scrubber" FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Scrubber.uasset" SILENT=true
+[2018.03.14-18.22.06:586][486]LogSavePackage: Save=15.73ms
+[2018.03.14-18.22.06:587][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/ScrubberA625038D464F5C9EAEC84D80176986FD.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Scrubber.uasset'
+[2018.03.14-18.22.06:596][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Scrubber.uasset
+[2018.03.14-18.22.06:618][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Wheel" FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Wheel.uasset" SILENT=true
+[2018.03.14-18.22.06:661][486]LogSavePackage: Save=39.41ms
+[2018.03.14-18.22.06:661][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Wheel1D536F7B4E6CDBBF08AC59996800FB94.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Wheel.uasset'
+[2018.03.14-18.22.06:670][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Wheel.uasset
+[2018.03.14-18.22.06:690][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cannon2" FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon2.uasset" SILENT=true
+[2018.03.14-18.22.06:715][486]LogSavePackage: Save=21.44ms
+[2018.03.14-18.22.06:715][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Cannon26A7C43004A615937C4665EB65FE4E8D8.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon2.uasset'
+[2018.03.14-18.22.06:725][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon2.uasset
+[2018.03.14-18.22.06:748][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cannon1" FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon1.uasset" SILENT=true
+[2018.03.14-18.22.06:767][486]LogSavePackage: Save=16.00ms
+[2018.03.14-18.22.06:768][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Cannon178B6C4E14C33CFE6B782BC9D47E5AC62.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon1.uasset'
+[2018.03.14-18.22.06:777][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon1.uasset
+[2018.03.14-18.22.07:313][486]LogSavePackage: Save=519.99ms
+[2018.03.14-18.22.07:313][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Cannon_1Surface_ColorC9F8C3BC4BC07A60EF2542842783B2EB.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon_1Surface_Color.uasset'
+[2018.03.14-18.22.07:322][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Cannon_1Surface_Color.uasset
+[2018.03.14-18.22.07:342][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Scrubber1" FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Scrubber1.uasset" SILENT=true
+[2018.03.14-18.22.07:362][486]LogSavePackage: Save=16.57ms
+[2018.03.14-18.22.07:362][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Scrubber178E8447D44125AE90D567CBFC4675B28.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Scrubber1.uasset'
+[2018.03.14-18.22.07:371][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Scrubber1.uasset
+[2018.03.14-18.22.07:456][486]LogSavePackage: Save=68.58ms
+[2018.03.14-18.22.07:456][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/ScrubberSurface_Color407A61724DFA6C2028B15398154E42AE.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ScrubberSurface_Color.uasset'
+[2018.03.14-18.22.07:465][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ScrubberSurface_Color.uasset
+[2018.03.14-18.22.07:892][486]LogSavePackage: Save=395.75ms
+[2018.03.14-18.22.07:892][486]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Array_3Surface_ColorE074C9F942C888300377648BF6B42AF7.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Array_3Surface_Color.uasset'
+[2018.03.14-18.22.07:901][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Array_3Surface_Color.uasset

@@ -1,11 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading SlaveVRExperienceEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
   ScrubbingSpots.cpp
-  [2/3] Link UE4Editor-SlaveVRExperience-1283.dll
-  [3/3] Link UE4Editor-SlaveVRExperience-1283.lib
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.exp
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.suppressed.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.suppressed.exp
+  [2/3] Link UE4Editor-SlaveVRExperience-961.dll
+  [3/3] Link UE4Editor-SlaveVRExperience-961.lib
+     Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-961.suppressed.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-961.suppressed.exp
+     Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-961.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-961.exp
   Deploying SlaveVRExperienceEditor Win64 Development...
-  Total build time: 5.01 seconds (Local executor: 1.22 seconds)
+  Total build time: 4.44 seconds (Local executor: 2.33 seconds)

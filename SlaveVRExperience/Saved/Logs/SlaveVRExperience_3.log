@@ -1,4 +1,4 @@
-﻿Log file open, 01/29/18 10:54:33
+﻿Log file open, 03/14/18 16:18:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SlaveVRExperience
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1175372504) SRandInit(-1175372503).
+LogInit: Display: RandInit(-228759061) SRandInit(-228759061).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.211834
+LogStats: Stats thread started at 0.203758
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-5829.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-4716.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -190,127 +190,245 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.29-15.54.38:456][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.29-15.54.38:456][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.29-15.54.38:505][  0]LogInit: Computer: IDEA-PC
-[2018.01.29-15.54.38:505][  0]LogInit: User: Nutty000
-[2018.01.29-15.54.38:505][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.29-15.54.38:505][  0]LogInit: High frequency timer resolution =2.923057 MHz
-[2018.01.29-15.54.38:506][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.01.29-15.54.38:506][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-15.54.38:506][  0]LogMemory: Process Physical Memory: 274.33 MB used, 274.33 MB peak
-[2018.01.29-15.54.38:506][  0]LogMemory: Process Virtual Memory: 263.92 MB used, 263.92 MB peak
-[2018.01.29-15.54.38:506][  0]LogMemory: Physical Memory: 7292.53 MB used,  857.09 MB free, 8149.62 MB total
-[2018.01.29-15.54.38:506][  0]LogMemory: Virtual Memory: 662.02 MB used,  857.09 MB free, 134217728.00 MB total
-[2018.01.29-15.54.39:051][  0]LogInit: Using OS detected language (en-US).
-[2018.01.29-15.54.39:051][  0]LogInit: Using OS detected locale (en-US).
-[2018.01.29-15.54.39:061][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.01.29-15.54.39:578][  0]LogInit: Setting process to per monitor DPI aware
-[2018.01.29-15.54.39:986][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.29-15.54.40:211][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.01.29-15.54.40:211][  0]LogD3D11RHI:       8096/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.01.29-15.54.40:215][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.29-15.54.40:215][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.29-15.54.40:215][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.29-15.54.40:223][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.29-15.54.40:223][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.29-15.54.40:223][  0]LogWindows: EnumDisplayDevices:
-[2018.01.29-15.54.40:223][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.01.29-15.54.40:223][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.29-15.54.40:223][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.29-15.54.40:224][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.29-15.54.40:224][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.29-15.54.40:224][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.01.29-15.54.40:224][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.29-15.54.40:224][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.29-15.54.40:224][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.01.29-15.54.40:256][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.29-15.54.40:289][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.01.29-15.54.40:292][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/7264/).
-[2018.01.29-15.54.40:292][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nutty_000/AppData/Local/Temp/UnrealShaderWorkingDir/4C168B634E3520C98FACCEADED6CA0E9/'.
-[2018.01.29-15.54.40:292][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.29-15.54.42:777][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.29-15.54.42:883][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.29-15.54.42:990][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.29-15.54.43:098][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.29-15.54.43:206][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.29-15.54.43:314][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.29-15.54.43:421][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.29-15.54.43:528][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.29-15.54.43:793][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.29-15.54.43:906][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.29-15.54.44:011][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.29-15.54.44:169][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.29-15.54.44:278][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.29-15.54.44:383][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.29-15.54.44:658][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.29-15.54.44:658][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.29-15.54.44:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.29-15.54.45:059][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.29-15.54.45:238][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.29-15.54.45:291][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.29-15.54.45:477][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.29-15.54.45:582][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.29-15.54.45:687][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.29-15.54.45:793][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.29-15.54.45:793][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.29-15.54.47:077][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.29-15.54.47:182][  0]LogDerivedDataCache: Loaded boot cache 0.10s 92MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.29-15.54.47:182][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.01.29-15.54.47:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.29-15.54.47:182][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.29-15.54.47:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.29-15.54.47:182][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.29-15.54.47:202][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.29-15.54.47:216][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nutty_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.29-15.54.47:230][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.29-15.54.47:230][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.29-15.54.47:232][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.29-15.54.47:232][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.29-15.54.49:881][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.29-15.54.50:664][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.29-15.54.50:755][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.29-15.54.50:755][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.29-15.54.50:755][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.01.29-15.54.50:755][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.01.29-15.54.50:755][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.01.29-15.54.50:810][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
-[2018.01.29-15.54.51:174][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
-[2018.01.29-15.54.53:952][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.458624 seconds
-[2018.01.29-15.54.53:959][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.01.29-15.54.53:959][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.01.29-15.54.53:959][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.29-15.54.54:126][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.29-15.56.38:800][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.29-15.56.39:114][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.29-15.56.43:146][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.29-15.56.44:812][  0]SourceControl: Source control is disabled
-[2018.01.29-15.56.44:812][  0]SourceControl: Source control is disabled
-[2018.01.29-15.56.44:976][  0]SourceControl: Source control is disabled
-[2018.01.29-15.56.45:303][  0]SourceControl: Source control is disabled
-[2018.01.29-15.56.50:019][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.29-15.56.51:219][  0]LogOcInput: OculusInput pre-init called
-[2018.01.29-15.56.53:036][  0]LogEngine: Initializing Engine...
-[2018.01.29-15.56.53:482][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.01.29-15.56.53:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.29-15.56.53:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.29-15.56.54:382][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.29-15.56.54:580][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.29-15.56.54:607][  0]LogInit: FAudioDevice initialized.
-[2018.01.29-15.56.55:836][  0]LogDerivedDataCache: Saved boot cache 1.23s 92MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.29-15.56.55:854][  0]LogInit: Texture streaming: Enabled
-[2018.01.29-15.56.57:175][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.29-15.56.57:444][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={155961DF-406C-63F4-4733-B4ACC69373D7}
-[2018.01.29-15.56.57:444][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={D0270FCB-4BB4-672D-3498-B39D7B6B8A66}
-[2018.01.29-15.56.57:990][  0]LogInit: Transaction tracking system initialized
-[2018.01.29-15.56.59:968][  0]BlueprintLog: New page: Editor Load
-[2018.01.29-15.57.07:057][  0]LocalizationService: Localization service is disabled
-[2018.01.29-15.57.14:801][  0]LogConsoleResponse: Display: 
-[2018.01.29-15.57.17:009][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.29-15.57.17:010][  0]LogCook: Display: Mobile HDR setting 1
-[2018.01.29-15.57.17:010][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.14-20.18.43:171][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-20.18.43:172][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.14-20.18.43:187][  0]LogInit: Computer: IDEA-PC
+[2018.03.14-20.18.43:187][  0]LogInit: User: Nutty000
+[2018.03.14-20.18.43:187][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.14-20.18.43:187][  0]LogInit: High frequency timer resolution =2.923051 MHz
+[2018.03.14-20.18.43:188][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.03.14-20.18.43:188][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-20.18.43:188][  0]LogMemory: Process Physical Memory: 272.62 MB used, 272.62 MB peak
+[2018.03.14-20.18.43:188][  0]LogMemory: Process Virtual Memory: 263.74 MB used, 263.74 MB peak
+[2018.03.14-20.18.43:188][  0]LogMemory: Physical Memory: 7125.48 MB used,  1024.14 MB free, 8149.62 MB total
+[2018.03.14-20.18.43:188][  0]LogMemory: Virtual Memory: 661.49 MB used,  1024.14 MB free, 134217728.00 MB total
+[2018.03.14-20.18.43:473][  0]LogInit: Using OS detected language (en-US).
+[2018.03.14-20.18.43:473][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.14-20.18.43:478][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.14-20.18.43:977][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.14-20.18.44:345][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.14-20.18.44:409][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.14-20.18.44:409][  0]LogD3D11RHI:       8096/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.14-20.18.44:412][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.14-20.18.44:412][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.14-20.18.44:412][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.14-20.18.44:419][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.14-20.18.44:419][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.14-20.18.44:419][  0]LogWindows: EnumDisplayDevices:
+[2018.03.14-20.18.44:419][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.14-20.18.44:420][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-20.18.44:420][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-20.18.44:420][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-20.18.44:420][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.14-20.18.44:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.14-20.18.44:420][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.14-20.18.44:420][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.14-20.18.44:420][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.03.14-20.18.44:452][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.14-20.18.44:493][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.14-20.18.44:495][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/13404/).
+[2018.03.14-20.18.44:495][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nutty_000/AppData/Local/Temp/UnrealShaderWorkingDir/A44079E24150B7C46DEC7296EC5975A7/'.
+[2018.03.14-20.18.44:495][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.14-20.18.46:449][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.14-20.18.46:550][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.14-20.18.46:652][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.14-20.18.46:753][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.14-20.18.46:855][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.14-20.18.46:964][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.14-20.18.47:110][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.14-20.18.47:213][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.14-20.18.47:303][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.14-20.18.47:402][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.14-20.18.47:503][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.14-20.18.47:606][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.14-20.18.47:706][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.14-20.18.47:809][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.14-20.18.48:007][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.14-20.18.48:007][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.14-20.18.48:110][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.14-20.18.48:192][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.14-20.18.48:350][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.14-20.18.48:400][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.14-20.18.48:500][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.14-20.18.48:600][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.14-20.18.48:700][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.14-20.18.48:798][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.14-20.18.48:798][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.14-20.18.52:194][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.14-20.19.01:455][  0]LogDerivedDataCache: Loaded boot cache 9.26s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-20.19.01:455][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.14-20.19.01:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.14-20.19.01:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.14-20.19.01:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.14-20.19.01:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.14-20.19.01:572][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.14-20.19.01:587][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nutty_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.14-20.19.01:601][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.14-20.19.01:601][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.14-20.19.01:631][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-20.19.01:631][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-20.19.18:358][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-20.19.19:823][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.14-20.19.20:116][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.14-20.19.20:116][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.14-20.19.20:116][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.14-20.19.20:116][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.14-20.19.20:116][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.14-20.19.20:308][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.03.14-20.19.21:148][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2018.03.14-20.19.25:791][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.185904 seconds
+[2018.03.14-20.19.25:797][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.14-20.19.25:797][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.14-20.19.25:797][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.14-20.19.26:012][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.14-20.21.43:424][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.14-20.21.43:747][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.14-20.21.48:458][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.14-20.21.50:178][  0]SourceControl: Source control is disabled
+[2018.03.14-20.21.50:178][  0]SourceControl: Source control is disabled
+[2018.03.14-20.21.50:484][  0]SourceControl: Source control is disabled
+[2018.03.14-20.21.50:904][  0]SourceControl: Source control is disabled
+[2018.03.14-20.21.57:852][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.14-20.21.59:028][  0]LogOcInput: OculusInput pre-init called
+[2018.03.14-20.22.01:047][  0]LogEngine: Initializing Engine...
+[2018.03.14-20.22.01:429][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.03.14-20.22.02:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.14-20.22.02:107][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.14-20.22.02:575][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.14-20.22.02:764][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.14-20.22.03:507][  0]LogInit: FAudioDevice initialized.
+[2018.03.14-20.22.04:054][  0]LogDerivedDataCache: Saved boot cache 0.55s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-20.22.04:070][  0]LogInit: Texture streaming: Enabled
+[2018.03.14-20.22.04:692][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.14-20.22.05:092][  0]LogInit: Transaction tracking system initialized
+[2018.03.14-20.22.07:098][  0]BlueprintLog: New page: Editor Load
+[2018.03.14-20.22.12:218][  0]LocalizationService: Localization service is disabled
+[2018.03.14-20.22.16:043][  0]LogConsoleResponse: Display: 
+[2018.03.14-20.22.18:022][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.14-20.22.18:023][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.14-20.22.18:023][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.14-20.22.18:325][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.02s
+[2018.03.14-20.22.25:072][  0]SourceControl: Source control is disabled
+[2018.03.14-20.22.25:072][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-20.22.25:073][  0]LightingResults: New page: Lighting Build
+[2018.03.14-20.22.25:208][  0]MapCheck: New page: Map Check
+[2018.03.14-20.22.25:208][  0]LightingResults: New page: Lighting Build
+[2018.03.14-20.24.56:457][  0]LogAIModule: Creating AISystem for world Ship
+[2018.03.14-20.25.20:264][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.25.20:264][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.25.20:264][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.25.20:311][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.25.20:315][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-20.25.20:690][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-20.25.20:839][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 148.371ms to complete.
+[2018.03.14-20.25.20:839][  0]LogFileHelpers: Loading map 'Ship' took 175.766
+[2018.03.14-20.25.21:047][  0]LogCollectionManager: Loaded 0 collections in 0.003884 seconds
+[2018.03.14-20.25.21:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.03.14-20.25.21:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/Nutty000/Collections/' took 0.01s
+[2018.03.14-20.25.21:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.03.14-20.25.21:192][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.14-20.25.21:205][  0]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2369 classes and 522 folders.
+[2018.03.14-20.25.21:356][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.03.14-20.25.21:440][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2018.03.14-20.25.21:538][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2018.03.14-20.25.21:612][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-20.25.21:615][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.14-20.25.21:621][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.14-20.25.21:785][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2018.03.14-20.25.22:156][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.03.14-20.25.22:156][  0]LogLoad: (Engine Initialization) Total time: 404.67 seconds
+[2018.03.14-20.25.22:156][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.14-20.25.22:156][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.14-20.25.22:156][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.14-20.25.22:219][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-20.25.22:250][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.14-20.25.22:318][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-20.25.22:455][  2]LogAssetRegistry: Asset discovery search completed in 361.3287 seconds
+[2018.03.14-20.25.22:458][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.14-20.25.22:458][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2018.03.14-20.25.27:403][260]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 5.17s
+[2018.03.14-20.25.28:087][310]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-20.25.28:831][311]LogRenderer: Reallocating scene render targets to support 1208x616 Format 26 NumSamples 1 (Frame:1).
+[2018.03.14-20.26.12:899][210]LogSlate: Took 0.000884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-20.26.12:907][210]LogSavePackage: Save=7393.03ms
+[2018.03.14-20.26.12:907][210]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/DM_Ship90E56ED04B9EDF5AF6EFF09C95B0E12B.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset'
+[2018.03.14-20.26.13:283][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset
+[2018.03.14-20.29.07:259][346]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-3285.dll
+[2018.03.14-20.29.08:951][352]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.14-20.29.09:981][352]LogClass: ENPCStateEnum HotReload.
+[2018.03.14-20.29.09:981][352]LogClass: ENPCTypeEnum HotReload.
+[2018.03.14-20.29.09:984][352]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.03.14-20.29.11:238][352]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
+[2018.03.14-20.29.11:239][352]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.11:239][352]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.11:239][352]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.11:248][352]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.11:248][352]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.11:248][352]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.11:248][352]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.11:462][352]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.03.14-20.29.11:982][352]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.03.14-20.29.12:177][352]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
+[2018.03.14-20.29.12:670][352]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 6 classes and 3 folders.
+[2018.03.14-20.29.12:672][352]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.03.14-20.29.12:956][352]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2371 classes and 526 folders.
+[2018.03.14-20.29.13:065][352]Display: HotReload took  4.1s.
+[2018.03.14-20.29.31:555][827]LogTemp: Repeating last play command: Simulate
+[2018.03.14-20.29.31:808][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.14-20.29.31:840][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.29.32:042][827]PIE: New page: SIE session: Ship (Mar 14, 2018, 12:29:31 PM)
+[2018.03.14-20.29.32:057][827]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.14-20.29.32:838][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.780778s)
+[2018.03.14-20.29.32:839][827]LogAIModule: Creating AISystem for world Ship
+[2018.03.14-20.29.32:850][827]LogPlayLevel: PIE: World Init took: (0.011532s)
+[2018.03.14-20.29.32:894][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.836577s)
+[2018.03.14-20.29.33:087][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.14-20.29.33:105][827]LogInit: FAudioDevice initialized.
+[2018.03.14-20.29.33:438][827]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.14-20.29.33:830][827]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.33:830][827]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.33:830][827]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.29.33:987][827]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.14-16.29.33
+[2018.03.14-20.29.35:134][827]LogWorld: Bringing up level for play took: 1.392916
+[2018.03.14-20.29.35:881][827]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.14-20.29.36:363][827]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2018.03.14-20.29.36:401][827]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.14-20.29.36:543][827]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 5.094
+[2018.03.14-20.29.36:753][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.14-20.30.12:196][827]LogWindows: Error: === Critical error: ===
+[2018.03.14-20.30.12:196][827]LogWindows: Error: 
+[2018.03.14-20.30.12:196][827]LogWindows: Error: Fatal error!
+[2018.03.14-20.30.12:196][827]LogWindows: Error: 
+[2018.03.14-20.30.12:196][827]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000178
+[2018.03.14-20.30.12:196][827]LogWindows: Error: 
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x000000003A579BDF UE4Editor-SlaveVRExperience-3285.dll!AScrubbingSpots::Tick() [c:\users\nutty_000\documents\github\vr_slaveexperience\slavevrexperience\source\slavevrexperience\scrubbingspots.cpp:60]
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FD770C39 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FD7258B6 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FE779BDB UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FE77DD0B UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x0000000001EF4845 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x0000000001EF4E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x0000000001F1589E UE4Editor-Core.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FE797E11 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FE79C632 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FE08D104 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FE096448 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FC276BA6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000FCB24AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000594C5A26 UE4Editor.exe!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000594D5430 UE4Editor.exe!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000594D54AA UE4Editor.exe!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000594E2379 UE4Editor.exe!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000594E3D57 UE4Editor.exe!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000671E1FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000689DEFC1 ntdll.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: [Callstack] 0x00000000689DEFC1 ntdll.dll!UnknownFunction []
+[2018.03.14-20.30.12:196][827]LogWindows: Error: 
+[2018.03.14-20.30.12:239][827]LogExit: Executing StaticShutdownAfterError
+[2018.03.14-20.30.12:507][827]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.03.14-20.30.12:530][827]Log file closed, 03/14/18 16:30:12

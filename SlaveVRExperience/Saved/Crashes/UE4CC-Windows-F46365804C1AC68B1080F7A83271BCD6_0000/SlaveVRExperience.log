@@ -1,0 +1,689 @@
+﻿Log file open, 03/14/18 14:34:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SlaveVRExperience
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1301597489) SRandInit(-1301597489).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.227781
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-1283.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.14-18.34.44:604][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-18.34.44:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.14-18.34.44:650][  0]LogInit: Computer: IDEA-PC
+[2018.03.14-18.34.44:650][  0]LogInit: User: Nutty000
+[2018.03.14-18.34.44:651][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.14-18.34.44:651][  0]LogInit: High frequency timer resolution =2.923051 MHz
+[2018.03.14-18.34.44:651][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.03.14-18.34.44:651][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.34.44:651][  0]LogMemory: Process Physical Memory: 272.62 MB used, 272.62 MB peak
+[2018.03.14-18.34.44:651][  0]LogMemory: Process Virtual Memory: 263.70 MB used, 263.70 MB peak
+[2018.03.14-18.34.44:651][  0]LogMemory: Physical Memory: 3557.30 MB used,  4592.31 MB free, 8149.62 MB total
+[2018.03.14-18.34.44:651][  0]LogMemory: Virtual Memory: 661.49 MB used,  4592.31 MB free, 134217728.00 MB total
+[2018.03.14-18.34.45:252][  0]LogInit: Using OS detected language (en-US).
+[2018.03.14-18.34.45:252][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.14-18.34.45:449][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.14-18.34.46:436][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.14-18.34.50:153][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.14-18.34.50:298][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.14-18.34.50:298][  0]LogD3D11RHI:       8096/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.14-18.34.50:340][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.14-18.34.50:340][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.14-18.34.50:340][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.14-18.34.50:352][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.14-18.34.50:352][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.14-18.34.50:352][  0]LogWindows: EnumDisplayDevices:
+[2018.03.14-18.34.50:352][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.14-18.34.50:353][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.34.50:353][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.34.50:354][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.34.50:354][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.14-18.34.50:354][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.14-18.34.50:354][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.14-18.34.50:354][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.14-18.34.50:354][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.03.14-18.34.50:388][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.14-18.34.50:408][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.14-18.34.50:411][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/11976/).
+[2018.03.14-18.34.50:411][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nutty_000/AppData/Local/Temp/UnrealShaderWorkingDir/6A772DFD4326F7CBBA3D9AAE3F0C5C60/'.
+[2018.03.14-18.34.50:411][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.14-18.34.51:909][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.14-18.34.52:003][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.14-18.34.52:097][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.14-18.34.52:192][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.14-18.34.52:298][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.14-18.34.52:396][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.14-18.34.52:493][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.14-18.34.52:589][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.14-18.34.52:675][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.14-18.34.52:768][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.14-18.34.52:859][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.14-18.34.52:952][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.14-18.34.53:047][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.14-18.34.53:139][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.14-18.34.53:327][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.14-18.34.53:327][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.14-18.34.53:429][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.14-18.34.53:509][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.14-18.34.53:704][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.14-18.34.53:751][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.14-18.34.53:844][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.14-18.34.53:939][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.14-18.34.54:032][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.14-18.34.54:136][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.14-18.34.54:136][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.14-18.34.55:262][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.14-18.34.56:205][  0]LogDerivedDataCache: Loaded boot cache 0.94s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-18.34.56:205][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.14-18.34.56:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.14-18.34.56:205][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.14-18.34.56:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.14-18.34.56:205][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.14-18.34.56:259][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.14-18.34.56:275][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nutty_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.14-18.34.56:299][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.14-18.34.56:300][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.14-18.34.56:334][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-18.34.56:334][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-18.35.00:182][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-18.35.00:867][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.14-18.35.00:946][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.14-18.35.00:946][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.14-18.35.00:946][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.14-18.35.00:946][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.14-18.35.00:946][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.14-18.35.00:996][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.03.14-18.35.01:256][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2018.03.14-18.35.02:493][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.125613 seconds
+[2018.03.14-18.35.02:499][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.14-18.35.02:500][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.14-18.35.02:500][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.14-18.35.02:599][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.14-18.35.35:270][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.14-18.35.35:351][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.14-18.35.37:312][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.14-18.35.38:218][  0]SourceControl: Source control is disabled
+[2018.03.14-18.35.38:218][  0]SourceControl: Source control is disabled
+[2018.03.14-18.35.38:375][  0]SourceControl: Source control is disabled
+[2018.03.14-18.35.38:528][  0]SourceControl: Source control is disabled
+[2018.03.14-18.35.40:918][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.14-18.35.41:512][  0]LogOcInput: OculusInput pre-init called
+[2018.03.14-18.35.42:162][  0]LogEngine: Initializing Engine...
+[2018.03.14-18.35.42:241][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.03.14-18.35.42:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.14-18.35.42:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.14-18.35.42:789][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.14-18.35.42:807][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.14-18.35.43:010][  0]LogInit: FAudioDevice initialized.
+[2018.03.14-18.35.43:227][  0]LogDerivedDataCache: Saved boot cache 0.22s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.14-18.35.43:248][  0]LogInit: Texture streaming: Enabled
+[2018.03.14-18.35.43:467][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.14-18.35.43:797][  0]LogInit: Transaction tracking system initialized
+[2018.03.14-18.35.44:417][  0]BlueprintLog: New page: Editor Load
+[2018.03.14-18.35.46:435][  0]LocalizationService: Localization service is disabled
+[2018.03.14-18.35.48:166][  0]LogConsoleResponse: Display: 
+[2018.03.14-18.35.48:799][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.14-18.35.48:799][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.14-18.35.48:800][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.14-18.35.49:859][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.03s
+[2018.03.14-18.35.52:002][  0]SourceControl: Source control is disabled
+[2018.03.14-18.35.52:002][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-18.35.52:003][  0]LightingResults: New page: Lighting Build
+[2018.03.14-18.35.52:085][  0]MapCheck: New page: Map Check
+[2018.03.14-18.35.52:085][  0]LightingResults: New page: Lighting Build
+[2018.03.14-18.35.53:224][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.35.53:224][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap.
+[2018.03.14-18.35.53:224][  0]LoadErrors: Error: /Game/Maps/Levels/Ship : Can't find file for asset. /Game/Models/ShipUpdate/DM_Ship
+[2018.03.14-18.35.53:243][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.35.53:244][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap.
+[2018.03.14-18.35.53:244][  0]LoadErrors: Error: /Game/Maps/Levels/Ship : Can't find file for asset. /Game/Models/ShipUpdate/DM_Ship
+[2018.03.14-18.35.53:246][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.35.53:246][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading NULL.
+[2018.03.14-18.35.53:247][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.35.53:247][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading NULL.
+[2018.03.14-18.35.55:394][  0]LogLinker: Warning: Can't find file '/Game/Models/ShipUpdate/DM_Ship'
+[2018.03.14-18.35.55:394][  0]LoadErrors: Failed to load /Game/Models/ShipUpdate/DM_Ship.DM_Ship Referenced by StaticMeshComponent0
+[2018.03.14-18.35.55:394][  0]LogLinker: Warning: Can't find file for asset '/Game/Models/ShipUpdate/DM_Ship' while loading NULL.
+[2018.03.14-18.35.55:394][  0]LoadErrors: Failed to load /Game/Models/ShipUpdate/DM_Ship.DM_Ship Referenced by StaticMeshComponent0
+[2018.03.14-18.36.10:906][  0]LogAIModule: Creating AISystem for world Ship
+[2018.03.14-18.36.19:419][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.36.19:419][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.36.19:419][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.36.19:430][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.36.19:437][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-18.36.19:685][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-18.36.19:818][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 133.394ms to complete.
+[2018.03.14-18.36.19:818][  0]LogFileHelpers: Loading map 'Ship' took 27.817
+[2018.03.14-18.36.20:166][  0]LogCollectionManager: Loaded 0 collections in 0.003145 seconds
+[2018.03.14-18.36.20:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.03.14-18.36.20:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/Nutty000/Collections/' took 0.01s
+[2018.03.14-18.36.20:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.03.14-18.36.20:316][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.14-18.36.20:329][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2369 classes and 522 folders.
+[2018.03.14-18.36.20:456][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2018.03.14-18.36.22:437][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2018.03.14-18.36.22:535][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2018.03.14-18.36.22:626][  0]LogSlate: Took 0.013756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-18.36.22:643][  0]LogSlate: Took 0.014211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.14-18.36.22:665][  0]LogSlate: Took 0.015035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.14-18.36.23:050][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2018.03.14-18.36.23:516][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2018.03.14-18.36.23:516][  0]LogLoad: (Engine Initialization) Total time: 110.45 seconds
+[2018.03.14-18.36.23:516][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.14-18.36.23:516][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.14-18.36.23:516][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.14-18.36.23:527][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.14-18.36.23:568][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.14-18.36.23:754][  2]LogAssetRegistry: Asset discovery search completed in 82.5193 seconds
+[2018.03.14-18.36.23:757][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.14-18.36.23:757][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2018.03.14-18.36.27:669][390]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.36.28:719][502]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 5.18s
+[2018.03.14-18.36.44:891][509]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.37.28:394][509]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/DM_Ship.fbx)
+[2018.03.14-18.37.49:832][509]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-18.37.51:946][509]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.14-18.37.51:947][509]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.14-18.37.51:947][509]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.14-18.37.51:947][509]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.14-18.37.51:947][509]LogFbx: ItemName: Material, ItemCount : 7
+[2018.03.14-18.37.51:947][509]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.03.14-18.37.51:947][509]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.14-18.37.51:947][509]LogFbx: ItemName: Video, ItemCount : 2
+[2018.03.14-18.37.51:953][509]LogFbx: Loading FBX Scene from D:/DM_Ship.fbx
+[2018.03.14-18.38.50:942][509]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.46.01:413][509]LogFbx: Loading FBX Scene from D:/DM_Ship.fbx
+[2018.03.14-18.47.02:717][509]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.14-18.47.07:571][509]LogFbx: Warning: Triangulating static mesh ship1
+[2018.03.14-18.48.10:377][509]LogStaticMesh: Building static mesh DM_Ship...
+[2018.03.14-18.48.30:094][509]LogStaticMesh: Built static mesh [19.78s] /Game/Models/ShipUpdate/DM_Ship.DM_Ship
+[2018.03.14-18.48.42:846][509]LogStaticMesh: Warning: DM_Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.03.14-18.48.42:879][509]LogStaticMesh: Warning: DM_Ship has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.03.14-18.48.58:176][509]FBXImport: Warning: DM_Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.03.14-18.48.58:176][509]FBXImport: Warning: DM_Ship has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.03.14-18.49.35:789][875]LogSlate: Took 0.022512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.49.51:415][199]LogRenderer: Reallocating scene render targets to support 1208x616 Format 26 NumSamples 1 (Frame:1).
+[2018.03.14-18.50.11:843][557]LogSavePackage: Save=3738.52ms
+[2018.03.14-18.50.11:843][557]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/DM_Ship4D83454E41D52DD0C5E77DB46A828584.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset'
+[2018.03.14-18.50.11:962][557]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset
+[2018.03.14-18.50.29:120][558]LogSavePackage: Save=15746.84ms
+[2018.03.14-18.50.29:120][558]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto19499DAC4439EDA994C46E38ECEAACE20.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap'
+[2018.03.14-18.50.29:175][558]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap
+[2018.03.14-18.50.29:288][558]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 16.990
+[2018.03.14-18.50.29:288][558]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 16.990
+[2018.03.14-18.50.41:418][172]LogSavePackage: Save=2607.38ms
+[2018.03.14-18.50.41:418][172]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/DM_Ship32927CCA45431C327CA6D592D9A9EF14.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset'
+[2018.03.14-18.50.41:461][172]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/ShipUpdate/DM_Ship.uasset
+[2018.03.14-18.50.45:566][407]LogEditorViewport: Clicking on Actor (LMB): ScrubbingSpots (ScrubbingSpots2)
+[2018.03.14-18.51.04:797][954]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.14-18.51.04:836][954]Candidate modules for hot reload:
+[2018.03.14-18.51.04:836][954]  SlaveVRExperience
+[2018.03.14-18.51.04:842][954]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 3205 Win64 Development -editorrecompile -canskiplink "C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.03.14-18.51.04:966][954]Warning: Starting HotReload took  0.3s.
+[2018.03.14-18.54.47:128][756]CompilerResultsLog: New page: Compilation - Mar 14, 2018, 10:54:47 AM
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (game project files are newer)
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.03.14-18.54.47:129][756]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 20.042769 seconds
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: Performing 16 actions (4 in parallel)
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: DeckTeleporter.cpp
+[2018.03.14-18.54.47:129][756]CompilerResultsLog: CustomPlayerController.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: NPC.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: CustomPlayerController.gen.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: NPCWorkstation.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: SlaveVRExperience.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: ScrubbingSpots.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: FP_FirstPersonCharacter.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: DeckTeleporter.gen.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: FP_FirstPersonCharacter.gen.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: c1xx: error C3859: virtual memory range for PCH exceeded; please recompile with a command line option of '-Zm94' or greater
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: c1xx: fatal error C1076: compiler limit: internal heap limit reached; use /Zm to specify a higher limit
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: NPC.gen.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: ScrubbingSpots.gen.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: c1xx: error C3859: virtual memory range for PCH exceeded; please recompile with a command line option of '-Zm94' or greater
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: c1xx: fatal error C1076: compiler limit: internal heap limit reached; use /Zm to specify a higher limit
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Binaries\Win64\UE4Editor-SlaveVRExperience-3205.dll
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: Failed to write dependency cache: Access to the path 'C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor' is denied.
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: Failed to write FlatCPPIncludeDependencyCache: Access to the path 'C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor' is denied.
+[2018.03.14-18.54.47:138][756]CompilerResultsLog: Total build time: 219.30 seconds (Local executor: 0.00 seconds)
+[2018.03.14-18.54.47:139][756]LogMainFrame: MainFrame: Module compiling took 222.342 seconds
+[2018.03.14-18.54.47:139][756]Warning: HotReload failed, recompile failed
+[2018.03.14-18.55.26:500][498]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.14-18.55.26:504][498]Candidate modules for hot reload:
+[2018.03.14-18.55.26:504][498]  SlaveVRExperience
+[2018.03.14-18.55.26:504][498]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 7072 Win64 Development -editorrecompile -canskiplink "C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.03.14-18.55.26:509][498]Warning: Starting HotReload took  0.0s.
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: New page: Compilation - Mar 14, 2018, 10:55:36 AM
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: ScrubbingSpots.gen.cpp
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: FP_FirstPersonCharacter.cpp
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: [3/4] Link UE4Editor-SlaveVRExperience-7072.dll
+[2018.03.14-18.55.36:666][266]CompilerResultsLog: [4/4] Link UE4Editor-SlaveVRExperience-7072.lib
+[2018.03.14-18.55.36:667][266]CompilerResultsLog:    Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7072.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7072.exp
+[2018.03.14-18.55.36:667][266]CompilerResultsLog:    Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7072.suppressed.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-7072.suppressed.exp
+[2018.03.14-18.55.36:667][266]CompilerResultsLog: Failed to write dependency cache: Access to the path 'C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor' is denied.
+[2018.03.14-18.55.36:667][266]CompilerResultsLog: Failed to write FlatCPPIncludeDependencyCache: Access to the path 'C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor' is denied.
+[2018.03.14-18.55.36:667][266]CompilerResultsLog: Total build time: 9.82 seconds (Local executor: 7.45 seconds)
+[2018.03.14-18.55.36:667][266]LogMainFrame: MainFrame: Module compiling took 10.166 seconds
+[2018.03.14-18.55.37:219][266]LogClass: Could not find existing class ScrubbingSpots in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.03.14-18.55.37:219][266]LogClass: Function OnOverlapBegin is new.
+[2018.03.14-18.55.37:219][266]LogClass: Function OnOverlapEnd is new.
+[2018.03.14-18.55.37:224][266]LogClass: ENPCStateEnum HotReload.
+[2018.03.14-18.55.37:224][266]LogClass: ENPCTypeEnum HotReload.
+[2018.03.14-18.55.37:820][266]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.03.14-18.55.38:298][266]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
+[2018.03.14-18.55.38:368][266]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.55.38:368][266]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.55.38:368][266]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.55.38:393][266]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.55.38:393][266]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.55.38:393][266]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.55.38:394][266]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-18.55.38:583][266]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.03.14-18.55.39:534][266]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.03.14-18.55.39:720][266]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
+[2018.03.14-18.55.40:289][266]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0426 seconds. Added 6 classes and 3 folders.
+[2018.03.14-18.55.40:292][266]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.03.14-18.55.40:473][266]LogContentBrowser: Native class hierarchy populated in 0.0273 seconds. Added 2371 classes and 526 folders.
+[2018.03.14-18.55.40:482][266]Display: HotReload took 14.0s.
+[2018.03.14-18.56.27:653][964]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.27:915][965]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.28:153][966]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.28:484][967]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.28:819][968]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.29:153][969]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.29:485][970]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.29:820][971]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.30:153][972]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.30:486][973]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.30:819][974]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.31:153][975]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.31:486][976]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.31:820][977]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.32:153][978]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.32:487][979]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.32:820][980]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.33:153][981]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.33:486][982]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.33:820][983]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.56.53:052][984]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.57.03:918][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.57.03:937][997]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.57.04:273][998]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-18.59.18:568][388]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.03.14-19.00.50:706][663]LogWindows: LaunchFileInExternalEditor C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.h 
+[2018.03.14-19.01.19:164][663]LogWindows: Launch application code for C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.h : 42
+[2018.03.14-19.01.19:164][663]LogWindows: LaunchFileInExternalEditor C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.cpp 
+[2018.03.14-19.01.19:296][663]LogWindows: Launch application code for C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.cpp : 42
+[2018.03.14-19.01.19:296][663]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.14-19.01.19:454][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:454][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:454][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:454][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:455][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:455][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:455][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:455][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:455][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:455][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:455][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:456][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:456][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:456][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:456][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:456][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:456][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:456][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:457][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:457][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:457][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:457][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:457][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:457][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:457][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:458][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:459][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:460][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:460][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:460][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:460][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:460][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:460][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:461][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:461][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:461][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:461][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:461][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:461][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:461][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:462][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:462][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:462][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:462][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:462][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:462][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:462][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:463][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:463][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:463][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:463][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:463][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:463][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:463][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:464][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:464][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:464][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:464][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:464][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:464][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:464][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:465][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:465][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:465][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:465][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:465][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:465][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:465][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:466][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:467][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:467][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:467][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:467][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:467][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:467][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:468][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:468][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:468][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:468][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:468][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:468][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:468][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:469][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.19:469][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.22:142][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.22:225][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.23:106][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.23:106][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.23:757][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.23:758][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-19.01.23:758][663]LogVSAccessor: Warning: Couldn't access module table
+[2018.03.14-20.13.04:608][565]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-9741.dll
+[2018.03.14-20.13.05:287][568]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.14-20.13.05:590][568]LogClass: Could not find existing class ScrubbingSpots in package /Script/SlaveVRExperience for HotReload, assuming new class
+[2018.03.14-20.13.05:590][568]LogClass: Function OnOverlapBegin is new.
+[2018.03.14-20.13.05:590][568]LogClass: Function OnOverlapEnd is new.
+[2018.03.14-20.13.05:591][568]LogClass: ENPCStateEnum HotReload.
+[2018.03.14-20.13.05:601][568]LogClass: ENPCTypeEnum HotReload.
+[2018.03.14-20.13.05:606][568]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.03.14-20.13.06:017][568]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
+[2018.03.14-20.13.06:022][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.13.06:022][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.13.06:022][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.13.06:023][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.13.06:024][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.13.06:024][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.13.06:024][568]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.13.06:210][568]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.03.14-20.13.06:675][568]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.03.14-20.13.06:867][568]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
+[2018.03.14-20.13.07:423][568]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0021 seconds. Added 6 classes and 3 folders.
+[2018.03.14-20.13.07:425][568]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.03.14-20.13.07:502][568]LogContentBrowser: Native class hierarchy populated in 0.0183 seconds. Added 2371 classes and 526 folders.
+[2018.03.14-20.13.07:506][568]Display: HotReload took  2.2s.
+[2018.03.14-20.14.49:295][873]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-4716.dll
+[2018.03.14-20.14.49:984][876]LogHotReload: Starting Hot-Reload from IDE
+[2018.03.14-20.14.50:187][876]LogClass: ENPCStateEnum HotReload.
+[2018.03.14-20.14.50:188][876]LogClass: ENPCTypeEnum HotReload.
+[2018.03.14-20.14.50:190][876]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
+[2018.03.14-20.14.50:587][876]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
+[2018.03.14-20.14.50:588][876]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.14.50:588][876]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.14.50:588][876]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.14.50:589][876]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.14.50:589][876]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.14.50:589][876]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.14.50:589][876]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.14.50:778][876]LogHotReload: Re-instancing NPC after hot-reload.
+[2018.03.14-20.14.51:281][876]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
+[2018.03.14-20.14.51:468][876]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
+[2018.03.14-20.14.52:007][876]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 6 classes and 3 folders.
+[2018.03.14-20.14.52:009][876]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.03.14-20.14.52:073][876]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2371 classes and 526 folders.
+[2018.03.14-20.14.52:077][876]Display: HotReload took  2.1s.
+[2018.03.14-20.15.01:180][634]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (Scrubber)
+[2018.03.14-20.15.03:643][808]LogTemp: Repeating last play command: Simulate
+[2018.03.14-20.15.10:421][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.14-20.15.10:449][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-20.15.10:533][808]PIE: New page: SIE session: Ship (Mar 14, 2018, 12:15:10 PM)
+[2018.03.14-20.15.10:560][808]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.14-20.15.11:955][808]LogPlayLevel: PIE: StaticDuplicateObject took: (1.394400s)
+[2018.03.14-20.15.12:004][808]LogAIModule: Creating AISystem for world Ship
+[2018.03.14-20.15.12:037][808]LogPlayLevel: PIE: World Init took: (0.075729s)
+[2018.03.14-20.15.12:055][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (1.501300s)
+[2018.03.14-20.15.12:209][808]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.14-20.15.12:294][808]LogInit: FAudioDevice initialized.
+[2018.03.14-20.15.12:784][808]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.14-20.15.13:381][808]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.15.13:381][808]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.15.13:381][808]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.14-20.15.13:398][808]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.14-16.15.13
+[2018.03.14-20.15.13:623][808]LogWorld: Bringing up level for play took: 0.660025
+[2018.03.14-20.15.13:744][808]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.14-20.15.14:184][808]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2018.03.14-20.15.14:240][808]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.14-20.15.14:479][808]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 5.023
+[2018.03.14-20.15.14:884][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'

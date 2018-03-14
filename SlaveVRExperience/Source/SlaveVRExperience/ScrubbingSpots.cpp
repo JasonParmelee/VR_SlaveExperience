@@ -57,9 +57,24 @@ void AScrubbingSpots::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	FVector newVector = FVector(0);
+	FVector diffVector;
+	float diffSize;
+	if (trueFalse == true)
+	{
+		newVector = scrubber->GetActorLocation();
+		FVector diffVector = newVector - oldVector;
 
-	if (trueFalse == true && scallingNum > 0 /*&& !scrubber->GetVelocity().IsNearlyZero(5.0f)*/)
+		/*
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Vector Length: %f"), diffVector.Size()));
+		*/
+
+		diffSize = diffVector.Size();
+	}
+	else
+		diffSize = 0.0;
+
+	if (trueFalse == true && (scallingNum > 0) && (diffSize > 1.0f))
 	{
 		_collision->SetWorldScale3D(FVector(scallingNum));
 		scallingNum -= .001f;
@@ -73,7 +88,8 @@ void AScrubbingSpots::Tick(float DeltaTime)
 		this->Destroy();
 	}
 	
-
+	if (trueFalse == true)
+		oldVector = newVector;
 }
 
 void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -84,8 +100,10 @@ void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 	if (OtherActor->GetName().Equals("Scrubber"))
 	{
 		scrubber = OtherActor;
+		oldVector = scrubber->GetActorLocation();
 		trueFalse = true;
 	}
+
 
 	GetWorldTimerManager().SetTimer(timerHandler, this, &AScrubbingSpots::TimerFunction, 1.0f, true);
 

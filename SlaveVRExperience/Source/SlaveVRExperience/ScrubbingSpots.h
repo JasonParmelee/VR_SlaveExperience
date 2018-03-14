@@ -40,6 +40,8 @@ private:
 	float scallingNum;
 	int timerNum;
 	FTimerHandle timerHandler;
+	FVector oldVector;
+	FVector newVector;
 
 };
 

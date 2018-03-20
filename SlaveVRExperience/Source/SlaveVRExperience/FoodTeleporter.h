@@ -5,7 +5,8 @@
 #include "CoreMinimal.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
-#include "DeckTeleporter.generated.h"
+//#include "DeckTeleporter.generated.h"
+#include "FoodTeleporter.generated.h"		///Added by Thomas Boswell 3/20/18
 
 UCLASS()
 class SLAVEVREXPERIENCE_API AFoodTeleporter : public AActor

@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeSlaveVRExperience_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/SlaveVRExperience",
 				PKG_CompiledIn | 0x00000000,
-				0xD7C0EE73,
-				0x24DAD242,
+				0x43997B3D,
+				0x7B661512,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

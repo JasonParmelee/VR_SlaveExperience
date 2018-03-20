@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SlaveVRExperience.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{375B4948-0280-4E55-8CBA-D44B51D44F63}</UniqueIdentifier>
+			<UniqueIdentifier>{78A08ED5-323D-4D14-8C3C-4C665148BBF6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SlaveVRExperience.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{7B0C62B9-A06C-4AD5-BA35-CAF29C22D356}</UniqueIdentifier>
+			<UniqueIdentifier>{DE6BF4D8-8F02-427A-BDF2-8BE105F3A9AF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -34,7 +34,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SlaveVRExperience">
-			<UniqueIdentifier>{83809F83-7354-4459-AE54-CD0C14CB8284}</UniqueIdentifier>
+			<UniqueIdentifier>{55A00832-149E-41F4-8870-D49BA17DEB0B}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\SlaveVRExperience\CustomPlayerController.cpp">
 			<Filter>Source\SlaveVRExperience</Filter>
@@ -46,6 +46,12 @@
 			<Filter>Source\SlaveVRExperience</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\SlaveVRExperience\DeckTeleporter.h">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SlaveVRExperience\FoodTeleporter.cpp">
+			<Filter>Source\SlaveVRExperience</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SlaveVRExperience\FoodTeleporter.h">
 			<Filter>Source\SlaveVRExperience</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\SlaveVRExperience\NPC.cpp">
@@ -76,7 +82,7 @@
 			<Filter>Source\SlaveVRExperience</Filter>
 		</ClInclude >
 		<Filter Include="Source\SlaveVRExperience\FP_FirstPerson">
-			<UniqueIdentifier>{5BA3367A-7A29-4690-9322-1BEEC6498BE2}</UniqueIdentifier>
+			<UniqueIdentifier>{8729A2D4-CC69-480A-887B-88B113047529}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPerson.h">
 			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>

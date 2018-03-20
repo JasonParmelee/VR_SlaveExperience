@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define SLAVEVREXPERIENCE_FoodTeleporter_generated_h
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_RPC_WRAPPERS \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
@@ -45,7 +45,7 @@ struct FHitResult;
 	}
 
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
@@ -74,7 +74,7 @@ struct FHitResult;
 	}
 
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_INCLASS_NO_PURE_DECLS \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFoodTeleporter(); \
 	friend SLAVEVREXPERIENCE_API class UClass* Z_Construct_UClass_AFoodTeleporter(); \
@@ -84,7 +84,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_INCLASS \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAFoodTeleporter(); \
 	friend SLAVEVREXPERIENCE_API class UClass* Z_Construct_UClass_AFoodTeleporter(); \
@@ -94,7 +94,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_STANDARD_CONSTRUCTORS \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFoodTeleporter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFoodTeleporter) \
@@ -107,7 +107,7 @@ private: \
 public:
 
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_ENHANCED_CONSTRUCTORS \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFoodTeleporter(AFoodTeleporter&&); \
@@ -118,26 +118,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFoodTeleporter); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFoodTeleporter)
 
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_PRIVATE_PROPERTY_OFFSET
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_11_PROLOG
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_GENERATED_BODY_LEGACY \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_PRIVATE_PROPERTY_OFFSET
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_10_PROLOG
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_PRIVATE_PROPERTY_OFFSET \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_RPC_WRAPPERS \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_INCLASS \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_STANDARD_CONSTRUCTORS \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_PRIVATE_PROPERTY_OFFSET \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_RPC_WRAPPERS \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_INCLASS \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_GENERATED_BODY \
+#define SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_PRIVATE_PROPERTY_OFFSET \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_INCLASS_NO_PURE_DECLS \
-	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_14_ENHANCED_CONSTRUCTORS \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_PRIVATE_PROPERTY_OFFSET \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_INCLASS_NO_PURE_DECLS \
+	SlaveVRExperience_Source_SlaveVRExperience_FoodTeleporter_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

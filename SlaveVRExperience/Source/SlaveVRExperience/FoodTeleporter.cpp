@@ -46,23 +46,9 @@ void AFoodTeleporter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 		// Same as with the Object Iterator, access the subclass instance with the * or -> operators.
 		AStaticMeshActor *Mesh = *ActorItr;
 
-		/*
-		if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Actor: %s"), *ActorItr->GetName()));
-		*/
-
-		if (ActorItr->GetName().Equals("TeleportBelowFood") && this->GetName().Equals("FoodTeleporterAbove"))
-		{
+		if (ActorItr->GetName().Equals("FoodTPLocation") && this->GetName().Equals("FoodTeleporter") && OtherActor->GetName().Equals("Food"))
 			OtherActor->SetActorLocation(ActorItr->GetActorLocation(), false);
-		}
-		else if (ActorItr->GetName().Equals("TeleportAboveFood") && this->GetName().Equals("FoodTeleporterBelow"))
-		{
-			OtherActor->SetActorLocation(ActorItr->GetActorLocation(), false);
-		}
 	}
-
-	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Colliding begin %s"), *OtherActor->GetName()));
 }
 
 

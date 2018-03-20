@@ -1,11 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading SlaveVRExperienceEditor (modules to compile have changed)
+  Creating makefile for hot reloading SlaveVRExperienceEditor (changes to target files)
   Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
-  ScrubbingSpots.cpp
-  [2/3] Link UE4Editor-SlaveVRExperience-1283.dll
-  [3/3] Link UE4Editor-SlaveVRExperience-1283.lib
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.exp
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.suppressed.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1283.suppressed.exp
-  Deploying SlaveVRExperienceEditor Win64 Development...
-  Total build time: 5.01 seconds (Local executor: 1.22 seconds)
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for SlaveVRExperienceEditor
+    Running UnrealHeaderTool "C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SlaveVRExperienceEditor in 7.778361 seconds
+  Distributing 21 actions to XGE
+EXEC : Fatal error : Failed to open/create session data
+ERROR : UBT error : Failed to produce item: C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Binaries\Win64\UE4Editor-SlaveVRExperience-427.dll
+  Failed to open/create session data: STATUS_ACCESS_DENIED
+  
+  
+  Total build time: 14.61 seconds (XGE executor: 0.00 seconds)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" SlaveVRExperienceEditor Win64 Development "C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

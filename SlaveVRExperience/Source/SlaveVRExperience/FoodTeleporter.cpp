@@ -46,7 +46,7 @@ void AFoodTeleporter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 		// Same as with the Object Iterator, access the subclass instance with the * or -> operators.
 		AStaticMeshActor *Mesh = *ActorItr;
 
-		if (ActorItr->GetName().Equals("FoodTPLocation") && this->GetName().Equals("FoodTeleporter") && OtherActor->GetName().Equals("Food"))
+		if (OtherActor->GetName().Equals("Food"))
 			OtherActor->SetActorLocation(ActorItr->GetActorLocation(), false);
 	}
 }

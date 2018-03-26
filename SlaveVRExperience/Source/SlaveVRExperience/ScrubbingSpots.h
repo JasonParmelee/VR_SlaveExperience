@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/SphereComponent.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
 #include "ScrubbingSpots.generated.h"
 
@@ -34,12 +34,18 @@ public:
 
 private:
 	AActor* scrubber;
-	USphereComponent* _collision;
 	UStaticMeshComponent* SphereVisual;
+
+	UBoxComponent * collisionBox;
+	UStaticMeshComponent* BoxVisual;
+	FVector boxScale;
+
 	bool trueFalse;
 	float scallingNum;
 	int timerNum;
 	FTimerHandle timerHandler;
+	FVector oldVector;
+	FVector newVector;
 
 };
 

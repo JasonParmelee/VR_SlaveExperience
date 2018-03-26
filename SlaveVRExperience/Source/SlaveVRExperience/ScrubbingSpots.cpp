@@ -21,13 +21,12 @@ AScrubbingSpots::AScrubbingSpots(const FObjectInitializer& objectInitializer)
 	timerNum = 0;
 
 
-	_collision = CreateDefaultSubobject<USphereComponent>(TEXT("RootCollision"));
+	collisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("RootCollision"));
+	collisionBox->SetHiddenInGame(false);
 
-	_collision->SetSphereRadius(150.0f);
-	_collision->SetHiddenInGame(false);
-	//_collision->SetMobility(EComponentMobility::Movable);
-
-	RootComponent = _collision;
+	boxScale = FVector(170, 170, 20);
+	collisionBox->SetBoxExtent(boxScale, true);
+	RootComponent = collisionBox;
 
 	SphereVisual = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisualRepresentation"));
 	SphereVisual->SetupAttachment(RootComponent);
@@ -40,9 +39,9 @@ AScrubbingSpots::AScrubbingSpots(const FObjectInitializer& objectInitializer)
 	}
 
 
-	_collision->bGenerateOverlapEvents = true;
-	_collision->OnComponentBeginOverlap.AddDynamic(this, &AScrubbingSpots::OnOverlapBegin);
-	_collision->OnComponentEndOverlap.AddDynamic(this, &AScrubbingSpots::OnOverlapEnd);
+	collisionBox->bGenerateOverlapEvents = true;
+	collisionBox->OnComponentBeginOverlap.AddDynamic(this, &AScrubbingSpots::OnOverlapBegin);
+	collisionBox->OnComponentEndOverlap.AddDynamic(this, &AScrubbingSpots::OnOverlapEnd);
 }
 
 // Called when the game starts or when spawned
@@ -57,23 +56,41 @@ void AScrubbingSpots::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	FVector newVector = FVector(0);
-
-	if (trueFalse == true && scallingNum > 0 /*&& !scrubber->GetVelocity().IsNearlyZero(5.0f)*/)
+	FVector diffVector;
+	float diffSize;
+	if (trueFalse == true)
 	{
-		_collision->SetWorldScale3D(FVector(scallingNum));
+		newVector = scrubber->GetActorLocation();
+		FVector diffVector = newVector - oldVector;
+
+		/*
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Vector Length: %f"), diffVector.Size()));
+		*/
+
+		diffSize = diffVector.Size();
+	}
+	else
+		diffSize = 0.0;
+
+	if (trueFalse == true && (scallingNum > 0) && (diffSize > 1.0f))
+	{
+		collisionBox->SetWorldScale3D(FVector(scallingNum));
 		scallingNum -= .001f;
 	}
 
 	if (scallingNum <= 0)
 	{
+		/*
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("scallingNum is less than or equal to 0"));
+			*/
 
 		this->Destroy();
 	}
 	
-
+	if (trueFalse == true)
+		oldVector = newVector;
 }
 
 void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -84,8 +101,10 @@ void AScrubbingSpots::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 	if (OtherActor->GetName().Equals("Scrubber"))
 	{
 		scrubber = OtherActor;
+		oldVector = scrubber->GetActorLocation();
 		trueFalse = true;
 	}
+
 
 	GetWorldTimerManager().SetTimer(timerHandler, this, &AScrubbingSpots::TimerFunction, 1.0f, true);
 
@@ -135,8 +154,10 @@ void AScrubbingSpots::TimerFunction()
 	timerNum++;
 	if (timerNum == 5)
 	{
+		/*
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Time is 5!"));
+		*/
 
 		//timerNum = 0;
 	}

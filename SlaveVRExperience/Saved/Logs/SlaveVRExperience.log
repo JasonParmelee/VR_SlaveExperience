@@ -1,4 +1,4 @@
-﻿Log file open, 03/26/18 17:10:55
+﻿Log file open, 03/27/18 14:03:48
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SlaveVRExperience
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1841655029) SRandInit(1841655029).
+LogInit: Display: RandInit(-949604363) SRandInit(-949604363).
 LogInit: Read version file with build ID '3709383'
-LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.254105
+LogStats: Stats thread started at 3.176900
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-3959.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-1507.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -165,8 +165,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.18-CL-3832480
-LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Build: ++UE4+Release-4.18-CL-3794801
+LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
 LogInit: Net CL: 3709383
 LogDevObjectVersion: Number of dev versions registered: 16
@@ -186,875 +186,549 @@ LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
-LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: D:/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.26-21.11.01:476][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.26-21.11.01:476][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.26-21.11.01:502][  0]LogInit: Computer: IDEA-PC
-[2018.03.26-21.11.01:502][  0]LogInit: User: Nutty000
-[2018.03.26-21.11.01:502][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.26-21.11.01:502][  0]LogInit: High frequency timer resolution =2.923048 MHz
-[2018.03.26-21.11.01:503][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.03.26-21.11.01:503][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.26-21.11.01:503][  0]LogMemory: Process Physical Memory: 275.16 MB used, 275.16 MB peak
-[2018.03.26-21.11.01:503][  0]LogMemory: Process Virtual Memory: 271.80 MB used, 271.80 MB peak
-[2018.03.26-21.11.01:503][  0]LogMemory: Physical Memory: 3706.52 MB used,  4443.10 MB free, 8149.62 MB total
-[2018.03.26-21.11.01:503][  0]LogMemory: Virtual Memory: 670.02 MB used,  4443.10 MB free, 134217728.00 MB total
-[2018.03.26-21.11.01:889][  0]LogInit: Using OS detected language (en-US).
-[2018.03.26-21.11.01:889][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.26-21.11.01:996][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.26-21.11.02:823][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.26-21.11.06:308][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.26-21.11.06:399][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.03.26-21.11.06:399][  0]LogD3D11RHI:       8096/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.26-21.11.06:402][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.26-21.11.06:402][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.26-21.11.06:402][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.26-21.11.06:410][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.26-21.11.06:410][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.26-21.11.06:410][  0]LogWindows: EnumDisplayDevices:
-[2018.03.26-21.11.06:410][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.03.26-21.11.06:410][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.26-21.11.06:410][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.26-21.11.06:410][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.03.26-21.11.06:411][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.26-21.11.06:411][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.03.26-21.11.06:411][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.26-21.11.06:411][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.26-21.11.06:411][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.03.26-21.11.06:443][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.26-21.11.06:463][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.26-21.11.06:465][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/1548/).
-[2018.03.26-21.11.06:466][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nutty_000/AppData/Local/Temp/UnrealShaderWorkingDir/0E6CD24E4C0F99D2AEE69B96C05F5558/'.
-[2018.03.26-21.11.06:466][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.26-21.11.09:933][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.26-21.11.10:040][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.26-21.11.10:148][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.26-21.11.10:253][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.26-21.11.10:395][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.26-21.11.10:496][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.26-21.11.10:599][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.26-21.11.10:701][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.26-21.11.10:792][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.26-21.11.10:892][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.26-21.11.10:990][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.26-21.11.11:089][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.26-21.11.11:187][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.26-21.11.11:286][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.26-21.11.11:484][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.26-21.11.11:484][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.26-21.11.11:602][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.26-21.11.11:686][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.26-21.11.11:857][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.26-21.11.11:908][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.26-21.11.12:009][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.26-21.11.12:111][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.26-21.11.12:211][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.26-21.11.12:316][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.26-21.11.12:316][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.26-21.11.13:482][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.26-21.11.14:226][  0]LogDerivedDataCache: Loaded boot cache 0.74s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.26-21.11.14:226][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.26-21.11.14:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.26-21.11.14:226][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.26-21.11.14:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.26-21.11.14:226][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.26-21.11.14:256][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.26-21.11.14:269][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nutty_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.26-21.11.14:283][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.26-21.11.14:284][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.26-21.11.14:306][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.26-21.11.14:306][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.26-21.11.17:281][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.26-21.11.18:006][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.26-21.11.18:091][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.26-21.11.18:091][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.26-21.11.18:091][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.26-21.11.18:091][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.26-21.11.18:091][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.26-21.11.18:142][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
-[2018.03.26-21.11.18:409][  0]LogAssetRegistry: FAssetRegistry took 0.0283 seconds to start up
-[2018.03.26-21.11.19:283][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.126383 seconds
-[2018.03.26-21.11.19:290][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.26-21.11.19:290][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.26-21.11.19:290][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.26-21.11.19:431][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.26-21.11.59:357][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.26-21.11.59:437][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.26-21.12.02:583][  0]LogConfig: Warning: Failed to saved backup for config[InternationalizationExport]
-[2018.03.26-21.12.02:741][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.26-21.12.03:620][  0]LogConfig: Warning: Failed to saved backup for config[SourceControlSettings]
-[2018.03.26-21.12.03:621][  0]SourceControl: Source control is disabled
-[2018.03.26-21.12.03:621][  0]SourceControl: Source control is disabled
-[2018.03.26-21.12.03:740][  0]SourceControl: Source control is disabled
-[2018.03.26-21.12.03:889][  0]SourceControl: Source control is disabled
-[2018.03.26-21.12.06:029][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.26-21.12.06:631][  0]LogOcInput: OculusInput pre-init called
-[2018.03.26-21.12.07:263][  0]LogEngine: Initializing Engine...
-[2018.03.26-21.12.07:319][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.03.26-21.12.07:623][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.26-21.12.07:623][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.26-21.12.07:908][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.26-21.12.07:930][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.26-21.12.07:983][  0]LogInit: FAudioDevice initialized.
-[2018.03.26-21.12.08:189][  0]LogDerivedDataCache: Saved boot cache 0.21s 88MB C:/Users/Nutty_000/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.26-21.12.08:200][  0]LogInit: Texture streaming: Enabled
-[2018.03.26-21.12.08:409][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.26-21.12.08:689][  0]LogInit: Transaction tracking system initialized
-[2018.03.26-21.12.09:369][  0]BlueprintLog: New page: Editor Load
-[2018.03.26-21.12.11:269][  0]LocalizationService: Localization service is disabled
-[2018.03.26-21.12.12:926][  0]LogConsoleResponse: Display: 
-[2018.03.26-21.12.13:869][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.26-21.12.13:869][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.26-21.12.13:869][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.26-21.12.14:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.02s
-[2018.03.26-21.12.17:363][  0]SourceControl: Source control is disabled
-[2018.03.26-21.12.17:363][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.26-21.12.17:364][  0]LightingResults: New page: Lighting Build
-[2018.03.26-21.12.17:452][  0]MapCheck: New page: Map Check
-[2018.03.26-21.12.17:452][  0]LightingResults: New page: Lighting Build
-[2018.03.26-21.12.24:414][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/ShipUpdate/DM_Ship_sail_Anim.DM_Ship_sail_Anim
-[2018.03.26-21.12.24:422][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/ShipUpdate/DM_Ship_sail_Anim.DM_Ship_sail_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.03.26-21.12.25:156][  0]LogDerivedDataCache: FFileSystemDerivedDataBackend: Move collision, attempt at redundant update, OK C:/Users/Nutty_000/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/0/ANIMSEQ_44870622F1374957B3252BC65DDCFA9F_1_0_0_E0CB29C44734CBE2A4601F87A4DF887__3ED049323CE782F9CA9710979881AEBAA7AEE261.udd.
-[2018.03.26-21.12.25:158][  0]LogMaterial: Missing cached shader map for material sail_lambert, compiling. 
-[2018.03.26-21.12.27:829][  0]LogMaterial: Missing cached shader map for material Cannon1, compiling. 
-[2018.03.26-21.12.28:339][  0]LogMaterial: Missing cached shader map for material Array, compiling. 
-[2018.03.26-21.12.28:903][  0]LogAIModule: Creating AISystem for world Ship
-[2018.03.26-21.12.39:421][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.12.39:421][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.12.39:421][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.12.39:606][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.12.39:655][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.26-21.12.40:755][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.26-21.12.42:634][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,869.265ms to complete.
-[2018.03.26-21.12.42:648][  0]LogFileHelpers: Loading map 'Ship' took 25.285
-[2018.03.26-21.12.46:017][  0]LogCollectionManager: Loaded 0 collections in 0.024373 seconds
-[2018.03.26-21.12.48:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
-[2018.03.26-21.12.48:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/Nutty000/Collections/' took 0.01s
-[2018.03.26-21.12.48:532][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
-[2018.03.26-21.12.48:532][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.03.26-21.12.48:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0419 seconds. Added 2370 classes and 522 folders.
-[2018.03.26-21.12.48:917][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2018.03.26-21.12.51:798][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
-[2018.03.26-21.12.52:008][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2018.03.26-21.12.52:927][  0]LogSlate: Took 0.038840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.26-21.12.52:948][  0]LogSlate: Took 0.014354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.26-21.12.53:053][  0]LogSlate: Took 0.035242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.26-21.12.53:853][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
-[2018.03.26-21.13.14:142][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2018.03.26-21.13.14:142][  0]LogLoad: (Engine Initialization) Total time: 148.51 seconds
-[2018.03.26-21.13.14:142][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.26-21.13.14:142][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.03.26-21.13.14:142][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.03.26-21.13.14:643][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.26-21.13.15:045][  0]LogSlate: Took 0.017142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.26-21.13.15:342][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.76s
-[2018.03.26-21.13.15:581][  1]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+[2018.03.27-18.03.52:309][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-18.03.52:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.27-18.03.52:369][  0]LogInit: Computer: DESKTOP-08H0EEE
+[2018.03.27-18.03.52:369][  0]LogInit: User: Thomas
+[2018.03.27-18.03.52:369][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.27-18.03.52:369][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2018.03.27-18.03.52:369][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.27-18.03.52:369][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.27-18.03.52:369][  0]LogMemory: Process Physical Memory: 275.39 MB used, 275.39 MB peak
+[2018.03.27-18.03.52:369][  0]LogMemory: Process Virtual Memory: 271.93 MB used, 271.93 MB peak
+[2018.03.27-18.03.52:369][  0]LogMemory: Physical Memory: 6548.36 MB used,  26140.27 MB free, 32688.63 MB total
+[2018.03.27-18.03.52:369][  0]LogMemory: Virtual Memory: 666.09 MB used,  26140.27 MB free, 134217728.00 MB total
+[2018.03.27-18.03.52:852][  0]LogInit: Using OS detected language (en-US).
+[2018.03.27-18.03.52:852][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.27-18.03.53:003][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.27-18.03.53:453][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.27-18.03.54:657][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.27-18.03.54:695][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.03.27-18.03.54:695][  0]LogD3D11RHI:       8086/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.27-18.03.54:697][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.27-18.03.54:697][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.27-18.03.54:697][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.27-18.03.54:702][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.27-18.03.54:702][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.27-18.03.54:702][  0]LogWindows: EnumDisplayDevices:
+[2018.03.27-18.03.54:702][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.03.27-18.03.54:702][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.27-18.03.54:703][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.27-18.03.54:703][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.27-18.03.54:703][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.27-18.03.54:703][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.03.27-18.03.54:703][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.27-18.03.54:703][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.27-18.03.54:703][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2018.03.27-18.03.54:738][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.27-18.03.55:000][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.27-18.03.55:093][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/9336/).
+[2018.03.27-18.03.55:094][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas/AppData/Local/Temp/UnrealShaderWorkingDir/778F11604AE19B2278A5E69C94A1418E/'.
+[2018.03.27-18.03.55:100][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.27-18.03.56:758][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.27-18.03.56:795][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.27-18.03.56:832][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.27-18.03.56:868][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.27-18.03.56:929][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.27-18.03.56:966][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.27-18.03.57:003][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.27-18.03.57:040][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.27-18.03.57:072][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.27-18.03.57:108][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.27-18.03.57:145][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.27-18.03.57:180][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.27-18.03.57:217][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.27-18.03.57:253][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.27-18.03.57:326][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.27-18.03.57:326][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.27-18.03.57:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.27-18.03.57:395][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.27-18.03.57:502][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.27-18.03.57:520][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.27-18.03.57:557][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.27-18.03.57:595][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.27-18.03.57:634][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.27-18.03.57:683][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.27-18.03.57:683][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.27-18.03.58:374][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.27-18.03.58:677][  0]LogDerivedDataCache: Loaded boot cache 0.30s 88MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.27-18.03.58:678][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.27-18.03.58:678][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.27-18.03.58:678][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.27-18.03.58:678][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.27-18.03.58:678][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.27-18.03.58:727][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.27-18.03.58:743][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.27-18.03.58:792][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.27-18.03.58:827][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.27-18.03.58:873][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-18.03.58:876][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-18.04.01:714][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-18.04.02:926][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.27-18.04.02:957][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.27-18.04.02:966][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.27-18.04.02:974][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.27-18.04.02:974][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.27-18.04.02:975][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.27-18.04.03:390][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.03.27-18.04.04:158][  0]LogAssetRegistry: FAssetRegistry took 0.0503 seconds to start up
+[2018.03.27-18.04.08:857][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.078045 seconds
+[2018.03.27-18.04.08:877][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.03.27-18.04.08:877][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2018.03.27-18.04.08:877][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.27-18.04.08:915][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.27-18.04.19:948][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.27-18.04.20:041][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.27-18.04.21:349][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.27-18.04.21:925][  0]SourceControl: Source control is disabled
+[2018.03.27-18.04.21:933][  0]SourceControl: Source control is disabled
+[2018.03.27-18.04.22:035][  0]SourceControl: Source control is disabled
+[2018.03.27-18.04.22:105][  0]SourceControl: Source control is disabled
+[2018.03.27-18.04.23:282][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.27-18.04.23:662][  0]LogOcInput: OculusInput pre-init called
+[2018.03.27-18.04.24:239][  0]LogEngine: Initializing Engine...
+[2018.03.27-18.04.24:262][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.27-18.04.24:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.27-18.04.24:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.27-18.04.24:729][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.27-18.04.24:811][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.27-18.04.24:838][  0]LogInit: FAudioDevice initialized.
+[2018.03.27-18.04.24:941][  0]LogDerivedDataCache: Saved boot cache 0.10s 88MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.27-18.04.24:951][  0]LogInit: Texture streaming: Enabled
+[2018.03.27-18.04.25:061][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.27-18.04.25:061][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={F079E9C8-4601-3ABC-628B-4D85202B3670}
+[2018.03.27-18.04.25:271][  0]LogInit: Transaction tracking system initialized
+[2018.03.27-18.04.25:797][  0]BlueprintLog: New page: Editor Load
+[2018.03.27-18.04.27:477][  0]LocalizationService: Localization service is disabled
+[2018.03.27-18.04.28:286][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.03.27-18.04.28:286][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.03.27-18.04.28:286][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2018.03.27-18.04.28:667][  0]LogConsoleResponse: Display: 
+[2018.03.27-18.04.29:404][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.02s
+[2018.03.27-18.04.29:404][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.27-18.04.29:404][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.27-18.04.29:404][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.27-18.04.32:074][  0]SourceControl: Source control is disabled
+[2018.03.27-18.04.32:105][  0]Cmd: MAP LOAD FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-18.04.32:115][  0]LightingResults: New page: Lighting Build
+[2018.03.27-18.04.32:256][  0]MapCheck: New page: Map Check
+[2018.03.27-18.04.32:256][  0]LightingResults: New page: Lighting Build
+[2018.03.27-18.04.36:194][  0]LogAIModule: Creating AISystem for world Ship
+[2018.03.27-18.04.38:074][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-18.04.38:074][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-18.04.38:074][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-18.04.38:179][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-18.04.38:292][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-18.04.38:658][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-18.04.38:746][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.86ms to complete.
+[2018.03.27-18.04.38:746][  0]LogFileHelpers: Loading map 'Ship' took 6.658
+[2018.03.27-18.04.40:356][  0]LogCollectionManager: Loaded 0 collections in 0.001222 seconds
+[2018.03.27-18.04.40:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.03.27-18.04.40:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/Thomas/Collections/' took 0.01s
+[2018.03.27-18.04.40:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.03.27-18.04.40:520][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.27-18.04.40:560][  0]LogContentBrowser: Native class hierarchy populated in 0.0387 seconds. Added 2370 classes and 522 folders.
+[2018.03.27-18.04.40:705][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.03.27-18.04.41:535][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.03.27-18.04.41:638][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.27-18.04.42:382][  0]LogSlate: Took 0.004820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.27-18.04.42:400][  0]LogSlate: Took 0.007528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.27-18.04.42:451][  0]LogSlate: Took 0.004710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.27-18.04.42:877][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2018.03.27-18.04.43:596][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.27-18.04.43:596][  0]LogLoad: (Engine Initialization) Total time: 65.97 seconds
+[2018.03.27-18.04.43:596][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.27-18.04.43:613][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.27-18.04.43:613][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.27-18.04.44:145][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.27-18.04.44:328][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.29s
+[2018.03.27-18.04.44:459][  1]LogSlate: Took 0.006045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-18.04.44:697][  2]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
 	Slave_animBP1_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Slave_animBP1_C_0
 	Function /Game/AI/Slave_animBP1.Slave_animBP1_C:ExecuteUbergraph_Slave_animBP1:0078
-[2018.03.26-21.13.15:581][  1]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+[2018.03.27-18.04.44:697][  2]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
 	Slave_animBP1_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Slave_animBP1_C_0
 	Function /Game/AI/Slave_animBP1.Slave_animBP1_C:ExecuteUbergraph_Slave_animBP1:00B7
-[2018.03.26-21.13.22:216][  2]LogAssetRegistry: Asset discovery search completed in 123.8287 seconds
-[2018.03.26-21.13.22:499][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.03.26-21.13.22:508][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.014985 seconds (updated 0 objects)
-[2018.03.26-21.13.33:479][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DM_Ship)
-[2018.03.26-21.13.43:240][217]Cmd: TRANSACTION UNDO
-[2018.03.26-21.13.43:240][217]LogEditorTransaction: Undo Move Actors
-[2018.03.26-21.13.43:688][217]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.26-21.13.49:448][625]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.03.26-21.13.49:504][625]Candidate modules for hot reload:
-[2018.03.26-21.13.49:504][625]  SlaveVRExperience
-[2018.03.26-21.13.49:504][625]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 3124 Win64 Development -editorrecompile -canskiplink "C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
-[2018.03.26-21.13.49:596][625]Warning: Starting HotReload took  0.3s.
-[2018.03.26-21.17.33:589][450]CompilerResultsLog: New page: Compilation - Mar 26, 2018, 1:17:33 PM
-[2018.03.26-21.17.33:589][450]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (game project files are newer)
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: Compiling game modules for hot reload
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: Performing full C++ include scan (no include cache file)
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
-[2018.03.26-21.17.33:590][450]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 20.8363783 seconds
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: Performing 18 actions (4 in parallel)
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: NPCWorkstation.gen.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: NPC.gen.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: FP_FirstPersonCharacter.gen.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: CustomPlayerController.gen.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: DeckTeleporter.gen.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: FP_FirstPersonCharacter.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: FoodTeleporter.gen.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: SlaveVRExperience.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: ScrubbingSpots.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: NPCWorkstation.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: NPC.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: FoodTeleporter.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: DeckTeleporter.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: CustomPlayerController.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: SlaveVRExperience.init.gen.cpp
-[2018.03.26-21.17.33:590][450]CompilerResultsLog: ScrubbingSpots.gen.cpp
-[2018.03.26-21.17.33:591][450]CompilerResultsLog: [17/18] Link UE4Editor-SlaveVRExperience-3124.dll
-[2018.03.26-21.17.33:591][450]CompilerResultsLog: [18/18] Link UE4Editor-SlaveVRExperience-3124.lib
-[2018.03.26-21.17.33:591][450]CompilerResultsLog:    Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3124.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3124.exp
-[2018.03.26-21.17.33:591][450]CompilerResultsLog:    Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3124.suppressed.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-3124.suppressed.exp
-[2018.03.26-21.17.33:591][450]CompilerResultsLog: Total build time: 222.11 seconds (Local executor: 105.55 seconds)
-[2018.03.26-21.17.33:608][450]LogMainFrame: MainFrame: Module compiling took 224.159 seconds
-[2018.03.26-21.17.33:818][450]LogClass: Could not find existing class ScrubbingSpots in package /Script/SlaveVRExperience for HotReload, assuming new class
-[2018.03.26-21.17.33:819][450]LogClass: Function OnOverlapBegin is new.
-[2018.03.26-21.17.33:819][450]LogClass: Function OnOverlapEnd is new.
-[2018.03.26-21.17.33:819][450]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.17.33:819][450]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.17.33:821][450]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.17.34:223][450]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.17.34:417][450]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.17.34:418][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.17.34:418][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.17.34:418][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.17.34:428][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.17.34:429][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.17.34:429][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.17.34:429][450]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.17.34:636][450]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.17.35:026][450]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.17.35:226][450]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.17.35:729][450]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0019 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.17.35:732][450]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.17.35:839][450]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.17.35:850][450]Display: HotReload took 226.5s.
-[2018.03.26-21.17.44:378][875]LogEditorViewport: Clicking on Actor (LMB): ScrubbingSpots (ScrubbingSpots2)
-[2018.03.26-21.18.01:544][442]LogSlate: Took 0.033771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.26-21.18.20:062][ 91]LogTemp: Repeating last play command: Simulate
-[2018.03.26-21.18.24:622][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.18.24:644][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.26-21.18.24:706][ 91]PIE: New page: SIE session: Ship (Mar 26, 2018, 1:18:24 PM)
-[2018.03.26-21.18.24:719][ 91]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
-[2018.03.26-21.18.25:469][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.750157s)
-[2018.03.26-21.18.25:470][ 91]LogAIModule: Creating AISystem for world Ship
-[2018.03.26-21.18.25:471][ 91]LogPlayLevel: PIE: World Init took: (0.001580s)
-[2018.03.26-21.18.25:477][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.757976s)
-[2018.03.26-21.18.25:543][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.26-21.18.25:569][ 91]LogInit: FAudioDevice initialized.
-[2018.03.26-21.18.25:666][ 91]LogLoad: Game class is 'NewGameMode_C'
-[2018.03.26-21.18.25:916][ 91]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.18.25:916][ 91]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.18.25:916][ 91]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.18.25:924][ 91]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.26-17.18.25
-[2018.03.26-21.18.26:008][ 91]LogWorld: Bringing up level for play took: 0.175863
-[2018.03.26-21.18.26:043][ 91]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.26-21.18.26:275][ 91]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
-[2018.03.26-21.18.26:340][ 91]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
-[2018.03.26-21.18.26:479][ 91]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 1.623
-[2018.03.26-21.18.26:575][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.18.26:626][ 91]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.18.26:799][ 92]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.060556 > MaxSimulationTimeStep (0.050) for 'FP_FirstPersonCharacter_1', movement 'Walking'
-[2018.03.26-21.18.26:800][ 92]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.18.27:878][158]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (Scrubber)
-[2018.03.26-21.18.34:346][505]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.18.34:450][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.19.35:567][494]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.26-21.19.58:015][729]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.19.58:134][730]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.19.58:467][731]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.19.58:802][732]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.19.59:133][733]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.19.59:467][734]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.19.59:802][735]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.00:137][736]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.00:469][737]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.00:802][738]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.01:133][739]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.01:469][740]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.01:801][741]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.02:136][742]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.02:467][743]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.02:802][744]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.17:470][745]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.20.17:486][746]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.03.26-21.23.32:282][281]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.26-21.23.34:648][281]LogSavePackage: Save=4119.46ms
-[2018.03.26-21.23.34:648][281]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto1B42197BA40CF8161254772A06D2E1109.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap'
-[2018.03.26-21.23.34:711][281]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto1.umap
-[2018.03.26-21.23.34:715][281]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 5.694
-[2018.03.26-21.23.34:715][281]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.694
-[2018.03.26-21.24.35:913][504]LogWindows: LaunchFileInExternalEditor C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.h 
-[2018.03.26-21.25.57:752][504]LogWindows: Launch application code for C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.h : 42
-[2018.03.26-21.25.57:753][504]LogWindows: LaunchFileInExternalEditor C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.cpp 
-[2018.03.26-21.25.58:071][504]LogWindows: Launch application code for C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Source/SlaveVRExperience/ScrubbingSpots.cpp : 42
-[2018.03.26-21.25.58:071][504]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.03.26-21.25.58:077][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:077][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:077][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:077][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:077][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:077][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:078][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:078][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:078][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:078][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:078][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:078][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:078][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:079][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:079][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:079][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:079][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:079][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:079][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:079][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:080][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:080][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:080][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:080][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:080][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:081][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:081][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:082][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:082][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:082][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:082][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:082][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:083][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:084][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:084][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:084][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:084][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:084][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:084][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:084][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:085][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:085][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:085][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:085][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:085][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:085][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:086][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:086][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:086][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:086][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:086][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:086][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:086][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:087][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:088][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:088][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:088][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:088][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:088][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:088][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:089][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:089][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:089][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:089][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:089][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:089][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:089][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:090][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:090][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:090][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:090][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:090][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:090][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:090][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:091][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:091][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:091][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:091][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:091][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:091][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:091][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:092][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:092][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:092][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:092][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:092][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:092][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:092][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:093][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:093][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:093][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:093][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:559][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:744][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.25.58:746][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.26.00:096][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.26.00:706][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.26.00:821][504]LogVSAccessor: Warning: Couldn't access module table
-[2018.03.26-21.38.58:895][833]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-152.dll
-[2018.03.26-21.38.59:908][837]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.39.01:947][837]LogClass: Could not find existing class ScrubbingSpots in package /Script/SlaveVRExperience for HotReload, assuming new class
-[2018.03.26-21.39.01:947][837]LogClass: Function OnOverlapBegin is new.
-[2018.03.26-21.39.01:947][837]LogClass: Function OnOverlapEnd is new.
-[2018.03.26-21.39.01:947][837]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.39.01:947][837]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.39.01:951][837]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.39.02:447][837]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.39.02:635][837]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.39.02:715][837]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.02:715][837]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.02:715][837]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.02:716][837]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.02:716][837]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.02:716][837]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.02:716][837]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.02:904][837]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.39.03:322][837]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.39.03:518][837]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.39.04:084][837]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.39.04:086][837]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.39.04:164][837]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.39.04:168][837]Display: HotReload took  4.3s.
-[2018.03.26-21.39.30:939][ 63]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-6456.dll
-[2018.03.26-21.39.31:623][ 66]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.39.31:774][ 66]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.39.31:774][ 66]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.39.31:775][ 66]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.39.32:051][ 66]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.39.32:243][ 66]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.39.32:250][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.32:250][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.32:250][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.32:251][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.32:251][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.32:251][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.32:251][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.32:441][ 66]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.39.32:814][ 66]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.39.33:014][ 66]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.39.33:569][ 66]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.39.33:571][ 66]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.39.33:636][ 66]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.39.33:640][ 66]Display: HotReload took  2.0s.
-[2018.03.26-21.39.56:182][ 38]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-422.dll
-[2018.03.26-21.39.56:883][ 41]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.39.57:039][ 41]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.39.57:039][ 41]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.39.57:041][ 41]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.39.57:320][ 41]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.39.57:506][ 41]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.39.57:512][ 41]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.57:512][ 41]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.57:512][ 41]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.57:513][ 41]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.57:513][ 41]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.57:513][ 41]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.57:513][ 41]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.39.57:703][ 41]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.39.58:063][ 41]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.39.58:258][ 41]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.39.58:817][ 41]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.39.58:819][ 41]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.39.58:887][ 41]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.39.58:891][ 41]Display: HotReload took  2.0s.
-[2018.03.26-21.40.18:858][635]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-5463.dll
-[2018.03.26-21.40.19:878][639]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.40.20:024][639]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.40.20:024][639]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.40.20:026][639]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.40.20:306][639]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.40.20:494][639]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.40.20:501][639]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.20:501][639]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.20:501][639]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.20:502][639]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.20:502][639]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.20:502][639]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.20:502][639]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.20:689][639]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.40.21:042][639]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.40.21:229][639]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.40.21:784][639]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.40.21:786][639]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.40.21:851][639]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.40.21:855][639]Display: HotReload took  2.0s.
-[2018.03.26-21.40.37:247][159]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-4049.dll
-[2018.03.26-21.40.38:270][163]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.40.38:439][163]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.40.38:439][163]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.40.38:441][163]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.40.38:745][163]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.40.38:955][163]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.40.38:961][163]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.38:962][163]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.38:962][163]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.38:962][163]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.38:963][163]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.38:963][163]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.38:963][163]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.40.39:151][163]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.40.39:508][163]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.40.39:700][163]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.40.40:242][163]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.40.40:244][163]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.40.40:308][163]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.40.40:313][163]Display: HotReload took  2.0s.
-[2018.03.26-21.40.58:044][921]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-3480.dll
-[2018.03.26-21.40.59:927][ 21]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.41.00:063][ 21]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.41.00:063][ 21]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.41.00:064][ 21]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.41.00:336][ 21]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.41.00:522][ 21]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.41.00:528][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.00:529][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.00:529][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.00:529][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.00:530][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.00:530][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.00:530][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.00:717][ 21]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.41.01:072][ 21]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.41.01:260][ 21]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.41.01:808][ 21]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.41.01:810][ 21]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.41.01:876][ 21]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.41.01:879][ 21]Display: HotReload took  2.0s.
-[2018.03.26-21.41.22:588][653]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-7408.dll
-[2018.03.26-21.41.24:002][729]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.41.24:133][729]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.41.24:133][729]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.41.24:135][729]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.41.24:405][729]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.41.24:592][729]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.41.24:599][729]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.24:599][729]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.24:599][729]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.24:600][729]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.24:600][729]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.24:600][729]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.24:600][729]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.41.24:784][729]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.41.25:133][729]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.41.25:318][729]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.41.25:864][729]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.41.25:866][729]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.41.25:931][729]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.41.25:934][729]Display: HotReload took  1.9s.
-[2018.03.26-21.41.30:872][242]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.03.26-21.41.30:875][242]Candidate modules for hot reload:
-[2018.03.26-21.41.30:875][242]  SlaveVRExperience
-[2018.03.26-21.41.30:876][242]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 8939 Win64 Development -editorrecompile -canskiplink "C:/Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
-[2018.03.26-21.41.30:882][242]Warning: Starting HotReload took  0.0s.
-[2018.03.26-21.41.44:903][777]CompilerResultsLog: New page: Compilation - Mar 26, 2018, 1:41:44 PM
-[2018.03.26-21.41.44:903][777]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.03.26-21.41.44:903][777]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (modules to compile have changed)
-[2018.03.26-21.41.44:903][777]CompilerResultsLog: Compiling game modules for hot reload
-[2018.03.26-21.41.44:903][777]CompilerResultsLog: Target is up to date
-[2018.03.26-21.41.44:903][777]CompilerResultsLog: Total build time: 13.64 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.03.26-21.41.44:903][777]LogMainFrame: MainFrame: Module compiling took 14.030 seconds
-[2018.03.26-21.41.44:933][777]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.41.44:934][777]Display: HotReload took 14.1s.
-[2018.03.26-21.42.10:998][403]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-4954.dll
-[2018.03.26-21.42.11:635][422]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.42.11:761][422]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.42.11:761][422]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.42.11:763][422]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.42.12:035][422]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.42.12:222][422]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.42.12:228][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.12:228][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.12:228][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.12:229][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.12:229][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.12:229][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.12:229][422]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.12:416][422]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.42.12:773][422]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.42.12:961][422]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.42.13:508][422]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0016 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.42.13:510][422]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.42.13:579][422]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.42.13:582][422]Display: HotReload took  1.9s.
-[2018.03.26-21.42.36:689][114]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-2437.dll
-[2018.03.26-21.42.38:186][200]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.42.38:307][200]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.42.38:307][200]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.42.38:309][200]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.42.38:581][200]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.42.38:767][200]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.42.38:773][200]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.38:773][200]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.38:773][200]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.38:774][200]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.38:774][200]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.38:774][200]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.38:775][200]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.38:959][200]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.42.39:313][200]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.42.39:498][200]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.42.40:047][200]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.42.40:049][200]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.42.40:114][200]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.42.40:117][200]Display: HotReload took  1.9s.
-[2018.03.26-21.42.44:538][643]LogTemp: Repeating last play command: Simulate
-[2018.03.26-21.42.44:578][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.42.44:578][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.26-21.42.44:590][643]PIE: New page: SIE session: Ship (Mar 26, 2018, 1:42:44 PM)
-[2018.03.26-21.42.44:602][643]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
-[2018.03.26-21.42.45:227][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.624551s)
-[2018.03.26-21.42.45:228][643]LogAIModule: Creating AISystem for world Ship
-[2018.03.26-21.42.45:228][643]LogPlayLevel: PIE: World Init took: (0.001088s)
-[2018.03.26-21.42.45:228][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.626051s)
-[2018.03.26-21.42.45:271][643]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.26-21.42.45:289][643]LogInit: FAudioDevice initialized.
-[2018.03.26-21.42.45:346][643]LogLoad: Game class is 'NewGameMode_C'
-[2018.03.26-21.42.45:398][643]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.45:398][643]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.45:398][643]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.45:399][643]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.26-17.42.45
-[2018.03.26-21.42.45:413][643]LogWorld: Bringing up level for play took: 0.065133
-[2018.03.26-21.42.45:413][643]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.26-21.42.45:420][643]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
-[2018.03.26-21.42.45:424][643]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.569
-[2018.03.26-21.42.45:439][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.42.45:440][643]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.45:507][644]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.059675 > MaxSimulationTimeStep (0.050) for 'FP_FirstPersonCharacter_1', movement 'Walking'
-[2018.03.26-21.42.45:507][644]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.42.46:780][728]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (Scrubber)
-[2018.03.26-21.43.42:477][296]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.43.42:521][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.44.00:355][582]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-966.dll
-[2018.03.26-21.44.01:644][657]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.44.01:789][657]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.44.01:789][657]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.44.01:791][657]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.44.02:065][657]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.44.02:250][657]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.44.02:256][657]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.02:257][657]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.02:257][657]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.02:257][657]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.02:258][657]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.02:258][657]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.02:258][657]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.02:445][657]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.44.02:800][657]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.44.02:989][657]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.44.03:533][657]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.44.03:535][657]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.44.03:600][657]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.44.03:604][657]Display: HotReload took  2.0s.
-[2018.03.26-21.44.36:118][304]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-5153.dll
-[2018.03.26-21.44.37:691][393]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.44.37:817][393]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.44.37:817][393]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.44.37:819][393]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.44.38:093][393]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.44.38:278][393]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.44.38:284][393]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.38:284][393]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.38:284][393]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.38:285][393]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.38:285][393]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.38:285][393]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.38:285][393]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.44.38:472][393]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.44.38:826][393]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.44.39:015][393]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.44.39:564][393]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.44.39:567][393]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.44.39:631][393]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.44.39:634][393]Display: HotReload took  1.9s.
-[2018.03.26-21.44.58:687][548]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-7433.dll
-[2018.03.26-21.45.00:125][631]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.45.00:289][631]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.45.00:289][631]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.45.00:290][631]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.45.00:568][631]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.45.00:753][631]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.45.00:759][631]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.00:759][631]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.00:759][631]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.00:760][631]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.00:760][631]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.00:760][631]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.00:760][631]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.00:946][631]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.45.01:301][631]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.45.01:489][631]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.45.02:038][631]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.45.02:040][631]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.45.02:105][631]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.45.02:109][631]Display: HotReload took  2.0s.
-[2018.03.26-21.45.42:357][701]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-7744.dll
-[2018.03.26-21.45.43:721][779]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.45.43:852][779]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.45.43:852][779]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.45.43:854][779]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.45.44:127][779]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.45.44:314][779]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.45.44:320][779]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.44:320][779]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.44:320][779]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.44:321][779]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.44:321][779]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.44:321][779]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.44:321][779]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.45.44:507][779]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.45.44:868][779]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.45.45:058][779]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.45.45:607][779]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0019 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.45.45:609][779]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.45.45:676][779]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.45.45:680][779]Display: HotReload took  2.0s.
-[2018.03.26-21.46.06:919][ 80]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-4449.dll
-[2018.03.26-21.46.07:875][136]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.46.08:002][136]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.46.08:002][136]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.46.08:004][136]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.46.08:277][136]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.46.08:462][136]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.46.08:468][136]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.08:468][136]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.08:468][136]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.08:469][136]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.08:469][136]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.08:470][136]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.08:470][136]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.08:656][136]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.46.09:011][136]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.46.09:199][136]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.46.09:747][136]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.46.09:749][136]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.46.09:814][136]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.46.09:817][136]Display: HotReload took  1.9s.
-[2018.03.26-21.46.32:518][549]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-7638.dll
-[2018.03.26-21.46.33:549][609]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.46.33:921][609]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.46.33:921][609]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.46.33:924][609]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.46.34:218][609]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.46.34:405][609]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.46.34:411][609]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.34:411][609]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.34:411][609]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.34:412][609]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.34:412][609]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.34:412][609]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.34:412][609]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.34:600][609]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.46.34:955][609]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.46.35:144][609]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.46.35:693][609]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.46.35:695][609]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.46.35:760][609]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.46.35:763][609]Display: HotReload took  2.2s.
-[2018.03.26-21.46.57:861][565]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-3144.dll
-[2018.03.26-21.46.58:923][620]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.46.59:109][620]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.46.59:109][620]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.46.59:111][620]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.46.59:384][620]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.46.59:568][620]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.46.59:575][620]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.59:575][620]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.59:575][620]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.59:576][620]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.59:576][620]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.59:576][620]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.59:576][620]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.46.59:764][620]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.47.00:115][620]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.47.00:301][620]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.47.00:850][620]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.47.00:852][620]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.47.00:921][620]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.47.00:925][620]Display: HotReload took  2.0s.
-[2018.03.26-21.47.15:019][422]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-9657.dll
-[2018.03.26-21.47.16:072][483]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.47.16:284][483]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.47.16:284][483]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.47.16:285][483]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.47.16:558][483]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.47.16:743][483]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.47.16:750][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.16:750][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.16:750][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.16:750][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.16:751][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.16:751][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.16:751][483]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.16:938][483]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.47.17:295][483]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.47.17:483][483]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.47.18:033][483]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0017 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.47.18:036][483]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.47.18:100][483]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.47.18:104][483]Display: HotReload took  2.0s.
-[2018.03.26-21.47.33:210][267]LogHotReload: New module detected: UE4Editor-SlaveVRExperience-1507.dll
-[2018.03.26-21.47.34:396][336]LogHotReload: Starting Hot-Reload from IDE
-[2018.03.26-21.47.34:570][336]LogClass: ENPCStateEnum HotReload.
-[2018.03.26-21.47.34:570][336]LogClass: ENPCTypeEnum HotReload.
-[2018.03.26-21.47.34:572][336]LogHotReload: Re-instancing DeckTeleporter after hot-reload.
-[2018.03.26-21.47.34:847][336]LogHotReload: Re-instancing FoodTeleporter after hot-reload.
-[2018.03.26-21.47.35:033][336]LogHotReload: Re-instancing FP_FirstPersonCharacter after hot-reload.
-[2018.03.26-21.47.35:039][336]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.35:039][336]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.35:039][336]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.35:040][336]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.35:040][336]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.35:040][336]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.35:040][336]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.35:227][336]LogHotReload: Re-instancing NPC after hot-reload.
-[2018.03.26-21.47.35:582][336]LogHotReload: Re-instancing NPCWorkstation after hot-reload.
-[2018.03.26-21.47.35:770][336]LogHotReload: Re-instancing ScrubbingSpots after hot-reload.
-[2018.03.26-21.47.36:321][336]LogContentBrowser: Native class hierarchy updated for 'SlaveVRExperience' in 0.0018 seconds. Added 7 classes and 3 folders.
-[2018.03.26-21.47.36:323][336]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
-[2018.03.26-21.47.36:388][336]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2372 classes and 526 folders.
-[2018.03.26-21.47.36:392][336]Display: HotReload took  2.0s.
-[2018.03.26-21.47.48:662][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DM_Ship)
-[2018.03.26-21.47.49:738][750]LogEditorViewport: Clicking on Actor (LMB): NPCWorkstation (NPCWorkstation1)
-[2018.03.26-21.47.56:984][360]LogTemp: Repeating last play command: Simulate
-[2018.03.26-21.47.57:013][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.47.57:013][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.26-21.47.57:013][360]PIE: New page: SIE session: Ship (Mar 26, 2018, 1:47:57 PM)
-[2018.03.26-21.47.57:013][360]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
-[2018.03.26-21.47.57:218][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205079s)
-[2018.03.26-21.47.57:219][360]LogAIModule: Creating AISystem for world Ship
-[2018.03.26-21.47.57:219][360]LogPlayLevel: PIE: World Init took: (0.000933s)
-[2018.03.26-21.47.57:220][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.206374s)
-[2018.03.26-21.47.57:242][360]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.26-21.47.57:261][360]LogInit: FAudioDevice initialized.
-[2018.03.26-21.47.57:295][360]LogLoad: Game class is 'NewGameMode_C'
-[2018.03.26-21.47.57:346][360]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.57:346][360]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.57:346][360]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.57:347][360]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.26-17.47.57
-[2018.03.26-21.47.57:349][360]LogWorld: Bringing up level for play took: 0.052358
-[2018.03.26-21.47.57:349][360]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.26-21.47.57:350][360]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
-[2018.03.26-21.47.57:354][360]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.498
-[2018.03.26-21.47.57:386][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.47.57:387][360]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.57:455][361]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061428 > MaxSimulationTimeStep (0.050) for 'FP_FirstPersonCharacter_1', movement 'Walking'
-[2018.03.26-21.47.57:455][361]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
-[2018.03.26-21.47.59:024][451]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (Scrubber)
-[2018.03.26-21.48.47:432][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.48.47:475][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
-[2018.03.26-21.48.49:579][864]LogEditorViewport: Clicking on Actor (LMB): ScrubbingSpots (ScrubbingSpots2)
-[2018.03.26-21.49.00:804][846]LogEditorViewport: Clicking on Actor (LMB): ScrubbingSpots (ScrubbingSpots5)
-[2018.03.26-21.49.11:232][758]LogEditorViewport: Clicking on Actor (LMB): ScrubbingSpots (ScrubbingSpots4)
-[2018.03.26-21.49.17:663][322]LogEditorViewport: Clicking on Actor (LMB): ScrubbingSpots (ScrubbingSpots3)
-[2018.03.26-21.50.06:195][455]LogSavePackage: Save=8494.06ms
-[2018.03.26-21.50.06:195][455]LogSavePackage: Moving '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/ShipD481EB9B472D32726DB63E89DC1A0D14.tmp' to '../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
-[2018.03.26-21.50.06:207][455]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nutty_000/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
-[2018.03.26-21.50.06:332][455]LogFileHelpers: Saving map 'Ship' took 12.970
+[2018.03.27-18.04.44:748][  2]LogAssetRegistry: Asset discovery search completed in 40.6111 seconds
+[2018.03.27-18.04.44:774][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.27-18.04.44:774][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2018.03.27-18.05.35:212][325]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-18.05.35:721][325]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0042 seconds. Added 116 classes and 0 folders.
+[2018.03.27-18.05.36:505][325]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.27-18.05.36:793][325]LogSlate: Took 0.004558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.27-18.06.12:527][  2]LogEditorViewport: Clicking on Actor (LMB): NPC_bp_C (NPC_bp)
+[2018.03.27-18.06.21:609][429]LogSlate: Took 0.007818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.27-18.07.11:450][479]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-18.08.34:073][703]Cmd: TRANSACTION UNDO
+[2018.03.27-18.08.34:073][703]LogEditorTransaction: Undo Edit Selected Key Name
+[2018.03.27-18.08.34:515][718]Cmd: TRANSACTION UNDO
+[2018.03.27-18.08.34:515][718]LogEditorTransaction: Undo Edit Selected Key ID
+[2018.03.27-18.08.34:909][732]Cmd: TRANSACTION UNDO
+[2018.03.27-18.08.34:909][732]LogEditorTransaction: Undo Edit Selected Key Type
+[2018.03.27-18.08.36:135][773]Cmd: TRANSACTION UNDO
+[2018.03.27-18.08.36:135][773]LogEditorTransaction: Undo Edit Selected Key Name
+[2018.03.27-18.09.45:452][718]LogSavePackage: Save=37.12ms
+[2018.03.27-18.09.45:452][718]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTreeDC8D78CF45814C74E72F59AA824AE8B1.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-18.09.45:486][718]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-18.10.49:251][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TestAIBlackboard" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset" SILENT=true
+[2018.03.27-18.10.49:261][240]LogSavePackage: Save=2.91ms
+[2018.03.27-18.10.49:261][240]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBlackboard402B99DD41B76471D7B55788C07544AA.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset'
+[2018.03.27-18.10.49:264][240]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset
+[2018.03.27-18.12.45:653][ 54]LogSavePackage: Save=8.19ms
+[2018.03.27-18.12.45:653][ 54]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree336DA5F0435062854F2340A70EF8AB19.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-18.12.45:657][ 54]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-18.13.16:426][193]LogSavePackage: Save=5.98ms
+[2018.03.27-18.13.16:426][193]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree16A407FC4A4D9D9BCB15C38D5953E01C.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-18.13.16:430][193]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-18.14.43:958][111]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.039
+[2018.03.27-18.14.43:976][111]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/TestAIBehaviorTree] ([1] browsable assets)...
+[2018.03.27-18.14.43:976][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/TestAIBehaviorTree]
+[2018.03.27-18.14.43:985][111]LogSavePackage: Save=5.50ms
+[2018.03.27-18.14.43:985][111]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree_Auto1BDFC9A864083748C0A3C65A2AE66710A.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/TestAIBehaviorTree_Auto1.uasset'
+[2018.03.27-18.14.43:988][111]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/TestAIBehaviorTree_Auto1.uasset
+[2018.03.27-18.14.43:988][111]LogFileHelpers: Auto-saving content packages took 0.029
+[2018.03.27-18.14.47:971][243]LogSavePackage: Save=6.55ms
+[2018.03.27-18.14.47:972][243]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree811D493743032507790AEB8E6DB625FB.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-18.14.47:976][243]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] In use pin  <Unnamed>  no longer exists on node  Toggle Is Working . Please refresh node or break links to remove pin.
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] In use pin  <Unnamed>  no longer exists on node  Toggle Is Working . Please refresh node or break links to remove pin.
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] In use pin  Target  no longer exists on node  Toggle Is Working . Please refresh node or break links to remove pin.
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] Could not find a function named "ToggleIsWorking" in 'TimedWork'.
+Make sure 'TimedWork' has been compiled for  Toggle Is Working
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] Can't connect pins  Owner Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] In use pin  As Slave Anim BP1  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] In use pin  As NPC Bp 1  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] Can't connect pins  Object  and  Owner Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.03.27-18.15.02:735][789]LogBlueprint: Error: [Compiler TimedWork] In use pin  As Test AIController  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.03.27-18.15.02:737][789]LogBlueprint: Warning: [Compiler TimedWork] [0685.11] Compile of TimedWork failed. 13 Fatal Issue(s) 0 Warning(s) [in 7 ms] (/Game/AI/BehaviorTree/TimedWork.TimedWork)
+[2018.03.27-18.15.22:986][618]LogEditorTransaction: Undo Refresh Node(s)
+[2018.03.27-18.16.44:374][654]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.27-18.17.01:983][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.27-18.18.30:480][488]BlueprintLog: New page: Compile TimedWork
+[2018.03.27-18.18.31:171][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TimedWork" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TimedWork.uasset" SILENT=true
+[2018.03.27-18.18.31:207][509]LogSavePackage: Save=31.78ms
+[2018.03.27-18.18.31:208][509]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TimedWorkD0B4DBE34C108F6F170C5BB3224193DD.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TimedWork.uasset'
+[2018.03.27-18.18.31:211][509]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TimedWork.uasset
+[2018.03.27-18.18.33:551][592]LogSavePackage: Save=5.86ms
+[2018.03.27-18.18.33:551][592]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree2BA89FDD409089D59064E899C23B8BE6.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-18.18.33:554][592]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-18.22.36:242][502]BlueprintLog: New page: Compile TimedWork
+[2018.03.27-18.22.36:911][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TimedWork" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TimedWork.uasset" SILENT=true
+[2018.03.27-18.22.36:929][522]LogSavePackage: Save=14.35ms
+[2018.03.27-18.22.36:929][522]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TimedWork73B416CC49DE600AA7D1A384E5A3F922.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TimedWork.uasset'
+[2018.03.27-18.22.36:933][522]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TimedWork.uasset
+[2018.03.27-18.23.53:692][699]LogSavePackage: Save=5.75ms
+[2018.03.27-18.23.53:692][699]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree3EDB3D8F42983AAEE8BE3EBF4801A1B7.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-18.23.53:696][699]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-18.53.27:543][884]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-18.53.35:386][128]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-18.53.35:563][128]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BehaviorTree/SetPatrol_New.
+[2018.03.27-18.55.14:692][458]LogEditorTransaction: Undo Duplicate Graph
+[2018.03.27-18.55.22:744][769]BlueprintLog: New page: Compile SetPatrol
+[2018.03.27-18.55.23:315][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/SetPatrol" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/SetPatrol.uasset" SILENT=true
+[2018.03.27-18.55.23:357][785]LogSavePackage: Save=37.65ms
+[2018.03.27-18.55.23:358][785]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/SetPatrol1EA3A3104718AF2299BE10826657E0F5.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/SetPatrol.uasset'
+[2018.03.27-18.55.23:365][785]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/SetPatrol.uasset
+[2018.03.27-18.56.52:737][330]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-18.56.53:825][365]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-18.56.54:000][365]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'IsOld' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'IsOld' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'IsOld' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolCurr' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolCurr' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolTarget' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolCurr' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolCurr' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolTarget' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:727][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolTarget' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.56.55:728][446]LogBlueprint: Warning: [BTTask_BlueprintBase_New] 'PatrolTarget' variable not found. Base class was probably changed. /Game/AI/BehaviorTree/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.03.27-18.57.57:385][415]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BehaviorTree/FixedPatrol.
+[2018.03.27-18.57.57:406][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FixedPatrol" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset" SILENT=true
+[2018.03.27-18.57.57:430][415]LogSavePackage: Save=23.17ms
+[2018.03.27-18.57.57:431][415]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FixedPatrol6DC6D1F84CEB3FFDAA38B6881D52F8EB.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset'
+[2018.03.27-18.57.57:434][415]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset
+[2018.03.27-18.57.57:750][418]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BehaviorTree/FixedPatrol.
+[2018.03.27-18.58.00:780][537]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.017
+[2018.03.27-18.58.00:781][537]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/SetPatrol_New] ([1] browsable assets)...
+[2018.03.27-18.58.00:781][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/SetPatrol_New]
+[2018.03.27-18.58.00:789][537]LogSavePackage: Save=6.08ms
+[2018.03.27-18.58.00:789][537]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/SetPatrol_New_Auto23BE1CFC34B0C254FF9C3EC95AB62E214.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto2.uasset'
+[2018.03.27-18.58.00:791][537]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto2.uasset
+[2018.03.27-18.58.00:792][537]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.27-18.58.00:792][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New]
+[2018.03.27-18.58.00:814][537]LogSavePackage: Save=20.52ms
+[2018.03.27-18.58.00:814][537]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTTask_BlueprintBase_New_Auto27D55A31445C455255F23F3B2BDA25438.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto2.uasset'
+[2018.03.27-18.58.00:815][537]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto2.uasset
+[2018.03.27-18.58.00:816][537]LogFileHelpers: Auto-saving content packages took 0.035
+[2018.03.27-18.59.18:507][897]LogSlate: Took 0.002953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.27-19.02.22:377][609]BlueprintLog: New page: Compile SetPatrol
+[2018.03.27-19.03.17:542][953]LogEditorTransaction: Undo Move Nodes
+[2018.03.27-19.03.18:878][999]LogEditorTransaction: Undo Paste clipboard contents
+[2018.03.27-19.05.01:204][136]Cmd: TRANSACTION UNDO
+[2018.03.27-19.05.01:204][136]LogEditorTransaction: Undo Create Pin Link
+[2018.03.27-19.07.26:177][879]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_FixedPatrol_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.03.27-19.07.33:566][167]BlueprintLog: New page: Compile FixedPatrol
+[2018.03.27-19.09.41:380][446]BlueprintLog: New page: Compile FixedPatrol
+[2018.03.27-19.09.42:002][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FixedPatrol" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset" SILENT=true
+[2018.03.27-19.09.42:034][466]LogSavePackage: Save=26.49ms
+[2018.03.27-19.09.42:034][466]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FixedPatrol11E1C65A44539E2BC504F3A3997F7D9A.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset'
+[2018.03.27-19.09.42:038][466]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset
+[2018.03.27-19.10.10:482][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.016
+[2018.03.27-19.10.10:488][645]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/SetPatrol_New] ([1] browsable assets)...
+[2018.03.27-19.10.10:489][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/SetPatrol_New]
+[2018.03.27-19.10.10:492][645]LogSavePackage: Save=2.10ms
+[2018.03.27-19.10.10:492][645]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/SetPatrol_New_Auto326A8AE074CBAEF3D3F65969EB8888AD4.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto3.uasset'
+[2018.03.27-19.10.10:494][645]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto3.uasset
+[2018.03.27-19.10.10:494][645]LogFileHelpers: Auto-saving content packages took 0.007
+[2018.03.27-19.22.52:748][482]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.021
+[2018.03.27-19.22.52:753][482]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/FixedPatrol] ([1] browsable assets)...
+[2018.03.27-19.22.52:753][482]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/FixedPatrol]
+[2018.03.27-19.22.52:800][482]LogSavePackage: Save=35.82ms
+[2018.03.27-19.22.52:800][482]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FixedPatrol_Auto47247647C410E1631BC076CA6165CDB7A.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/FixedPatrol_Auto4.uasset'
+[2018.03.27-19.22.52:802][482]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/FixedPatrol_Auto4.uasset
+[2018.03.27-19.22.52:802][482]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.03.27-19.27.26:362][160]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.27-19.27.27:321][161]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.27-19.27.30:667][561]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.27-19.27.31:621][673]LogEditorViewport: Clicking on Actor (LMB): Actor (NPCDestination1)
+[2018.03.27-19.27.33:776][928]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.03.27-19.27.41:396][749]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.27-19.29.24:612][ 52]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.29.48:290][ 61]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.30.04:756][709]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.30.05:110][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.27-19.30.05:122][709]LogSavePackage: Save=6.77ms
+[2018.03.27-19.30.05:122][709]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPoint3602E1D147791C7E819BD68F31A35A53.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.27-19.30.05:126][709]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.27-19.30.22:213][397]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.30.24:337][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.27-19.30.24:348][462]LogSavePackage: Save=6.30ms
+[2018.03.27-19.30.24:348][462]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPointC311DB3F46D6B17E15F3B3BD0607D2F5.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.27-19.30.24:351][462]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.27-19.30.27:093][580]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.30.27:827][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.27-19.30.27:837][593]LogSavePackage: Save=6.36ms
+[2018.03.27-19.30.27:837][593]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPoint76F02C6C432B59E3CD5136A85F3B1C0C.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.27-19.30.27:841][593]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.27-19.31.37:535][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.27-19.31.37:546][ 85]LogSavePackage: Save=6.50ms
+[2018.03.27-19.31.37:546][ 85]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPoint1BA4EE6644D71FFDCA9220AE9FA61AC2.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.27-19.31.37:547][ 85]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.27-19.34.15:695][101]BlueprintLog: New page: Compile FixedPatrol
+[2018.03.27-19.34.16:212][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FixedPatrol" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset" SILENT=true
+[2018.03.27-19.34.16:244][117]LogSavePackage: Save=26.78ms
+[2018.03.27-19.34.16:244][117]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FixedPatrol4385CF2E494FA06CD7D7719D95C4F544.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset'
+[2018.03.27-19.34.16:248][117]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset
+[2018.03.27-19.34.44:819][299]LogEditorTransaction: Undo Create Pin Link
+[2018.03.27-19.34.45:165][312]LogEditorTransaction: Undo Move Node
+[2018.03.27-19.34.46:405][356]LogEditorTransaction: Undo Delete current selection
+[2018.03.27-19.35.01:973][996]BlueprintLog: New page: Compile FixedPatrol
+[2018.03.27-19.35.02:487][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FixedPatrol" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset" SILENT=true
+[2018.03.27-19.35.02:522][ 12]LogSavePackage: Save=29.56ms
+[2018.03.27-19.35.02:522][ 12]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FixedPatrolEF9672174DAF54BC690C6EA42879F131.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset'
+[2018.03.27-19.35.02:525][ 12]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset
+[2018.03.27-19.35.42:680][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FixedPatrol" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset" SILENT=true
+[2018.03.27-19.35.42:714][795]LogSavePackage: Save=29.60ms
+[2018.03.27-19.35.42:714][795]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FixedPatrolABEC5813486C58C760CA9E94C73A43D3.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset'
+[2018.03.27-19.35.42:716][795]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset
+[2018.03.27-19.36.11:093][983]BlueprintLog: New page: Compile FixedPatrol
+[2018.03.27-19.36.11:597][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FixedPatrol" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset" SILENT=true
+[2018.03.27-19.36.11:632][  0]LogSavePackage: Save=30.46ms
+[2018.03.27-19.36.11:632][  0]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FixedPatrol3C20AB9D4C0B75004D7B068ED4B6B69A.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset'
+[2018.03.27-19.36.11:636][  0]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FixedPatrol.uasset
+[2018.03.27-19.37.51:923][387]LogSavePackage: Save=8.66ms
+[2018.03.27-19.37.51:923][387]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree2BBC5DBB49DE2A8C0571C186B3C9940C.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-19.37.51:926][387]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-19.39.34:870][ 48]LogSavePackage: Save=9.03ms
+[2018.03.27-19.39.34:870][ 48]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree988859ED48FAA7A6C19FBCA43324D4E4.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-19.39.34:874][ 48]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-19.39.42:860][397]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (DM_Ship)
+[2018.03.27-19.39.48:766][991]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.27-19.39.50:483][192]LogEditorViewport: Clicking on Actor (LMB): Actor (NPCDestination2)
+[2018.03.27-19.39.51:642][328]LogEditorViewport: Clicking on Actor (LMB): Actor (NPCDestination3)
+[2018.03.27-19.39.57:341][983]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.27-19.39.58:984][176]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.27-19.40.02:108][520]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.27-19.40.05:084][868]LogEditorViewport: Clicking on Actor (LMB): Actor (NPCDestination1)
+[2018.03.27-19.40.10:349][469]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.27-19.40.10:966][529]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.03.27-19.40.37:541][399]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.27-19.40.46:194][140]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.27-19.40.46:238][140]Candidate modules for hot reload:
+[2018.03.27-19.40.46:238][140]  SlaveVRExperience
+[2018.03.27-19.40.46:238][140]Launching UnrealBuildTool... [D:/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience -ModuleWithSuffix SlaveVRExperience 2606 Win64 Development -editorrecompile -canskiplink "C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" ]
+[2018.03.27-19.40.46:251][140]Warning: Starting HotReload took  0.1s.
+[2018.03.27-19.41.32:715][ 49]LogSavePackage: Save=1817.67ms
+[2018.03.27-19.41.32:715][ 49]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto5FED498304860014D80152FB0F8329CD7.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto5.umap'
+[2018.03.27-19.41.32:717][ 49]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto5.umap
+[2018.03.27-19.41.32:749][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 1.969
+[2018.03.27-19.41.32:749][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.969
+[2018.03.27-19.41.32:775][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/SetPatrol_New] ([1] browsable assets)...
+[2018.03.27-19.41.32:775][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/SetPatrol_New]
+[2018.03.27-19.41.32:778][ 49]LogSavePackage: Save=2.22ms
+[2018.03.27-19.41.32:778][ 49]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/SetPatrol_New_Auto5594837C348D0029C6D6842B8EFE17C74.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto5.uasset'
+[2018.03.27-19.41.32:780][ 49]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto5.uasset
+[2018.03.27-19.41.32:781][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.27-19.41.32:781][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New]
+[2018.03.27-19.41.32:804][ 49]LogSavePackage: Save=21.26ms
+[2018.03.27-19.41.32:804][ 49]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTTask_BlueprintBase_New_Auto54542D3334948E43032F3F09F51270851.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto5.uasset'
+[2018.03.27-19.41.32:806][ 49]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto5.uasset
+[2018.03.27-19.41.32:806][ 49]LogFileHelpers: Auto-saving content packages took 0.033
+[2018.03.27-19.42.05:628][ 92]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.42.06:934][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.27-19.42.06:951][113]LogSavePackage: Save=7.78ms
+[2018.03.27-19.42.06:951][113]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPoint5AFAB3484E637239430F6685229F4035.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.27-19.42.06:955][113]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.27-19.42.15:057][431]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2018.03.27-19.42.19:493][639]CompilerResultsLog: New page: Compilation - Mar 27, 2018, 11:42:19 AM
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: Creating makefile for hot reloading SlaveVRExperience (game project files are newer)
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: Parsing headers for SlaveVRExperienceEditor
+[2018.03.27-19.42.19:519][639]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Thomas\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\Thomas\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: Reflection code generated for SlaveVRExperienceEditor in 8.1325072 seconds
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: Performing 18 actions (4 in parallel)
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: CustomPlayerController.gen.cpp
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: FP_FirstPersonCharacter.gen.cpp
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: NPC.gen.cpp
+[2018.03.27-19.42.19:519][639]CompilerResultsLog: NPCWorkstation.gen.cpp
+[2018.03.27-19.42.19:547][639]LogMainFrame: MainFrame: Module compiling took 93.343 seconds
+[2018.03.27-19.42.19:547][639]Warning: HotReload failed, recompile failed
+[2018.03.27-19.42.46:100][690]LogSavePackage: Save=1698.66ms
+[2018.03.27-19.42.46:100][690]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship94B3ED944B94549CDA8C6BBE90CE5013.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.27-19.42.46:105][690]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.27-19.42.46:191][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship_BuiltData" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset" SILENT=true
+[2018.03.27-19.42.47:761][690]LogSavePackage: Save=1538.18ms
+[2018.03.27-19.42.47:761][690]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltDataC01D9DE740197F8719A9B98914ED4EC7.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.03.27-19.42.47:767][690]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset
+[2018.03.27-19.43.46:791][916]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.43.47:868][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.27-19.43.47:879][935]LogSavePackage: Save=6.42ms
+[2018.03.27-19.43.47:879][935]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPoint77EA930E4FBDB7A748844CA2E0AA4CDE.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.27-19.43.47:882][935]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.27-19.44.01:575][594]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2018.03.27-19.44.02:484][701]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint4)
+[2018.03.27-19.46.04:272][ 49]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2018.03.27-19.46.05:193][ 52]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2018.03.27-19.46.05:305][ 62]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2018.03.27-19.46.05:380][ 69]LogEditorViewport: Clicking on Actor (double click): PatrolPoint_C (PatrolPoint3)
+[2018.03.27-19.46.06:808][238]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.27-19.46.06:868][241]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2018.03.27-19.46.07:837][355]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2018.03.27-19.46.07:908][361]LogEditorViewport: Clicking on Actor (double click): PatrolPoint_C (PatrolPoint)
+[2018.03.27-19.46.08:717][455]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.27-19.46.08:783][460]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2018.03.27-19.47.50:300][201]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.27-19.47.51:182][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.27-19.47.51:193][213]LogSavePackage: Save=6.49ms
+[2018.03.27-19.47.51:193][213]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPointE8C5B4F14C9E9453E847DF9F8D3ED462.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.27-19.47.51:197][213]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.27-19.48.04:072][463]LogEditorViewport: Clicking on Actor (LMB): Actor (NPCDestination1)
+[2018.03.27-19.48.05:615][636]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2018.03.27-19.48.06:602][751]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint4)
+[2018.03.27-19.48.25:298][377]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint4)
+[2018.03.27-19.48.30:548][931]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2018.03.27-19.48.34:105][279]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.27-19.48.40:301][712]LogSavePackage: Save=1704.75ms
+[2018.03.27-19.48.40:301][712]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship61BB55324025219E1E95F28BA97A286C.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.27-19.48.40:306][712]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.27-19.48.40:339][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship_BuiltData" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset" SILENT=true
+[2018.03.27-19.48.41:959][712]LogSavePackage: Save=1586.52ms
+[2018.03.27-19.48.41:959][712]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltData1A7D52CF4446E8F8401E508176D8DC5D.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.03.27-19.48.41:965][712]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset
+[2018.03.27-19.58.38:462][583]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.021
+[2018.03.27-19.58.38:465][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/SetPatrol_New] ([1] browsable assets)...
+[2018.03.27-19.58.38:465][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/SetPatrol_New]
+[2018.03.27-19.58.38:469][583]LogSavePackage: Save=2.31ms
+[2018.03.27-19.58.38:469][583]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/SetPatrol_New_Auto612018F9346B9A1791401F19A4C4E2FA6.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto6.uasset'
+[2018.03.27-19.58.38:471][583]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/SetPatrol_New_Auto6.uasset
+[2018.03.27-19.58.38:473][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.27-19.58.38:473][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New]
+[2018.03.27-19.58.38:497][583]LogSavePackage: Save=22.29ms
+[2018.03.27-19.58.38:497][583]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTTask_BlueprintBase_New_Auto6053ACB8146C7F334D4E8E6AD11339AEC.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto6.uasset'
+[2018.03.27-19.58.38:499][583]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto6.uasset
+[2018.03.27-19.58.38:499][583]LogFileHelpers: Auto-saving content packages took 0.035
+[2018.03.27-19.58.41:843][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-19.58.41:858][674]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.27-19.58.41:862][674]LogPlayLevel: [PlayLevel] Compiling BTTask_BlueprintBase_New before play...
+[2018.03.27-19.58.41:884][674]LogPlayLevel: PlayLevel: Blueprint regeneration took 25 ms (1 blueprints)
+[2018.03.27-19.58.41:918][674]PIE: New page: SIE session: Ship (Mar 27, 2018, 11:58:41 AM)
+[2018.03.27-19.58.41:924][674]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.27-19.58.42:046][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121991s)
+[2018.03.27-19.58.42:047][674]LogAIModule: Creating AISystem for world Ship
+[2018.03.27-19.58.42:047][674]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2018.03.27-19.58.42:047][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.123203s)
+[2018.03.27-19.58.42:093][674]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.27-19.58.42:110][674]LogInit: FAudioDevice initialized.
+[2018.03.27-19.58.42:173][674]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.27-19.58.42:228][674]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.58.42:228][674]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.58.42:228][674]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.58.42:228][674]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.27-15.58.42
+[2018.03.27-19.58.42:315][674]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.58.42:315][674]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.58.42:316][674]LogWorld: Bringing up level for play took: 0.113578
+[2018.03.27-19.58.42:339][674]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.27-19.58.42:435][674]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.03.27-19.58.42:463][674]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.27-19.58.42:507][674]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 1.152
+[2018.03.27-19.58.42:533][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-19.58.42:589][674]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.59.14:859][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-19.59.14:937][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-19.59.25:887][655]LogSavePackage: Save=8.46ms
+[2018.03.27-19.59.25:887][655]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTreeFB4DC180409BBA6DE0A5DCBB09CF378B.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.27-19.59.25:890][655]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.27-19.59.32:053][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-19.59.32:056][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-19.59.32:056][959]PIE: New page: SIE session: Ship (Mar 27, 2018, 11:59:32 AM)
+[2018.03.27-19.59.32:056][959]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.27-19.59.32:164][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107740s)
+[2018.03.27-19.59.32:164][959]LogAIModule: Creating AISystem for world Ship
+[2018.03.27-19.59.32:164][959]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2018.03.27-19.59.32:165][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.108532s)
+[2018.03.27-19.59.32:196][959]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.27-19.59.32:210][959]LogInit: FAudioDevice initialized.
+[2018.03.27-19.59.32:246][959]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.27-19.59.32:265][959]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.59.32:265][959]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.59.32:265][959]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.59.32:266][959]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.27-15.59.32
+[2018.03.27-19.59.32:267][959]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.59.32:267][959]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-19.59.32:267][959]LogWorld: Bringing up level for play took: 0.020511
+[2018.03.27-19.59.32:267][959]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.27-19.59.32:268][959]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.27-19.59.32:270][959]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.915
+[2018.03.27-19.59.32:272][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-19.59.32:272][959]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.27-20.00.09:916][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-20.00.09:958][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.27-20.00.12:683][804]LogSavePackage: Save=1706.85ms
+[2018.03.27-20.00.12:683][804]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship43B6C8ED4EA6E3C29085CA867579F8C7.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.27-20.00.12:688][804]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.27-20.00.12:720][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship_BuiltData" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset" SILENT=true
+[2018.03.27-20.00.14:303][804]LogSavePackage: Save=1550.38ms
+[2018.03.27-20.00.14:303][804]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltDataCD26D2524916E675A7117FA9E07E1E5F.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.03.27-20.00.14:309][804]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset
+[2018.03.27-20.10.11:543][770]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.021
+[2018.03.27-20.10.11:546][770]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.27-20.10.11:546][770]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTTask_BlueprintBase_New]
+[2018.03.27-20.10.11:572][770]LogSavePackage: Save=23.92ms
+[2018.03.27-20.10.11:572][770]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTTask_BlueprintBase_New_Auto70AFD9BD64040514C5E2A4D81657995C7.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto7.uasset'
+[2018.03.27-20.10.11:575][770]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTTask_BlueprintBase_New_Auto7.uasset
+[2018.03.27-20.10.11:575][770]LogFileHelpers: Auto-saving content packages took 0.029

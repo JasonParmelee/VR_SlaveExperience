@@ -1,10 +1,18 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\ProjectFiles\SlaveVRExperience.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\ProjectFiles\UE4.vcxproj]
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading SlaveVRExperienceEditor (new files with reflected types)
   Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
+  Parsing headers for SlaveVRExperienceEditor
+    Running UnrealHeaderTool "C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\SlaveVRExperience.uproject" "C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\SlaveVRExperienceEditor\Development\SlaveVRExperienceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SlaveVRExperienceEditor in 12.8298229 seconds
+  Performing 5 actions (4 in parallel)
+  SlaveVRExperience.init.gen.cpp
   ScrubbingSpots.cpp
-  [2/3] Link UE4Editor-SlaveVRExperience-1507.dll
-  [3/3] Link UE4Editor-SlaveVRExperience-1507.lib
-     Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1507.suppressed.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1507.suppressed.exp
-     Creating library C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1507.lib and object C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-1507.exp
+  ScrubbingSpots.gen.cpp
+  [4/5] Link UE4Editor-SlaveVRExperience-5159.dll
+  [5/5] Link UE4Editor-SlaveVRExperience-5159.lib
+     Creating library C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-5159.suppressed.lib and object C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-5159.suppressed.exp
+     Creating library C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-5159.lib and object C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-5159.exp
   Deploying SlaveVRExperienceEditor Win64 Development...
-  Total build time: 7.84 seconds (Local executor: 4.74 seconds)
+  Total build time: 24.75 seconds (Local executor: 2.23 seconds)

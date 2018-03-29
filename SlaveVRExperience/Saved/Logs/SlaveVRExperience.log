@@ -524,3 +524,473 @@ LogInit: Object subsystem initialized
 [2018.03.29-03.33.58:686][369]LogSavePackage: Save=22.96ms
 [2018.03.29-03.33.58:686][369]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestCode8412171F487E5574700FF781476A9D87.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestCode.uasset'
 [2018.03.29-03.33.58:689][369]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestCode.uasset
+[2018.03.29-03.38.19:572][376]LogSavePackage: Save=1697.92ms
+[2018.03.29-03.38.19:572][376]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto85E35664A48837EFB050FDE8726A5BA46.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto8.umap'
+[2018.03.29-03.38.19:575][376]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto8.umap
+[2018.03.29-03.38.19:577][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 1.742
+[2018.03.29-03.38.19:577][376]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.742
+[2018.03.29-03.38.19:596][376]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/IsHoldingFood] ([1] browsable assets)...
+[2018.03.29-03.38.19:596][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/IsHoldingFood]
+[2018.03.29-03.38.19:623][376]LogSavePackage: Save=20.20ms
+[2018.03.29-03.38.19:623][376]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/IsHoldingFood_Auto8B6C368734F5F7B5B99C496892A1AFE92.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/IsHoldingFood_Auto8.uasset'
+[2018.03.29-03.38.19:624][376]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/IsHoldingFood_Auto8.uasset
+[2018.03.29-03.38.19:624][376]LogFileHelpers: Auto-saving content packages took 0.029
+[2018.03.29-03.43.04:077][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.29-03.43.11:654][778]LogSavePackage: Save=1699.83ms
+[2018.03.29-03.43.11:654][778]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/ShipE699CF86478AB21A2AF857934F6EF6B6.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.29-03.43.11:659][778]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.29-03.43.11:684][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship_BuiltData" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset" SILENT=true
+[2018.03.29-03.43.14:977][778]LogSavePackage: Save=2164.04ms
+[2018.03.29-03.43.14:977][778]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltData9F53920E419714173B8ABFB96EAB42B9.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.03.29-03.43.14:983][778]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset
+[2018.03.29-03.53.09:847][289]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.022
+[2018.03.29-03.53.09:849][289]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/TestCode] ([1] browsable assets)...
+[2018.03.29-03.53.09:849][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/TestCode]
+[2018.03.29-03.53.09:849][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TestCode" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestCode_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2018.03.29-03.53.09:862][289]LogSavePackage: Save=4.78ms
+[2018.03.29-03.53.09:862][289]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestCode_Auto907FC53284BFBF4489F0BF38F631F0368.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestCode_Auto9.uasset'
+[2018.03.29-03.53.09:863][289]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestCode_Auto9.uasset
+[2018.03.29-03.53.09:863][289]LogFileHelpers: Auto-saving content packages took 0.015
+[2018.03.29-04.35.19:601][762]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.03.29-04.35.20:762][781]LogSavePackage: Save=137.56ms
+[2018.03.29-04.35.20:762][781]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawnFF968CC046E399B8DCFFD6AB1FC5F748.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.03.29-04.35.20:766][781]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.03.29-04.36.34:927][488]LogSavePackage: Save=1727.88ms
+[2018.03.29-04.36.34:927][488]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_Auto02C7D130A4E97FAB3F24F57941C832B6E.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto0.umap'
+[2018.03.29-04.36.34:934][488]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/Maps/Levels/Ship_Auto0.umap
+[2018.03.29-04.36.34:935][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 1.782
+[2018.03.29-04.36.34:936][488]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.782
+[2018.03.29-04.36.34:954][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/IsHoldingFood] ([1] browsable assets)...
+[2018.03.29-04.36.34:954][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/IsHoldingFood]
+[2018.03.29-04.36.34:979][488]LogSavePackage: Save=19.08ms
+[2018.03.29-04.36.34:979][488]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/IsHoldingFood_Auto08CC768304536071CD4B773A9C43EF76E.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/IsHoldingFood_Auto0.uasset'
+[2018.03.29-04.36.34:980][488]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/IsHoldingFood_Auto0.uasset
+[2018.03.29-04.36.34:981][488]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.03.29-04.40.09:842][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.29-04.41.24:897][633]BlueprintLog: New page: Compile TestAIController
+[2018.03.29-04.41.25:429][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TestAIController" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIController.uasset" SILENT=true
+[2018.03.29-04.41.25:461][643]LogSavePackage: Save=25.93ms
+[2018.03.29-04.41.25:461][643]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIController4C0B090A4EA64C21228BCBA7B30FBE8C.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIController.uasset'
+[2018.03.29-04.41.25:465][643]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIController.uasset
+[2018.03.29-04.45.26:162][142]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.29-04.45.27:488][181]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.29-04.45.27:683][181]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BehaviorTree/BTService_BlueprintBase_New.
+[2018.03.29-04.45.43:682][782]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.29-04.46.39:339][177]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.017
+[2018.03.29-04.46.39:342][177]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/TestAIBehaviorTree] ([1] browsable assets)...
+[2018.03.29-04.46.39:342][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/TestAIBehaviorTree]
+[2018.03.29-04.46.39:368][177]LogSavePackage: Save=17.95ms
+[2018.03.29-04.46.39:368][177]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree_Auto123A37DA84944AC6F74BAFEB384700AB2.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/TestAIBehaviorTree_Auto1.uasset'
+[2018.03.29-04.46.39:370][177]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/TestAIBehaviorTree_Auto1.uasset
+[2018.03.29-04.46.39:371][177]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.29-04.46.39:371][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New]
+[2018.03.29-04.46.39:374][177]LogSavePackage: Save=1.79ms
+[2018.03.29-04.46.39:374][177]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_New_Auto3F2EBF514B137478FCC0A9965EECC18E.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto1.uasset'
+[2018.03.29-04.46.39:376][177]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto1.uasset
+[2018.03.29-04.46.39:376][177]LogFileHelpers: Auto-saving content packages took 0.034
+[2018.03.29-04.48.08:079][573]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.29-04.50.12:439][214]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetArrayLibrary::Array_Find' [Element not found.]
+[2018.03.29-04.52.27:417][502]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2018.03.29-04.53.46:668][583]LogSlate: Took 0.010160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.29-04.56.14:214][483]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2018.03.29-04.56.15:107][515]LogSavePackage: Save=13.35ms
+[2018.03.29-04.56.15:107][515]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_NewC5F2A13E48CB5AC3D7E6FB8B86D4B0CB.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset'
+[2018.03.29-04.56.15:110][515]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset
+[2018.03.29-04.56.15:238][520]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BehaviorTree/BTService_BlueprintBase_New.
+[2018.03.29-04.59.32:256][272]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2018.03.29-04.59.32:893][290]LogSavePackage: Save=15.62ms
+[2018.03.29-04.59.32:893][290]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_New34E64B674A395CA06217B6ACDCB85806.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset'
+[2018.03.29-04.59.32:897][290]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset
+[2018.03.29-05.02.01:774][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.017
+[2018.03.29-05.02.01:779][213]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.29-05.02.01:779][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New]
+[2018.03.29-05.02.01:804][213]LogSavePackage: Save=19.42ms
+[2018.03.29-05.02.01:804][213]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_New_AutoA510CD1749283FB99256269C71E3FC06.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto2.uasset'
+[2018.03.29-05.02.01:806][213]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto2.uasset
+[2018.03.29-05.02.01:806][213]LogFileHelpers: Auto-saving content packages took 0.029
+[2018.03.29-05.07.20:942][816]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2018.03.29-05.07.21:780][842]LogSavePackage: Save=29.79ms
+[2018.03.29-05.07.21:780][842]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_NewB1868BB34B6D5499045120AAA64C05C1.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset'
+[2018.03.29-05.07.21:784][842]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset
+[2018.03.29-05.11.58:931][451]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2018.03.29-05.11.59:639][473]LogSavePackage: Save=20.64ms
+[2018.03.29-05.11.59:639][473]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_New5D7A32BE4DE3D476CD736693CF63AD22.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset'
+[2018.03.29-05.11.59:643][473]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset
+[2018.03.29-05.12.01:318][526]LogSavePackage: Save=17.63ms
+[2018.03.29-05.12.01:318][526]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree4B0153AE41F03914F424928B76CB996C.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.29-05.12.01:322][526]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.29-05.14.13:778][670]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.29-05.14.19:846][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TestAIBlackboard" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset" SILENT=true
+[2018.03.29-05.14.19:857][905]LogSavePackage: Save=2.48ms
+[2018.03.29-05.14.19:857][905]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBlackboard65B53E3C4CE5877570579196568FE3CD.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset'
+[2018.03.29-05.14.19:860][905]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset
+[2018.03.29-05.15.12:699][974]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.019
+[2018.03.29-05.15.12:703][974]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.29-05.15.12:703][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New]
+[2018.03.29-05.15.12:731][974]LogSavePackage: Save=21.59ms
+[2018.03.29-05.15.12:731][974]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_New_Auto1C1FBCCE4CC3775775120782DE6722BD.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto3.uasset'
+[2018.03.29-05.15.12:733][974]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto3.uasset
+[2018.03.29-05.15.12:733][974]LogFileHelpers: Auto-saving content packages took 0.032
+[2018.03.29-05.32.31:220][645]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_BTService_BlueprintBase_New_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.03.29-05.32.41:934][ 43]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2018.03.29-05.32.42:661][ 65]LogSavePackage: Save=23.11ms
+[2018.03.29-05.32.42:661][ 65]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_NewA38B23E5484264B749DD2E833A9867CA.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset'
+[2018.03.29-05.32.42:665][ 65]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/BTService_BlueprintBase_New.uasset
+[2018.03.29-05.34.56:869][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.019
+[2018.03.29-05.34.56:872][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/TestAIBlackboard] ([1] browsable assets)...
+[2018.03.29-05.34.56:872][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/TestAIBlackboard]
+[2018.03.29-05.34.56:881][ 49]LogSavePackage: Save=2.33ms
+[2018.03.29-05.34.56:881][ 49]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBlackboard_Auto439C8408242F8AC8853D990ADBC5A92EC.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestAIBlackboard_Auto4.uasset'
+[2018.03.29-05.34.56:883][ 49]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestAIBlackboard_Auto4.uasset
+[2018.03.29-05.34.56:884][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.29-05.34.56:884][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New]
+[2018.03.29-05.34.56:914][ 49]LogSavePackage: Save=24.25ms
+[2018.03.29-05.34.56:914][ 49]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_New_AutoBEA9181D4AAA295F76272E91BBCA3305.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto4.uasset'
+[2018.03.29-05.34.56:916][ 49]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto4.uasset
+[2018.03.29-05.34.56:916][ 49]LogFileHelpers: Auto-saving content packages took 0.045
+[2018.03.29-05.35.10:247][580]LogEditorTransaction: Undo Delete Blackboard Entry
+[2018.03.29-05.35.10:836][600]LogEditorTransaction: Undo Remove Variable
+[2018.03.29-05.35.11:062][607]LogEditorTransaction: Undo Delete current selection
+[2018.03.29-05.35.11:627][625]LogEditorTransaction: Undo Create Pin Link
+[2018.03.29-05.35.11:824][631]LogEditorTransaction: Undo Create Pin Link
+[2018.03.29-05.35.12:017][637]LogEditorTransaction: Undo Create Pin Link
+[2018.03.29-05.35.12:240][644]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.12:525][653]LogEditorTransaction: Undo Create Pin Link
+[2018.03.29-05.35.12:842][663]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.13:133][672]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.13:570][685]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.13:947][697]LogEditorTransaction: Undo Delete current selection
+[2018.03.29-05.35.14:452][713]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.14:863][726]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.15:308][740]LogEditorTransaction: Undo Add Node
+[2018.03.29-05.35.15:719][753]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.16:155][767]LogEditorTransaction: Undo Add Node
+[2018.03.29-05.35.16:624][782]LogEditorTransaction: Undo Move Node
+[2018.03.29-05.35.17:128][798]LogEditorTransaction: Undo Add Node
+[2018.03.29-05.37.38:254][ 20]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2018.03.29-05.37.54:211][149]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BehaviorTree/FoodLookout.
+[2018.03.29-05.37.54:236][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FoodLookout" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset" SILENT=true
+[2018.03.29-05.37.54:260][149]LogSavePackage: Save=22.68ms
+[2018.03.29-05.37.54:260][149]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FoodLookoutBD94F9A74FE16BBEAB0D9AB9AA0FB47D.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset'
+[2018.03.29-05.37.54:270][149]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset
+[2018.03.29-05.37.54:605][153]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BehaviorTree/FoodLookout.
+[2018.03.29-05.38.35:842][843]BlueprintLog: New page: Compile FoodLookout
+[2018.03.29-05.38.36:380][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FoodLookout" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset" SILENT=true
+[2018.03.29-05.38.36:408][859]LogSavePackage: Save=20.11ms
+[2018.03.29-05.38.36:408][859]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FoodLookout8F7D5DF4466F7330FC4AA588269F0414.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset'
+[2018.03.29-05.38.36:411][859]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset
+[2018.03.29-05.39.12:258][279]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.39.12:329][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.39.12:337][279]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.29-05.39.12:338][279]LogPlayLevel: [PlayLevel] Compiling TestCode before play...
+[2018.03.29-05.39.12:344][279]LogPlayLevel: [PlayLevel] Compiling IsHoldingFood before play...
+[2018.03.29-05.39.12:364][279]LogPlayLevel: PlayLevel: Blueprint regeneration took 27 ms (2 blueprints)
+[2018.03.29-05.39.12:387][279]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:39:12 PM)
+[2018.03.29-05.39.12:387][279]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.39.12:497][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109362s)
+[2018.03.29-05.39.12:497][279]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.39.12:497][279]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2018.03.29-05.39.12:498][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.110439s)
+[2018.03.29-05.39.12:561][279]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.39.12:576][279]LogInit: FAudioDevice initialized.
+[2018.03.29-05.39.12:640][279]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.39.12:689][279]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.39.12:689][279]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.39.12:689][279]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.39.12:689][279]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.39.12
+[2018.03.29-05.39.12:725][279]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.39.12:731][279]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.39.12:731][279]LogWorld: Bringing up level for play took: 0.073525
+[2018.03.29-05.39.12:736][279]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.39.12:787][279]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.03.29-05.39.12:803][279]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.39.12:837][279]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.26
+[2018.03.29-05.39.12:932][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.39.12:940][279]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.39.55:140][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.39.55:208][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.25:351][404]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.29-05.40.26:198][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.29-05.40.26:211][415]LogSavePackage: Save=6.78ms
+[2018.03.29-05.40.26:212][415]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPoint8317B69B40DC2C5DC193EFBDAA586173.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.29-05.40.26:215][415]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.29-05.40.32:217][765]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.40.32:242][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.32:244][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-05.40.32:245][765]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:40:32 PM)
+[2018.03.29-05.40.32:245][765]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.40.32:348][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103344s)
+[2018.03.29-05.40.32:348][765]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.40.32:349][765]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.03.29-05.40.32:349][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.104271s)
+[2018.03.29-05.40.32:381][765]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.40.32:394][765]LogInit: FAudioDevice initialized.
+[2018.03.29-05.40.32:422][765]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.40.32:442][765]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.32:442][765]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.32:442][765]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.32:442][765]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.40.32
+[2018.03.29-05.40.32:443][765]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.32:443][765]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.32:444][765]LogWorld: Bringing up level for play took: 0.020943
+[2018.03.29-05.40.32:444][765]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.40.32:445][765]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.40.32:447][765]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.65
+[2018.03.29-05.40.32:449][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.32:450][765]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.33:946][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.33:995][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.37:470][ 15]LogSavePackage: Save=1694.77ms
+[2018.03.29-05.40.37:470][ 15]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/ShipDE635A1941986C4328D23DBD082F481E.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.29-05.40.37:474][ 15]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.29-05.40.37:499][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship_BuiltData" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset" SILENT=true
+[2018.03.29-05.40.39:104][ 15]LogSavePackage: Save=1574.53ms
+[2018.03.29-05.40.39:104][ 15]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltData931528F74316EC4D756E8EBE1D9D9F2F.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.03.29-05.40.39:113][ 15]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset
+[2018.03.29-05.40.40:891][168]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.40.40:912][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.40:915][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-05.40.40:915][168]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:40:40 PM)
+[2018.03.29-05.40.40:915][168]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.40.41:016][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100535s)
+[2018.03.29-05.40.41:016][168]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.40.41:016][168]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2018.03.29-05.40.41:017][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.101440s)
+[2018.03.29-05.40.41:048][168]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.40.41:062][168]LogInit: FAudioDevice initialized.
+[2018.03.29-05.40.41:090][168]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.40.41:110][168]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.41:110][168]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.41:110][168]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.41:111][168]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.40.41
+[2018.03.29-05.40.41:111][168]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.41:112][168]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.41:112][168]LogWorld: Bringing up level for play took: 0.021013
+[2018.03.29-05.40.41:112][168]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.40.41:113][168]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.40.41:115][168]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.018
+[2018.03.29-05.40.41:117][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.41:118][168]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.40.43:716][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.43:764][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.40.45:954][637]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.29-05.41.04:541][294]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.41.04:561][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.04:564][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-05.41.04:564][294]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:41:04 PM)
+[2018.03.29-05.41.04:564][294]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.41.04:660][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096006s)
+[2018.03.29-05.41.04:660][294]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.41.04:660][294]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2018.03.29-05.41.04:660][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.096861s)
+[2018.03.29-05.41.04:693][294]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.41.04:706][294]LogInit: FAudioDevice initialized.
+[2018.03.29-05.41.04:733][294]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.41.04:752][294]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.04:752][294]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.04:752][294]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.04:753][294]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.41.04
+[2018.03.29-05.41.04:754][294]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.04:754][294]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.04:754][294]LogWorld: Bringing up level for play took: 0.020422
+[2018.03.29-05.41.04:754][294]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.41.04:755][294]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.41.04:757][294]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.34
+[2018.03.29-05.41.04:763][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.04:764][294]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.05:859][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.05:899][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.07:064][548]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint5)
+[2018.03.29-05.41.08:043][662]Cmd: DELETE
+[2018.03.29-05.41.08:043][662]Cmd: ACTOR DELETE
+[2018.03.29-05.41.08:126][662]LogEditorActor: Deleted Actor: PatrolPoint_C
+[2018.03.29-05.41.08:141][662]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2018.03.29-05.41.12:486][ 87]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.29-05.41.23:083][245]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2018.03.29-05.41.24:562][419]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint4)
+[2018.03.29-05.41.26:365][632]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2018.03.29-05.41.28:627][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DM_Ship)
+[2018.03.29-05.41.29:669][ 17]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2018.03.29-05.41.31:605][245]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint4)
+[2018.03.29-05.41.32:985][380]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.41.33:005][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.33:008][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-05.41.33:008][380]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:41:33 PM)
+[2018.03.29-05.41.33:008][380]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.41.33:105][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096918s)
+[2018.03.29-05.41.33:106][380]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.41.33:106][380]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2018.03.29-05.41.33:106][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.097774s)
+[2018.03.29-05.41.33:138][380]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.41.33:151][380]LogInit: FAudioDevice initialized.
+[2018.03.29-05.41.33:179][380]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.41.33:198][380]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.33:198][380]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.33:198][380]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.33:199][380]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.41.33
+[2018.03.29-05.41.33:200][380]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.33:200][380]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.33:200][380]LogWorld: Bringing up level for play took: 0.020419
+[2018.03.29-05.41.33:200][380]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.41.33:201][380]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.41.33:203][380]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.107
+[2018.03.29-05.41.33:210][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.33:210][380]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.35:005][543]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.35:053][543]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.42:051][929]BlueprintLog: New page: Compile PatrolPoint
+[2018.03.29-05.41.42:948][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset" SILENT=true
+[2018.03.29-05.41.42:962][942]LogSavePackage: Save=8.17ms
+[2018.03.29-05.41.42:962][942]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/PatrolPoint5C2F778A46DADD271167BEBFD87F74E4.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset'
+[2018.03.29-05.41.42:965][942]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/PatrolPoint.uasset
+[2018.03.29-05.41.56:210][532]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.41.56:235][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.56:237][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-05.41.56:237][532]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:41:56 PM)
+[2018.03.29-05.41.56:238][532]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.41.56:335][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097595s)
+[2018.03.29-05.41.56:335][532]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.41.56:336][532]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2018.03.29-05.41.56:336][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.098450s)
+[2018.03.29-05.41.56:368][532]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.41.56:381][532]LogInit: FAudioDevice initialized.
+[2018.03.29-05.41.56:409][532]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.41.56:428][532]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.56:428][532]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.56:428][532]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.56:429][532]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.41.56
+[2018.03.29-05.41.56:430][532]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.56:430][532]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.56:430][532]LogWorld: Bringing up level for play took: 0.020272
+[2018.03.29-05.41.56:430][532]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.41.56:431][532]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.41.56:434][532]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.663
+[2018.03.29-05.41.56:436][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.41.56:437][532]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.41.59:970][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.42.00:012][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.42.11:908][377]BlueprintLog: New page: Compile NPC1
+[2018.03.29-05.42.12:584][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/NPC1" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/NPC1.uasset" SILENT=true
+[2018.03.29-05.42.12:614][386]LogSavePackage: Save=23.72ms
+[2018.03.29-05.42.12:614][386]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/NPC1F7F5C0554C252D297A64499F07E0CE20.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/NPC1.uasset'
+[2018.03.29-05.42.12:617][386]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/NPC1.uasset
+[2018.03.29-05.42.14:669][503]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.42.14:695][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.42.14:698][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-05.42.14:698][503]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:42:14 PM)
+[2018.03.29-05.42.14:698][503]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.42.14:795][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097609s)
+[2018.03.29-05.42.14:796][503]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.42.14:796][503]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2018.03.29-05.42.14:796][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.098516s)
+[2018.03.29-05.42.14:829][503]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.42.14:842][503]LogInit: FAudioDevice initialized.
+[2018.03.29-05.42.14:870][503]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.42.14:889][503]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.42.14:889][503]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.42.14:889][503]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.42.14:890][503]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.42.14
+[2018.03.29-05.42.14:891][503]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.42.14:891][503]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.42.14:891][503]LogWorld: Bringing up level for play took: 0.020770
+[2018.03.29-05.42.14:892][503]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.42.14:892][503]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.42.14:894][503]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.202
+[2018.03.29-05.42.14:897][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.42.14:897][503]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.42.41:871][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.42.41:917][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.42.46:965][455]Cmd: TRANSACTION UNDO
+[2018.03.29-05.42.46:965][455]LogEditorTransaction: Undo Change Number Pin Value
+[2018.03.29-05.42.49:595][545]BlueprintLog: New page: Compile NPC1
+[2018.03.29-05.42.50:277][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/NPC1" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/NPC1.uasset" SILENT=true
+[2018.03.29-05.42.50:305][555]LogSavePackage: Save=23.16ms
+[2018.03.29-05.42.50:305][555]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/NPC1902A2D194DEC9B807D812890BBA3B77D.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/NPC1.uasset'
+[2018.03.29-05.42.50:309][555]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/NPC1.uasset
+[2018.03.29-05.49.52:760][768]LogTemp: Repeating last play command: Simulate
+[2018.03.29-05.49.52:788][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.49.52:790][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.29-05.49.52:791][768]PIE: New page: SIE session: Ship (Mar 28, 2018, 9:49:52 PM)
+[2018.03.29-05.49.52:791][768]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.03.29-05.49.52:890][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099538s)
+[2018.03.29-05.49.52:891][768]LogAIModule: Creating AISystem for world Ship
+[2018.03.29-05.49.52:891][768]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2018.03.29-05.49.52:891][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.100536s)
+[2018.03.29-05.49.52:927][768]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.29-05.49.52:940][768]LogInit: FAudioDevice initialized.
+[2018.03.29-05.49.52:968][768]LogLoad: Game class is 'NewGameMode_C'
+[2018.03.29-05.49.52:988][768]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.49.52:988][768]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.49.52:988][768]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.49.52:989][768]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.03.29-01.49.52
+[2018.03.29-05.49.52:990][768]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.49.52:990][768]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.49.52:990][768]LogWorld: Bringing up level for play took: 0.021510
+[2018.03.29-05.49.52:991][768]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.29-05.49.52:992][768]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2018.03.29-05.49.52:993][768]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.103
+[2018.03.29-05.49.53:009][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.49.53:010][768]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(CharacterMesh1P) Actor(FP_FirstPersonCharacter_1)
+[2018.03.29-05.50.17:837][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.50.17:881][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.03.29-05.50.20:994][853]LogSavePackage: Save=1718.19ms
+[2018.03.29-05.50.20:994][853]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship046F45864D0F89D804301DB366EA4C54.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.29-05.50.20:999][853]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.29-05.50.21:024][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship_BuiltData" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset" SILENT=true
+[2018.03.29-05.50.22:602][853]LogSavePackage: Save=1548.44ms
+[2018.03.29-05.50.22:602][853]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltData0415F974444C50A550B545A4CEE36B1A.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.03.29-05.50.22:611][853]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset
+[2018.03.29-05.51.59:033][930]LogSavePackage: Save=22.99ms
+[2018.03.29-05.51.59:033][930]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree45FDCA2941F6E83CF190C6B4BCE37FCA.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.29-05.51.59:036][930]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.29-05.53.34:248][523]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.29-05.54.09:935][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TestAIBlackboard" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset" SILENT=true
+[2018.03.29-05.54.09:944][889]LogSavePackage: Save=2.81ms
+[2018.03.29-05.54.09:944][889]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBlackboard853BDF78420899FD606C5F93C4FD9376.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset'
+[2018.03.29-05.54.09:948][889]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset
+[2018.03.29-05.54.33:704][807]LogSavePackage: Save=19.49ms
+[2018.03.29-05.54.33:704][807]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTreeAD6A6F0343E1527C395DFCA88AADF038.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.29-05.54.33:708][807]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.29-05.59.19:076][114]LogSavePackage: Save=27.38ms
+[2018.03.29-05.59.19:076][114]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree4E63D1214C63123E10C3839946BDDDCA.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.29-05.59.19:079][114]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.29-06.00.01:227][792]LogSavePackage: Save=26.77ms
+[2018.03.29-06.00.01:227][792]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree5E5363EF46296C8756BFA5B410332D14.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.29-06.00.01:231][792]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.29-06.00.03:173][866]BlueprintLog: New page: Compile FoodLookout
+[2018.03.29-06.00.03:732][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/FoodLookout" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset" SILENT=true
+[2018.03.29-06.00.03:759][881]LogSavePackage: Save=20.40ms
+[2018.03.29-06.00.03:759][881]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/FoodLookout7422BDA4482548E4A62A1EB884CF14AA.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset'
+[2018.03.29-06.00.03:762][881]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/FoodLookout.uasset
+[2018.03.29-06.00.46:421][716]LogSavePackage: Save=19.95ms
+[2018.03.29-06.00.46:421][716]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree4A57B1654E0868AA1D0DC9BE92A1112A.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.03.29-06.00.46:424][716]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.03.29-06.00.54:301][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TestAIBlackboard" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset" SILENT=true
+[2018.03.29-06.00.54:309][ 53]LogSavePackage: Save=2.13ms
+[2018.03.29-06.00.54:309][ 53]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBlackboard101422CD44B2D0BFE6D3CE9BA462325D.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset'
+[2018.03.29-06.00.54:313][ 53]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/TestAIBlackboard.uasset
+[2018.03.29-06.01.16:363][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.017
+[2018.03.29-06.01.16:365][ 10]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/TestCode] ([1] browsable assets)...
+[2018.03.29-06.01.16:365][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/TestCode]
+[2018.03.29-06.01.16:365][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/TestCode" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestCode_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.03.29-06.01.16:374][ 10]LogSavePackage: Save=3.35ms
+[2018.03.29-06.01.16:374][ 10]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestCode_Auto59BE35EEC41E17AB88FDD7C85827BC242.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestCode_Auto5.uasset'
+[2018.03.29-06.01.16:376][ 10]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/TestCode_Auto5.uasset
+[2018.03.29-06.01.16:377][ 10]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/IsHoldingFood] ([1] browsable assets)...
+[2018.03.29-06.01.16:377][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/IsHoldingFood]
+[2018.03.29-06.01.16:407][ 10]LogSavePackage: Save=23.29ms
+[2018.03.29-06.01.16:407][ 10]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/IsHoldingFood_Auto503FF21F34C98D2DF00F8019950419CD0.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/IsHoldingFood_Auto5.uasset'
+[2018.03.29-06.01.16:409][ 10]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/IsHoldingFood_Auto5.uasset
+[2018.03.29-06.01.16:410][ 10]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New] ([1] browsable assets)...
+[2018.03.29-06.01.16:410][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BehaviorTree/BTService_BlueprintBase_New]
+[2018.03.29-06.01.16:435][ 10]LogSavePackage: Save=19.68ms
+[2018.03.29-06.01.16:435][ 10]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/BTService_BlueprintBase_New_AutoB3E5AC254E5D79570EB460A3028F3156.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto5.uasset'
+[2018.03.29-06.01.16:437][ 10]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/AI/BehaviorTree/BTService_BlueprintBase_New_Auto5.uasset
+[2018.03.29-06.01.16:437][ 10]LogFileHelpers: Auto-saving content packages took 0.073
+[2018.03.29-06.01.19:476][ 66]LogSavePackage: Save=1695.85ms
+[2018.03.29-06.01.19:476][ 66]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship500553F544A3BDE81A3B178C51BA5DFE.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.03.29-06.01.19:480][ 66]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.03.29-06.01.19:516][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship_BuiltData" FILE="C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset" SILENT=true
+[2018.03.29-06.01.21:111][ 66]LogSavePackage: Save=1559.16ms
+[2018.03.29-06.01.21:111][ 66]LogSavePackage: Moving 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship_BuiltDataCDDF275B42067B4725EFADB6306C1EE9.tmp' to 'C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset'
+[2018.03.29-06.01.21:120][ 66]LogSavePackage: Display: Finished SavePackage C:/Users/Thomas/Documents/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship_BuiltData.uasset

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SlaveVRExperience.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{771334B0-1665-45D1-97CA-870241888BB6}</UniqueIdentifier>
+			<UniqueIdentifier>{0D01BD43-4C2B-4FE9-9EEC-69A8E13DF4EE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SlaveVRExperience.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{A804CFCE-7DD9-4842-B656-B0E7053A5BDC}</UniqueIdentifier>
+			<UniqueIdentifier>{8DE85CA4-6A44-4C58-A4B2-7F59DA0134CA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -34,7 +34,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SlaveVRExperience">
-			<UniqueIdentifier>{CA70F0CF-EFA6-4051-8B59-1935F5F07947}</UniqueIdentifier>
+			<UniqueIdentifier>{FB89B2A8-5576-4F6D-BEA9-B456FBFF868B}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\SlaveVRExperience\CustomPlayerController.cpp">
 			<Filter>Source\SlaveVRExperience</Filter>
@@ -82,7 +82,7 @@
 			<Filter>Source\SlaveVRExperience</Filter>
 		</ClInclude >
 		<Filter Include="Source\SlaveVRExperience\FP_FirstPerson">
-			<UniqueIdentifier>{447C4EDA-94F3-4B81-9465-5661A140F8D3}</UniqueIdentifier>
+			<UniqueIdentifier>{CF5FFC44-4069-493C-8E4B-9A2262469A39}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\SlaveVRExperience\FP_FirstPerson\FP_FirstPerson.h">
 			<Filter>Source\SlaveVRExperience\FP_FirstPerson</Filter>

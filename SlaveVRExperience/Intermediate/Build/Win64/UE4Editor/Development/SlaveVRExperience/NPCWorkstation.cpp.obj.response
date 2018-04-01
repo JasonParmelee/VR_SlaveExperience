@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source
-/I C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Inc\SlaveVRExperience
-/I C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience
+/I C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source
+/I C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Inc\SlaveVRExperience
+/I C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -359,9 +359,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience\NPCWorkstation.cpp"
-/FI"C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\Definitions.SlaveVRExperience.h"
-/Fo"C:\Users\DARKSIDER-II\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\NPCWorkstation.cpp.obj"
+"C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Source\SlaveVRExperience\NPCWorkstation.cpp"
+/FI"C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\Definitions.SlaveVRExperience.h"
+/Fo"C:\Users\Nutty_000\Documents\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\SlaveVRExperience\NPCWorkstation.cpp.obj"
 /TP
 /GR-
 /W4

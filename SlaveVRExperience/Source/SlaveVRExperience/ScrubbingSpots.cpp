@@ -22,7 +22,8 @@ AScrubbingSpots::AScrubbingSpots(const FObjectInitializer& objectInitializer)
 
 
 	collisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("RootCollision"));
-	collisionBox->SetHiddenInGame(false);
+	//collisionBox->SetHiddenInGame(false);
+	collisionBox->ToggleVisibility(false);
 
 	boxScale = FVector(170, 170, 20);
 	collisionBox->SetBoxExtent(boxScale, true);

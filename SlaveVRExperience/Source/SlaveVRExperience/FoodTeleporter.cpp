@@ -14,7 +14,7 @@ AFoodTeleporter::AFoodTeleporter(const FObjectInitializer& objectInitializer)
 	PrimaryActorTick.bCanEverTick = true;
 
 	collisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("RootCollision"));
-	collisionBox->SetHiddenInGame(false);
+	collisionBox->SetHiddenInGame(true);
 
 	boxScale = FVector(100, 200, 20);
 	collisionBox->SetBoxExtent(boxScale, true);

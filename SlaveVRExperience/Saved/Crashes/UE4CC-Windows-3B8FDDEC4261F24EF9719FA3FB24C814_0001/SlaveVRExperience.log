@@ -1,0 +1,779 @@
+﻿Log file open, 04/16/18 14:52:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SlaveVRExperience
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-20796129) SRandInit(-20796129).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.157300
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.16-18.52.59:850][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-18.52.59:850][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.16-18.52.59:859][  0]LogInit: Computer: CAH812110809
+[2018.04.16-18.52.59:860][  0]LogInit: User: ja999455
+[2018.04.16-18.52.59:860][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.16-18.52.59:860][  0]LogInit: High frequency timer resolution =3.906252 MHz
+[2018.04.16-18.52.59:860][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.16-18.52.59:860][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.16-18.52.59:860][  0]LogMemory: Process Physical Memory: 274.00 MB used, 274.00 MB peak
+[2018.04.16-18.52.59:860][  0]LogMemory: Process Virtual Memory: 266.04 MB used, 266.04 MB peak
+[2018.04.16-18.52.59:860][  0]LogMemory: Physical Memory: 3777.35 MB used,  12521.55 MB free, 16298.90 MB total
+[2018.04.16-18.52.59:860][  0]LogMemory: Virtual Memory: 640.55 MB used,  12521.55 MB free, 134217728.00 MB total
+[2018.04.16-18.52.59:944][  0]LogInit: Using OS detected language (en-US).
+[2018.04.16-18.52.59:944][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.16-18.52.59:946][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.16-18.53.00:291][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.16-18.53.00:477][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.16-18.53.00:496][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.04.16-18.53.00:496][  0]LogD3D11RHI:       2016/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.16-18.53.00:501][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.04.16-18.53.00:501][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.16-18.53.00:502][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.16-18.53.00:502][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.16-18.53.00:502][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.16-18.53.00:505][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.16-18.53.00:505][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.16-18.53.00:505][  0]LogWindows: EnumDisplayDevices:
+[2018.04.16-18.53.00:505][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.04.16-18.53.00:505][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.04.16-18.53.00:505][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.04.16-18.53.00:505][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.04.16-18.53.00:505][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.16-18.53.00:506][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.16-18.53.00:506][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.16-18.53.00:506][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.04.16-18.53.00:506][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.04.16-18.53.00:506][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2018.04.16-18.53.00:506][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2018.04.16-18.53.00:506][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2018.04.16-18.53.00:520][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.16-18.53.00:530][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.16-18.53.00:579][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/9864/).
+[2018.04.16-18.53.00:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ja999455/AppData/Local/Temp/UnrealShaderWorkingDir/D78D576B4F95CF014CB4EEA4FA357DAC/'.
+[2018.04.16-18.53.00:579][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.16-18.53.01:284][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.16-18.53.01:317][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.16-18.53.01:349][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.16-18.53.01:383][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.16-18.53.01:417][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.16-18.53.01:452][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.16-18.53.01:485][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.16-18.53.01:517][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.16-18.53.01:545][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.16-18.53.01:576][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.16-18.53.01:608][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.16-18.53.01:640][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.16-18.53.01:673][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.16-18.53.01:705][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.16-18.53.01:769][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.16-18.53.01:769][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.16-18.53.01:800][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.16-18.53.01:823][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.16-18.53.01:887][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.16-18.53.01:906][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.16-18.53.01:939][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.16-18.53.01:972][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.16-18.53.02:003][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.16-18.53.02:036][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.16-18.53.02:036][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.16-18.53.02:308][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.16-18.53.02:387][  0]LogDerivedDataCache: Loaded boot cache 0.08s 88MB C:/Users/ja999455/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-18.53.02:387][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ja999455/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.16-18.53.02:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.16-18.53.02:387][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.16-18.53.02:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.16-18.53.02:387][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.16-18.53.02:402][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.16-18.53.02:414][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ja999455/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.16-18.53.02:423][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.16-18.53.02:423][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.16-18.53.02:424][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-18.53.02:424][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-18.53.02:718][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-18.53.02:937][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.16-18.53.02:960][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.16-18.53.02:960][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.16-18.53.02:960][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.16-18.53.02:960][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.16-18.53.02:960][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.16-18.53.02:980][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.04.16-18.53.03:099][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2018.04.16-18.53.03:466][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.045437 seconds
+[2018.04.16-18.53.03:471][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.16-18.53.03:471][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.16-18.53.03:471][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.16-18.53.03:501][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.16-18.53.05:325][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.16-18.53.05:356][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.16-18.53.05:849][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.16-18.53.06:113][  0]SourceControl: Source control is disabled
+[2018.04.16-18.53.06:113][  0]SourceControl: Source control is disabled
+[2018.04.16-18.53.06:145][  0]SourceControl: Source control is disabled
+[2018.04.16-18.53.06:176][  0]SourceControl: Source control is disabled
+[2018.04.16-18.53.06:657][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.16-18.53.06:815][  0]LogOcInput: OculusInput pre-init called
+[2018.04.16-18.53.06:984][  0]LogEngine: Initializing Engine...
+[2018.04.16-18.53.10:524][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-CCE699A8
+[2018.04.16-18.53.10:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.16-18.53.10:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.16-18.53.10:784][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.16-18.53.10:801][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-18.53.10:915][  0]LogInit: FAudioDevice initialized.
+[2018.04.16-18.53.10:992][  0]LogDerivedDataCache: Saved boot cache 0.08s 88MB C:/Users/ja999455/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-18.53.11:007][  0]LogInit: Texture streaming: Enabled
+[2018.04.16-18.53.11:066][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.16-18.53.11:138][  0]LogInit: Transaction tracking system initialized
+[2018.04.16-18.53.11:317][  0]BlueprintLog: New page: Editor Load
+[2018.04.16-18.53.11:819][  0]LocalizationService: Localization service is disabled
+[2018.04.16-18.53.12:244][  0]LogConsoleResponse: Display: 
+[2018.04.16-18.53.12:371][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.16-18.53.12:371][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.16-18.53.12:371][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.16-18.53.12:758][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.01s
+[2018.04.16-18.53.13:075][  0]SourceControl: Source control is disabled
+[2018.04.16-18.53.13:075][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-18.53.13:076][  0]LightingResults: New page: Lighting Build
+[2018.04.16-18.53.13:100][  0]MapCheck: New page: Map Check
+[2018.04.16-18.53.13:101][  0]LightingResults: New page: Lighting Build
+[2018.04.16-18.53.13:499][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Play Animation Sequence  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.16-18.53.13:499][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Play Animation Sequence  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.16-18.53.13:499][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Play Animation Sequence  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.16-18.53.13:499][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.16-18.53.13:499][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.16-18.53.13:502][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] [0015.86] Compile of Slave_animBP1 successful, but with 5 Warning(s) [in 154 ms] (/Game/AI/Slave_animBP1.Slave_animBP1)
+[2018.04.16-18.53.18:362][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.130 s
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: 
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: Ensure condition failed: ObservedKeyNames.Num() > 0 [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Decorators\BTDecorator_BlueprintBase.cpp] [Line: 67]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: 
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: Stack: 
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000053682786 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x000000005342123A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:298]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x000000005343B906 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:425]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x000000004AC063FA UE4Editor-AIModule.dll!UBTDecorator_BlueprintBase::PostLoad() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\aimodule\private\behaviortree\decorators\btdecorator_blueprintbase.cpp:67]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000052ECE8FD UE4Editor-CoreUObject.dll!UObject::ConditionalPostLoad() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:988]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000052F8DABC UE4Editor-CoreUObject.dll!EndLoad() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1588]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000052FA5259 UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1333]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000052FA4774 UE4Editor-CoreUObject.dll!LoadPackage() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1430]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000496E1451 UE4Editor-UnrealEd.dll!UEditorEngine::Map_Load() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2492]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000496D2F45 UE4Editor-UnrealEd.dll!UEditorEngine::HandleMapCommand() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5968]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000496B7982 UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5445]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000049F4BAC9 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\unrealedsrv.cpp:672]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000499C268B UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadMap() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:2229]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000499C22DF UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadDefaultMapAtStartup() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:3477]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000049F0486E UE4Editor-UnrealEd.dll!FUnrealEdMisc::OnInit() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\unrealedmisc.cpp:348]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x0000000049EC882D UE4Editor-UnrealEd.dll!EditorInit() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\unrealedglobals.cpp:97]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000AB4C5326 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\launch.cpp:150]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000AB4C54AA UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000AB4D2379 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000AB4D3D57 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x00000000895E8364 KERNEL32.DLL!UnknownFunction []
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: [Callstack] 0x000000008A4870D1 ntdll.dll!UnknownFunction []
+[2018.04.16-18.53.18:362][  0]LogOutputDevice: Error: 
+[2018.04.16-18.53.18:372][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.04.16-18.53.18:517][  0]LogStats:                    SendNewReport -  0.145 s
+[2018.04.16-18.53.18:517][  0]LogStats:             FDebug::EnsureFailed -  3.286 s
+[2018.04.16-18.53.18:821][  0]LogAIModule: Creating AISystem for world Ship
+[2018.04.16-18.53.19:154][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.friend.SkeletalMeshComponent0'
+[2018.04.16-18.53.19:156][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Laying_Down_Coughing_5.SkeletalMeshComponent0'
+[2018.04.16-18.53.19:158][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC10.CharacterMesh0'
+[2018.04.16-18.53.19:158][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC11.CharacterMesh0'
+[2018.04.16-18.53.19:159][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC12.CharacterMesh0'
+[2018.04.16-18.53.19:159][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC13.CharacterMesh0'
+[2018.04.16-18.53.19:159][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC14.CharacterMesh0'
+[2018.04.16-18.53.19:159][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC15.CharacterMesh0'
+[2018.04.16-18.53.19:160][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC16.CharacterMesh0'
+[2018.04.16-18.53.19:160][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC17.CharacterMesh0'
+[2018.04.16-18.53.19:160][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC18.CharacterMesh0'
+[2018.04.16-18.53.19:161][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC19.CharacterMesh0'
+[2018.04.16-18.53.19:161][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC1_2.CharacterMesh0'
+[2018.04.16-18.53.19:161][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC20.CharacterMesh0'
+[2018.04.16-18.53.19:161][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC21.CharacterMesh0'
+[2018.04.16-18.53.19:161][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC22.CharacterMesh0'
+[2018.04.16-18.53.19:162][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC23.CharacterMesh0'
+[2018.04.16-18.53.19:162][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC24.CharacterMesh0'
+[2018.04.16-18.53.19:162][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC2_2.CharacterMesh0'
+[2018.04.16-18.53.19:162][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC3_2.CharacterMesh0'
+[2018.04.16-18.53.19:163][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC4_5.CharacterMesh0'
+[2018.04.16-18.53.19:163][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC5_8.CharacterMesh0'
+[2018.04.16-18.53.19:163][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC6_2.CharacterMesh0'
+[2018.04.16-18.53.19:163][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC7_2.CharacterMesh0'
+[2018.04.16-18.53.19:163][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC8_5.CharacterMesh0'
+[2018.04.16-18.53.19:164][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Ship.Ship:PersistentLevel.NPC9_8.CharacterMesh0'
+[2018.04.16-18.53.19:175][  0]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:UserConstructionScript'!
+[2018.04.16-18.53.19:175][  0]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:UserConstructionScript'!
+[2018.04.16-18.53.19:180][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.16-18.53.19:328][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-18.53.19:385][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.281ms to complete.
+[2018.04.16-18.53.19:385][  0]LogFileHelpers: Loading map 'Ship' took 6.310
+[2018.04.16-18.53.19:441][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.16-18.53.19:515][  0]LogCollectionManager: Loaded 0 collections in 0.001150 seconds
+[2018.04.16-18.53.19:577][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.04.16-18.53.19:577][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/ja999455/Collections/' took 0.01s
+[2018.04.16-18.53.19:577][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.04.16-18.53.19:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.16-18.53.19:585][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2370 classes and 522 folders.
+[2018.04.16-18.53.19:623][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.16-18.53.19:651][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.16-18.53.19:679][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.16-18.53.19:775][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-18.53.19:777][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.16-18.53.19:782][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.16-18.53.19:875][  0]LogRenderer: Reallocating scene render targets to support 1112x660 Format 26 NumSamples 1 (Frame:1).
+[2018.04.16-18.53.20:035][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.16-18.53.20:035][  0]LogLoad: (Engine Initialization) Total time: 22.40 seconds
+[2018.04.16-18.53.20:035][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.16-18.53.20:036][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.16-18.53.20:036][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.16-18.53.20:078][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.16-18.53.20:125][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-18.53.20:157][  1]LogAssetRegistry: Asset discovery search completed in 17.0793 seconds
+[2018.04.16-18.53.20:159][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.16-18.53.20:159][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.04.16-18.53.20:189][  2]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue6
+	Slave_animBP1_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Slave_animBP1_C_0
+	Function /Game/AI/Slave_animBP1.Slave_animBP1_C:ExecuteUbergraph_Slave_animBP1:0654
+[2018.04.16-18.53.20:189][  2]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	Slave_animBP1_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Slave_animBP1_C_0
+	Function /Game/AI/Slave_animBP1.Slave_animBP1_C:ExecuteUbergraph_Slave_animBP1:0693
+[2018.04.16-18.53.25:148][252]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 5.09s
+[2018.04.16-18.53.39:901][144]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-18.53.40:156][144]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.04.16-18.53.40:762][144]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.16-18.53.41:035][145]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.16-18.53.56:752][831]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-18.53.56:848][831]Cmd: MAP LOAD FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-18.53.56:848][831]LightingResults: New page: Lighting Build
+[2018.04.16-18.53.56:848][831]LoadErrors: New page: Loading map: Auction_Block.umap
+[2018.04.16-18.53.56:864][831]MapCheck: New page: Map Check
+[2018.04.16-18.53.56:864][831]LightingResults: New page: Lighting Build
+[2018.04.16-18.53.57:124][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:125][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:125][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:125][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:125][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:125][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:125][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:125][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:126][831]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-18.53.57:211][831]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.16-18.53.57:418][831]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-18.53.57:469][831]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.816ms to complete.
+[2018.04.16-18.53.57:469][831]LogFileHelpers: Loading map 'Auction_Block' took 0.622
+[2018.04.16-18.53.57:471][831]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-18.54.01:352][931]LogLinker: Warning: Can't find file '/Game/Blueprints/NewGameMode'
+[2018.04.16-18.54.01:353][931]LogLinker: Warning: Can't find file '/Game/Blueprints/NewGameMode'
+[2018.04.16-18.54.01:353][931]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Blueprints/NewGameMode.NewGameMode_C'
+[2018.04.16-18.54.01:654][958]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-18.54.01:713][961]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:UserConstructionScript'!
+[2018.04.16-18.54.49:617][773]BlueprintLog: New page: Compile Auction_Block
+[2018.04.16-18.54.53:993][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-18.54.53:993][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-18.54.53:993][949]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 10:54:53 AM)
+[2018.04.16-18.54.53:993][949]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-18.54.54:103][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109764s)
+[2018.04.16-18.54.54:104][949]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-18.54.54:104][949]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2018.04.16-18.54.54:104][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.111121s)
+[2018.04.16-18.54.54:131][949]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-18.54.54:142][949]LogInit: FAudioDevice initialized.
+[2018.04.16-18.54.54:181][949]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-18.54.54:206][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:206][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:206][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:206][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:206][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:207][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:207][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:207][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:207][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-18.54.54:208][949]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-14.54.54
+[2018.04.16-18.54.54:209][949]LogWorld: Bringing up level for play took: 0.026659
+[2018.04.16-18.54.54:237][949]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.16-18.54.54:240][949]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block 0.492
+[2018.04.16-18.54.54:241][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-18.54.58:203][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-18.54.58:281][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-18.56.15:232][523]BlueprintLog: New page: Compile Auction_Block
+[2018.04.16-18.56.15:237][523]LogBlueprint: Error: [Compiler PersistentLevel.Auction_Block] Event BeginPlay  Signature Error: The selected function/event is not bindable - is the function/event pure or latent?
+[2018.04.16-18.56.15:355][523]LogBlueprint: Warning: [Compiler PersistentLevel.Auction_Block] [0197.72] Compile of PersistentLevel.Auction_Block failed. 1 Fatal Issue(s) 0 Warning(s) [in 122 ms] (/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block)
+[2018.04.16-18.57.08:139][789]BlueprintLog: New page: Compile Auction_Block
+[2018.04.16-18.57.11:833][832]LogSavePackage: Save=1711.78ms
+[2018.04.16-18.57.11:833][832]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Auction_Block1F47A8B94B45B1FB18F06EB52E48CECE.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap'
+[2018.04.16-18.57.11:837][832]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap
+[2018.04.16-18.57.11:886][832]LogFileHelpers: Saving map 'Auction_Block' took 1.845
+[2018.04.16-18.57.16:597][952]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-18.57.16:626][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-18.57.16:626][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-18.57.16:626][952]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 10:57:16 AM)
+[2018.04.16-18.57.16:626][952]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-18.57.16:741][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115309s)
+[2018.04.16-18.57.16:742][952]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-18.57.16:742][952]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2018.04.16-18.57.16:742][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.116303s)
+[2018.04.16-18.57.16:769][952]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-18.57.16:779][952]LogInit: FAudioDevice initialized.
+[2018.04.16-18.57.16:814][952]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-18.57.16:837][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:837][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:837][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:837][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:838][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:838][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:838][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:838][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:838][952]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-18.57.16:840][952]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-14.57.16
+[2018.04.16-18.57.16:841][952]LogWorld: Bringing up level for play took: 0.025826
+[2018.04.16-18.57.16:844][952]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block 1.094
+[2018.04.16-18.57.16:844][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-18.57.36:613][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-18.57.36:687][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.01.53:705][485]Cmd: TRANSACTION UNDO
+[2018.04.16-19.01.53:705][485]LogEditorTransaction: Undo Move Keys
+[2018.04.16-19.03.52:418][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Act_3/NPC_Death" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Act_3/NPC_Death.uasset" SILENT=true
+[2018.04.16-19.03.52:447][188]LogSavePackage: Save=21.40ms
+[2018.04.16-19.03.52:447][188]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/NPC_DeathA88A295743EB2DA703FEF98DBCD1A8B1.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Act_3/NPC_Death.uasset'
+[2018.04.16-19.03.52:448][188]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Models/Act_3/NPC_Death.uasset
+[2018.04.16-19.04.04:291][456]BlueprintLog: New page: Compile Auction_Block
+[2018.04.16-19.04.07:207][523]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-19.04.07:237][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.04.07:237][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.04.07:237][523]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 11:04:07 AM)
+[2018.04.16-19.04.07:237][523]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-19.04.07:357][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120093s)
+[2018.04.16-19.04.07:358][523]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-19.04.07:358][523]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2018.04.16-19.04.07:358][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.121167s)
+[2018.04.16-19.04.07:386][523]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-19.04.07:396][523]LogInit: FAudioDevice initialized.
+[2018.04.16-19.04.07:430][523]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-19.04.07:453][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:453][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:453][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:453][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:453][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:453][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:453][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:454][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:454][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-19.04.07:455][523]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-15.04.07
+[2018.04.16-19.04.07:456][523]LogWorld: Bringing up level for play took: 0.025604
+[2018.04.16-19.04.07:460][523]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block -0.29
+[2018.04.16-19.04.07:460][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.04.52:224][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.04.52:302][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.05.01:902][874]BlueprintLog: New page: Compile Auction_Block
+[2018.04.16-19.05.04:727][895]LogSavePackage: Save=1725.30ms
+[2018.04.16-19.05.04:727][895]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Auction_Block516610B54DF59AAE31ECBFAC166DEA3A.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap'
+[2018.04.16-19.05.04:730][895]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap
+[2018.04.16-19.05.04:777][895]LogFileHelpers: Saving map 'Auction_Block' took 1.858
+[2018.04.16-19.05.53:201][ 16]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-19.05.53:226][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.05.53:226][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.05.53:226][ 16]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 11:05:53 AM)
+[2018.04.16-19.05.53:226][ 16]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-19.05.53:348][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121552s)
+[2018.04.16-19.05.53:349][ 16]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-19.05.53:349][ 16]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2018.04.16-19.05.53:349][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.122536s)
+[2018.04.16-19.05.53:377][ 16]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-19.05.53:386][ 16]LogInit: FAudioDevice initialized.
+[2018.04.16-19.05.53:419][ 16]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-19.05.53:442][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:442][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:442][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:442][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:442][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:442][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:443][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:443][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:443][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-19.05.53:444][ 16]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-15.05.53
+[2018.04.16-19.05.53:445][ 16]LogWorld: Bringing up level for play took: 0.025754
+[2018.04.16-19.05.53:449][ 16]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block -0.301
+[2018.04.16-19.05.53:449][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.06.33:241][ 12]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.06.33:313][ 12]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.06.44:515][277]BlueprintLog: New page: Compile Auction_Block
+[2018.04.16-19.06.47:587][304]LogSavePackage: Save=1729.66ms
+[2018.04.16-19.06.47:587][304]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Auction_BlockEA657E124DDCD5C26B4DA5A03927BEE7.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap'
+[2018.04.16-19.06.47:591][304]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap
+[2018.04.16-19.06.47:638][304]LogFileHelpers: Saving map 'Auction_Block' took 1.849
+[2018.04.16-19.06.50:648][380]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.16-19.06.50:674][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.06.50:674][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.06.50:674][380]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 11:06:50 AM)
+[2018.04.16-19.06.50:674][380]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-19.06.50:793][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118494s)
+[2018.04.16-19.06.50:793][380]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-19.06.50:794][380]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.04.16-19.06.50:794][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.119417s)
+[2018.04.16-19.06.50:822][380]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-19.06.50:833][380]LogInit: FAudioDevice initialized.
+[2018.04.16-19.06.50:866][380]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-19.06.50:889][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:890][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:890][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:890][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:890][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:890][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:890][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:890][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:891][380]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-19.06.50:892][380]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-15.06.50
+[2018.04.16-19.06.50:893][380]LogWorld: Bringing up level for play took: 0.026008
+[2018.04.16-19.06.50:896][380]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block 1.146
+[2018.04.16-19.06.50:896][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.07.28:658][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.07.28:732][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.07.43:722][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.07.43:722][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.07.43:723][697]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 11:07:43 AM)
+[2018.04.16-19.07.43:723][697]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-19.07.43:829][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106607s)
+[2018.04.16-19.07.43:830][697]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-19.07.43:830][697]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.04.16-19.07.43:830][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.107624s)
+[2018.04.16-19.07.43:857][697]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-19.07.43:866][697]LogInit: FAudioDevice initialized.
+[2018.04.16-19.07.43:948][697]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-19.07.43:971][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:971][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:971][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:971][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:971][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:971][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:971][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:972][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:972][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-19.07.43:973][697]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-15.07.43
+[2018.04.16-19.07.43:975][697]LogWorld: Bringing up level for play took: 0.026476
+[2018.04.16-19.07.43:985][697]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block 0.235
+[2018.04.16-19.07.43:985][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.07.44:043][698]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:1).
+[2018.04.16-19.08.21:713][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.08.21:911][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.08.51:870][972]LogSavePackage: Save=84.22ms
+[2018.04.16-19.08.51:870][972]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/AuctionHouseAmbianceB7D26E2D4AA19AFA99014486D7EF1C10.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Audio/Background/AuctionHouseAmbiance.uasset'
+[2018.04.16-19.08.51:873][972]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Audio/Background/AuctionHouseAmbiance.uasset
+[2018.04.16-19.08.55:599][ 59]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-19.08.55:628][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.08.55:629][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.08.55:629][ 59]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 11:08:55 AM)
+[2018.04.16-19.08.55:629][ 59]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-19.08.55:746][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117091s)
+[2018.04.16-19.08.55:746][ 59]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-19.08.55:747][ 59]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2018.04.16-19.08.55:747][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.118062s)
+[2018.04.16-19.08.55:775][ 59]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-19.08.55:785][ 59]LogInit: FAudioDevice initialized.
+[2018.04.16-19.08.55:868][ 59]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-19.08.55:895][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:896][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:896][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:896][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:896][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:896][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:896][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:897][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:897][ 59]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-19.08.55:898][ 59]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-15.08.55
+[2018.04.16-19.08.55:899][ 59]LogWorld: Bringing up level for play took: 0.030380
+[2018.04.16-19.08.55:910][ 59]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block 0.159
+[2018.04.16-19.08.55:910][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.09.06:176][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.09.06:377][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.09.20:508][659]LogSavePackage: Save=91.28ms
+[2018.04.16-19.09.20:508][659]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/AuctionHouseAmbianceEF085462499C772D0C17498450C5ABA2.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Audio/Background/AuctionHouseAmbiance.uasset'
+[2018.04.16-19.09.20:511][659]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Audio/Background/AuctionHouseAmbiance.uasset
+[2018.04.16-19.09.22:414][703]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-19.09.22:441][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.09.22:441][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.09.22:441][703]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 11:09:22 AM)
+[2018.04.16-19.09.22:441][703]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-19.09.22:552][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110895s)
+[2018.04.16-19.09.22:552][703]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-19.09.22:552][703]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.04.16-19.09.22:553][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.111923s)
+[2018.04.16-19.09.22:581][703]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-19.09.22:591][703]LogInit: FAudioDevice initialized.
+[2018.04.16-19.09.22:674][703]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-19.09.22:697][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:697][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:697][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:697][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:697][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:697][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:698][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:698][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:698][703]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-19.09.22:699][703]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-15.09.22
+[2018.04.16-19.09.22:700][703]LogWorld: Bringing up level for play took: 0.025821
+[2018.04.16-19.09.22:709][703]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block 0.959
+[2018.04.16-19.09.22:710][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.10.00:461][304]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.10.00:663][304]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.12.15:991][403]BlueprintLog: New page: Compile Auction_Block
+[2018.04.16-19.12.19:263][416]LogSavePackage: Save=1993.78ms
+[2018.04.16-19.12.19:268][416]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Auction_Block4822C1D643066076E19BA6A1291F4644.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap'
+[2018.04.16-19.12.19:272][416]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Auction_Block.umap
+[2018.04.16-19.12.19:321][416]LogFileHelpers: Saving map 'Auction_Block' took 2.136
+[2018.04.16-19.12.21:570][443]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-19.12.21:600][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.12.21:601][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.12.21:601][443]PIE: New page: PIE session: Auction_Block (Apr 16, 2018, 11:12:21 AM)
+[2018.04.16-19.12.21:601][443]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Auction_Block
+[2018.04.16-19.12.21:712][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110706s)
+[2018.04.16-19.12.21:712][443]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.16-19.12.21:712][443]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2018.04.16-19.12.21:712][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Auction_Block.Auction_Block to /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block (0.111629s)
+[2018.04.16-19.12.21:770][443]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.16-19.12.21:780][443]LogInit: FAudioDevice initialized.
+[2018.04.16-19.12.21:863][443]LogLoad: Game class is 'SlaveExpGameMode_C'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com_5.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com2.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com3.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com4.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com5.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Sitting_Anim_mixamo_com6.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean_Anim_mixamo_com_13.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:886][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.One_Shoulder_Lean__2__Anim_mixamo_com_19.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:887][443]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block:PersistentLevel.Stabbing_Blueprint.SkeletalMeshComponent0'
+[2018.04.16-19.12.21:888][443]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.16-15.12.21
+[2018.04.16-19.12.21:889][443]LogWorld: Bringing up level for play took: 0.025307
+[2018.04.16-19.12.21:897][443]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Auction_Block 0.148
+[2018.04.16-19.12.21:898][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.12.59:612][ 29]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.12.59:810][ 29]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block' with GeneratedClass '/Game/Maps/Levels/Auction_Block.Auction_Block_C' with ClassGeneratedBy '/Game/Maps/Levels/Auction_Block.Auction_Block:PersistentLevel.Auction_Block'
+[2018.04.16-19.13.30:742][992]LogStats: FPlatformStackWalk::StackWalkAndDump -  5.418 s
+[2018.04.16-19.13.30:742][992]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.16-19.13.30:742][992]LogOutputDevice: Error: 
+[2018.04.16-19.13.30:742][992]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 409]
+[2018.04.16-19.13.30:742][992]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'then' on node 'Start Camera Fade' not reciprocally linked with pin 'execute' on node 'Delay'
+[2018.04.16-19.13.30:742][992]LogOutputDevice: Error: Stack: 
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000053682786 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000005342123A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:298]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000005343B906 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:425]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000003A0CE5D3 UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:409]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000003A0CE3F9 UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:429]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000003A0CDD69 UE4Editor-Engine.dll!UEdGraphNode::BreakAllNodeLinks() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:260]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000495F469F UE4Editor-UnrealEd.dll!FGraphObjectTextFactory::PostProcessConstructedObjects() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:111]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000497C76C9 UE4Editor-UnrealEd.dll!FCustomizableTextObjectFactory::ProcessBuffer() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\factories\editorfactories.cpp:4701]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000495DD3B3 UE4Editor-UnrealEd.dll!FEdGraphUtilities::ImportNodesFromText() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:382]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000047EE720D UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodesHere() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5792]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000047EE6FEF UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodes() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5565]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000047E70FC1 UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000047E75D26 UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:434]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000004B7E9636 UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:216]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000004B8283A0 UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:160]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000047811D7D UE4Editor-GraphEditor.dll!SGraphEditorImpl::OnKeyDown() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\grapheditor\private\sgrapheditorimpl.cpp:78]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000004B7D63A1 UE4Editor-Slate.dll!<lambda_2afcd964c763e269e2d1a63f3a72f846>::operator()() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4834]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000004B7A700E UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:234]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000004B7A8C16 UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_2afcd964c763e269e2d1a63f3a72f846>,FKeyEvent>() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:216]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000004B82988C UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4832]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000004B81BEE8 UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4744]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000006318E28A UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1560]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000063181A48 UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2171]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000631903EC UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:888]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000006317D5A9 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:725]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000087CF1C24 USER32.dll!UnknownFunction []
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000087CF156C USER32.dll!UnknownFunction []
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x0000000063191516 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:129]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000AB4B50C8 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3220]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000AB4C5430 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000AB4C54AA UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000AB4D2379 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000AB4D3D57 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x00000000895E8364 KERNEL32.DLL!UnknownFunction []
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: [Callstack] 0x000000008A4870D1 ntdll.dll!UnknownFunction []
+[2018.04.16-19.13.30:743][992]LogOutputDevice: Error: 
+[2018.04.16-19.13.30:746][992]LogStats:                SubmitErrorReport -  0.000 s

@@ -2,10 +2,10 @@
   Creating makefile for hot reloading SlaveVRExperienceEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
-  ScrubbingSpots.cpp
-  [2/3] Link UE4Editor-SlaveVRExperience-8837.dll
-  [3/3] Link UE4Editor-SlaveVRExperience-8837.lib
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8837.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8837.exp
-     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8837.suppressed.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-8837.suppressed.exp
+  DeckTeleporter.cpp
+  [2/3] Link UE4Editor-SlaveVRExperience-2372.dll
+  [3/3] Link UE4Editor-SlaveVRExperience-2372.lib
+     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-2372.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-2372.exp
+     Creating library D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-2372.suppressed.lib and object D:\GitHub\VR_SlaveExperience\SlaveVRExperience\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlaveVRExperience-2372.suppressed.exp
   Deploying SlaveVRExperienceEditor Win64 Development...
-  Total build time: 5.07 seconds (Local executor: 1.21 seconds)
+  Total build time: 103.77 seconds (Local executor: 99.76 seconds)

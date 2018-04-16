@@ -61,8 +61,8 @@ void ADeckTeleporter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor
 		}
 	}
 
-	if (GEngine)
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Colliding begin %s"), *OtherActor->GetName()));
+	//if (GEngine)
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Colliding begin %s"), *OtherActor->GetName()));
 }
 
 

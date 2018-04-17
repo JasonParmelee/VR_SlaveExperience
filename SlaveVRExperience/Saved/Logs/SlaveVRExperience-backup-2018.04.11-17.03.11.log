@@ -1,0 +1,1324 @@
+﻿Log file open, 04/11/18 16:11:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SlaveVRExperience
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1530062046) SRandInit(1530062046).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.176911
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Warning: Module file ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience-5178.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Warning: Incompatible or missing module: UE4Editor-SlaveVRExperience.dll
+Running D:/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe SlaveVRExperience Development Win64 -project="D:/GitHub/VR_SlaveExperience/SlaveVRExperience/SlaveVRExperience.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+@progress push 5%
+@progress pop
+Target is up to date
+Total build time: 0.52 seconds (NoActionsToExecute executor: 0.00 seconds)
+LogModuleManager: Display: Found up-to-date module file ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64/UE4Editor-SlaveVRExperience.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.11-20.11.19:248][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.11-20.11.19:248][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.11-20.11.19:259][  0]LogInit: Computer: CAH812110809
+[2018.04.11-20.11.19:259][  0]LogInit: User: ja999455
+[2018.04.11-20.11.19:259][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.11-20.11.19:259][  0]LogInit: High frequency timer resolution =3.906252 MHz
+[2018.04.11-20.11.19:260][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.11-20.11.19:260][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.11-20.11.19:260][  0]LogMemory: Process Physical Memory: 277.38 MB used, 277.38 MB peak
+[2018.04.11-20.11.19:260][  0]LogMemory: Process Virtual Memory: 274.32 MB used, 274.32 MB peak
+[2018.04.11-20.11.19:260][  0]LogMemory: Physical Memory: 4750.48 MB used,  11548.42 MB free, 16298.90 MB total
+[2018.04.11-20.11.19:260][  0]LogMemory: Virtual Memory: 668.64 MB used,  11548.42 MB free, 134217728.00 MB total
+[2018.04.11-20.11.19:346][  0]LogInit: Using OS detected language (en-US).
+[2018.04.11-20.11.19:346][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.11-20.11.19:348][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.11-20.11.19:702][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.11-20.11.19:903][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.11-20.11.19:923][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.04.11-20.11.19:923][  0]LogD3D11RHI:       2016/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.11-20.11.19:928][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.04.11-20.11.19:928][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.11-20.11.19:929][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.11-20.11.19:929][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.11-20.11.19:929][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.11-20.11.19:933][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.11-20.11.19:933][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.11-20.11.19:933][  0]LogWindows: EnumDisplayDevices:
+[2018.04.11-20.11.19:933][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.04.11-20.11.19:933][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.04.11-20.11.19:933][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.04.11-20.11.19:933][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.04.11-20.11.19:933][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.11-20.11.19:933][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.11-20.11.19:934][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.11-20.11.19:934][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.04.11-20.11.19:934][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.04.11-20.11.19:934][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2018.04.11-20.11.19:934][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2018.04.11-20.11.19:934][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2018.04.11-20.11.19:950][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.11-20.11.19:959][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.11-20.11.20:008][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Intermediate/Shaders/WorkingDirectory/2108/).
+[2018.04.11-20.11.20:008][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ja999455/AppData/Local/Temp/UnrealShaderWorkingDir/DCBDACE948A57A78EC29D18CFCB78675/'.
+[2018.04.11-20.11.20:008][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.11-20.11.20:789][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.11-20.11.20:825][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.11-20.11.20:859][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.11-20.11.20:894][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.11-20.11.20:932][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.11-20.11.20:969][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.11-20.11.21:007][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.11-20.11.21:042][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.11-20.11.21:072][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.11-20.11.21:107][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.11-20.11.21:144][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.11-20.11.21:178][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.11-20.11.21:212][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.11-20.11.21:247][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.11-20.11.21:324][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.11-20.11.21:324][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.11-20.11.21:358][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.11-20.11.21:387][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.11-20.11.21:459][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.11-20.11.21:481][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.11-20.11.21:516][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.11-20.11.21:552][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.11-20.11.21:589][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.11-20.11.21:622][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.11-20.11.21:622][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.11-20.11.21:928][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.11-20.11.22:011][  0]LogDerivedDataCache: Loaded boot cache 0.08s 88MB C:/Users/ja999455/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.11-20.11.22:011][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ja999455/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.11-20.11.22:012][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.11-20.11.22:012][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.11-20.11.22:012][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.11-20.11.22:012][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.11-20.11.22:029][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.11-20.11.22:041][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ja999455/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.11-20.11.22:051][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.11-20.11.22:051][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.11-20.11.22:052][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.11-20.11.22:052][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.11-20.11.22:361][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.11-20.11.22:598][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.11-20.11.22:621][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.11-20.11.22:621][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.11-20.11.22:621][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.11-20.11.22:622][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.11-20.11.22:622][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.11-20.11.22:643][  0]LogNetVersion: SlaveVRExperience , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4075405704)
+[2018.04.11-20.11.22:756][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2018.04.11-20.11.23:149][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.056273 seconds
+[2018.04.11-20.11.23:154][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.11-20.11.23:154][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.04.11-20.11.23:154][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.11-20.11.23:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.11-20.11.25:108][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.11-20.11.25:136][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.11-20.11.25:653][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.11-20.11.25:939][  0]SourceControl: Source control is disabled
+[2018.04.11-20.11.25:939][  0]SourceControl: Source control is disabled
+[2018.04.11-20.11.25:976][  0]SourceControl: Source control is disabled
+[2018.04.11-20.11.26:007][  0]SourceControl: Source control is disabled
+[2018.04.11-20.11.26:522][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.11-20.11.26:695][  0]LogOcInput: OculusInput pre-init called
+[2018.04.11-20.11.26:877][  0]LogEngine: Initializing Engine...
+[2018.04.11-20.11.29:937][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-CCE699A8
+[2018.04.11-20.11.30:130][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.11-20.11.30:130][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.11-20.11.30:213][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.11-20.11.30:230][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.11.30:346][  0]LogInit: FAudioDevice initialized.
+[2018.04.11-20.11.30:769][  0]LogDerivedDataCache: Saved boot cache 0.42s 88MB C:/Users/ja999455/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.11-20.11.30:784][  0]LogInit: Texture streaming: Enabled
+[2018.04.11-20.11.30:845][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.11-20.11.30:923][  0]LogInit: Transaction tracking system initialized
+[2018.04.11-20.11.31:133][  0]BlueprintLog: New page: Editor Load
+[2018.04.11-20.11.31:670][  0]LocalizationService: Localization service is disabled
+[2018.04.11-20.11.32:138][  0]LogConsoleResponse: Display: 
+[2018.04.11-20.11.32:262][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.11-20.11.32:262][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.11-20.11.32:262][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.11-20.11.33:037][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 0.01s
+[2018.04.11-20.11.33:037][  0]SourceControl: Source control is disabled
+[2018.04.11-20.11.33:037][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.11-20.11.33:037][  0]LightingResults: New page: Lighting Build
+[2018.04.11-20.11.33:062][  0]MapCheck: New page: Map Check
+[2018.04.11-20.11.33:063][  0]LightingResults: New page: Lighting Build
+[2018.04.11-20.11.33:447][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Play Animation Sequence  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.11-20.11.33:447][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Play Animation Sequence  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.11-20.11.33:447][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Play Animation Sequence  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.11-20.11.33:447][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.11-20.11.33:448][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] Node  Result  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.04.11-20.11.33:451][  0]LogBlueprint: Warning: [Compiler Slave_animBP1] [0021.29] Compile of Slave_animBP1 successful, but with 5 Warning(s) [in 148 ms] (/Game/AI/Slave_animBP1.Slave_animBP1)
+[2018.04.11-20.11.37:425][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.086 s
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: 
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: Ensure condition failed: ObservedKeyNames.Num() > 0 [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Decorators\BTDecorator_BlueprintBase.cpp] [Line: 67]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: 
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: Stack: 
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004C442786 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004C1E123A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:298]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004C1FB906 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:425]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004B0263FA UE4Editor-AIModule.dll!UBTDecorator_BlueprintBase::PostLoad() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\aimodule\private\behaviortree\decorators\btdecorator_blueprintbase.cpp:67]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004BC8E8FD UE4Editor-CoreUObject.dll!UObject::ConditionalPostLoad() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:988]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004BD4DABC UE4Editor-CoreUObject.dll!EndLoad() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1588]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004BD65259 UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1333]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000004BD64774 UE4Editor-CoreUObject.dll!LoadPackage() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1430]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003A201451 UE4Editor-UnrealEd.dll!UEditorEngine::Map_Load() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2492]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003A1F2F45 UE4Editor-UnrealEd.dll!UEditorEngine::HandleMapCommand() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5968]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003A1D7982 UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5445]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003AA6BAC9 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\unrealedsrv.cpp:672]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003A4E268B UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadMap() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:2229]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003A4E22DF UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadDefaultMapAtStartup() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:3477]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003AA2486E UE4Editor-UnrealEd.dll!FUnrealEdMisc::OnInit() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\unrealedmisc.cpp:348]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000003A9E882D UE4Editor-UnrealEd.dll!EditorInit() [d:\build\++ue4+release-4.18+compile\sync\engine\source\editor\unrealed\private\unrealedglobals.cpp:97]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x00000000A7AB5326 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\launch.cpp:150]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x00000000A7AB54AA UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x00000000A7AC2379 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x00000000A7AC3D57 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x00000000895E8364 KERNEL32.DLL!UnknownFunction []
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: [Callstack] 0x000000008A4870D1 ntdll.dll!UnknownFunction []
+[2018.04.11-20.11.37:425][  0]LogOutputDevice: Error: 
+[2018.04.11-20.11.37:431][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.04.11-20.11.37:644][  0]LogStats:                    SendNewReport -  0.213 s
+[2018.04.11-20.11.37:644][  0]LogStats:             FDebug::EnsureFailed -  3.306 s
+[2018.04.11-20.11.39:036][  0]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.11.39:382][  0]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:UserConstructionScript'!
+[2018.04.11-20.11.39:382][  0]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:UserConstructionScript'!
+[2018.04.11-20.11.39:386][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.11-20.11.39:520][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.11-20.11.39:568][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.848ms to complete.
+[2018.04.11-20.11.39:568][  0]LogFileHelpers: Loading map 'Ship' took 6.531
+[2018.04.11-20.11.39:622][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.11-20.11.39:684][  0]LogCollectionManager: Loaded 0 collections in 0.001116 seconds
+[2018.04.11-20.11.39:752][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' took 0.01s
+[2018.04.11-20.11.39:753][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/ja999455/Collections/' took 0.01s
+[2018.04.11-20.11.39:753][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' took 0.01s
+[2018.04.11-20.11.39:753][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.11-20.11.39:760][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2370 classes and 522 folders.
+[2018.04.11-20.11.39:803][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.11-20.11.39:836][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.04.11-20.11.39:867][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.11-20.11.39:881][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.11-20.11.39:883][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.11-20.11.39:887][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.11-20.11.39:984][  0]LogRenderer: Reallocating scene render targets to support 1112x660 Format 26 NumSamples 1 (Frame:1).
+[2018.04.11-20.11.40:144][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.11-20.11.40:144][  0]LogLoad: (Engine Initialization) Total time: 27.98 seconds
+[2018.04.11-20.11.40:144][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.11-20.11.40:144][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.11-20.11.40:144][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.11-20.11.40:187][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.11-20.11.40:258][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.11-20.11.40:291][  1]LogAssetRegistry: Asset discovery search completed in 17.5563 seconds
+[2018.04.11-20.11.40:294][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.11-20.11.40:294][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.04.11-20.11.40:324][  2]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue6
+	Slave_animBP1_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Slave_animBP1_C_0
+	Function /Game/AI/Slave_animBP1.Slave_animBP1_C:ExecuteUbergraph_Slave_animBP1:0654
+[2018.04.11-20.11.40:324][  2]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	Slave_animBP1_C /Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Slave_animBP1_C_0
+	Function /Game/AI/Slave_animBP1.Slave_animBP1_C:ExecuteUbergraph_Slave_animBP1:0693
+[2018.04.11-20.11.41:209][ 63]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.11-20.11.45:278][378]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' took 5.11s
+[2018.04.11-20.12.56:229][778]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.12.56:279][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.12.56:279][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.12.56:280][778]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:12:56 PM)
+[2018.04.11-20.12.56:280][778]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.12.56:643][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.362776s)
+[2018.04.11-20.12.56:643][778]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.12.56:644][778]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.04.11-20.12.56:644][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.363907s)
+[2018.04.11-20.12.56:666][778]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.12.56:676][778]LogInit: FAudioDevice initialized.
+[2018.04.11-20.12.56:780][778]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.12.56:815][778]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.12.56
+[2018.04.11-20.12.56:821][778]LogWorld: Bringing up level for play took: 0.040011
+[2018.04.11-20.12.56:847][778]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.04.11-20.12.56:859][778]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.218
+[2018.04.11-20.12.56:860][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.12.56:916][779]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:1).
+[2018.04.11-20.13.50:401][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.13.50:601][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.13.55:415][383]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.11-20.13.55:496][383]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.11-20.15.33:564][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.15.33:609][622]LogSavePackage: Save=36.93ms
+[2018.04.11-20.15.33:609][622]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree52077491470617A051A67D89ECD9E5C9.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.15.33:611][622]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.15.39:042][947]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.15.39:085][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.15.39:088][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.15.39:088][947]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:15:39 PM)
+[2018.04.11-20.15.39:088][947]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.15.39:243][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154369s)
+[2018.04.11-20.15.39:243][947]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.15.39:243][947]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2018.04.11-20.15.39:244][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.155420s)
+[2018.04.11-20.15.39:270][947]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.15.39:282][947]LogInit: FAudioDevice initialized.
+[2018.04.11-20.15.39:370][947]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.15.39:405][947]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.15.39
+[2018.04.11-20.15.39:411][947]LogWorld: Bringing up level for play took: 0.040691
+[2018.04.11-20.15.39:428][947]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.35
+[2018.04.11-20.15.39:428][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.16.06:851][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.16.07:041][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.17.25:708][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.17.25:749][577]LogSavePackage: Save=38.81ms
+[2018.04.11-20.17.25:749][577]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree8A7485444F48DFF0D3C8EBA9CB0DBCBA.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.17.25:751][577]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.17.34:475][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.17.34:513][177]LogSavePackage: Save=36.04ms
+[2018.04.11-20.17.34:513][177]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree6C12424440A33FFD678CFFA6D57248DD.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.17.34:515][177]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.17.37:652][397]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.17.37:679][397]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.17.37:682][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.17.37:683][397]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:17:37 PM)
+[2018.04.11-20.17.37:683][397]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.17.37:823][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140823s)
+[2018.04.11-20.17.37:824][397]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.17.37:824][397]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.04.11-20.17.37:824][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.141955s)
+[2018.04.11-20.17.37:850][397]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.17.37:860][397]LogInit: FAudioDevice initialized.
+[2018.04.11-20.17.37:951][397]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.17.37:991][397]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.17.37
+[2018.04.11-20.17.37:997][397]LogWorld: Bringing up level for play took: 0.045457
+[2018.04.11-20.17.38:015][397]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.937
+[2018.04.11-20.17.38:015][397]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.18.13:460][870]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.18.13:642][870]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.21.13:466][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.21.13:915][592]LogSavePackage: Save=441.19ms
+[2018.04.11-20.21.13:915][592]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTreeD1F45809454222290D9B02AF5D65EEBA.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.21.13:917][592]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.21.22:150][137]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.21.22:174][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.21.22:177][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.21.22:177][137]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:21:22 PM)
+[2018.04.11-20.21.22:177][137]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.21.22:315][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137670s)
+[2018.04.11-20.21.22:316][137]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.21.22:316][137]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.04.11-20.21.22:317][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.138814s)
+[2018.04.11-20.21.22:340][137]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.21.22:350][137]LogInit: FAudioDevice initialized.
+[2018.04.11-20.21.22:438][137]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.21.22:476][137]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.21.22
+[2018.04.11-20.21.22:482][137]LogWorld: Bringing up level for play took: 0.043629
+[2018.04.11-20.21.22:499][137]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.579
+[2018.04.11-20.21.22:500][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.21.46:354][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.21.46:542][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.22.18:396][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.22.18:435][429]LogSavePackage: Save=37.17ms
+[2018.04.11-20.22.18:435][429]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree9D0E76AA4C3B942B603670869EC9A555.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.22.18:437][429]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.22.33:809][390]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.22.33:834][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.22.33:837][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.22.33:837][390]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:22:33 PM)
+[2018.04.11-20.22.33:837][390]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.22.33:969][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131852s)
+[2018.04.11-20.22.33:970][390]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.22.33:970][390]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2018.04.11-20.22.33:970][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.133024s)
+[2018.04.11-20.22.33:992][390]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.22.34:002][390]LogInit: FAudioDevice initialized.
+[2018.04.11-20.22.34:090][390]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.22.34:124][390]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.22.34
+[2018.04.11-20.22.34:130][390]LogWorld: Bringing up level for play took: 0.039083
+[2018.04.11-20.22.34:149][390]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 1.071
+[2018.04.11-20.22.34:149][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.23.03:536][672]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.23.03:724][672]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.26.18:368][291]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:UserConstructionScript'!
+[2018.04.11-20.26.20:047][361]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.04.11-20.26.20:586][361]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.11-20.26.41:564][817]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.11-20.28.36:213][922]LogSelectionDetails: Warning: NavigateToFunctionSource:  Found symbols for [APlayerCameraManager::SetManualCameraFade] - File [d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\engine\private\playercameramanager.cpp], Line [1318], Column [0]
+[2018.04.11-20.28.47:023][994]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.47:355][995]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.48:355][998]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.48:689][999]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.49:356][  1]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.49:689][  2]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.50:022][  3]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.51:688][  8]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.52:022][  9]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.52:355][ 10]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.52:688][ 11]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.53:022][ 12]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.53:356][ 13]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.28.53:910][ 14]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.04.11-20.29.01:751][381]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Levels/Ship' took 0.018
+[2018.04.11-20.29.01:753][381]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2018.04.11-20.29.01:767][381]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn]
+[2018.04.11-20.29.01:767][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2018.04.11-20.29.01:986][381]LogSavePackage: Save=211.92ms
+[2018.04.11-20.29.01:986][381]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn_Auto1CD24B28C4D9C4B6E21A802A8030E7602.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset'
+[2018.04.11-20.29.01:994][381]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset
+[2018.04.11-20.29.01:994][381]LogFileHelpers: Auto-saving content packages took 0.242
+[2018.04.11-20.29.45:705][767]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.29.45:776][767]LogBlueprint: Error: [Compiler MotionControllerPawn] This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection.
+[2018.04.11-20.29.46:289][767]LogBlueprint: Warning: [Compiler MotionControllerPawn] [1114.12] Compile of MotionControllerPawn failed. 1 Fatal Issue(s) 0 Warning(s) [in 584 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2018.04.11-20.29.52:194][ 86]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.29.54:010][157]LogSavePackage: Save=180.31ms
+[2018.04.11-20.29.54:010][157]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn7F92020644041D16ACAB43B7D64B7FB9.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.29.54:012][157]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.29.57:004][323]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.29.57:035][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.29.57:035][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.29.57:036][323]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:29:57 PM)
+[2018.04.11-20.29.57:036][323]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.29.57:186][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150399s)
+[2018.04.11-20.29.57:187][323]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.29.57:188][323]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2018.04.11-20.29.57:188][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.151934s)
+[2018.04.11-20.29.57:218][323]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.29.57:228][323]LogInit: FAudioDevice initialized.
+[2018.04.11-20.29.57:304][323]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.29.57:341][323]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.29.57
+[2018.04.11-20.29.57:346][323]LogWorld: Bringing up level for play took: 0.042161
+[2018.04.11-20.29.57:377][323]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.299
+[2018.04.11-20.29.57:377][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.00:925][450]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.01:110][450]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.08:829][842]LogSavePackage: Save=179.81ms
+[2018.04.11-20.30.08:829][842]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn481EB2FE45FD402ED45CA5A6D1FF58B2.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.30.08:831][842]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.30.09:368][871]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.30.12:954][ 53]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.30.13:006][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.13:006][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.30.13:006][ 53]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:30:13 PM)
+[2018.04.11-20.30.13:006][ 53]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.30.13:145][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138897s)
+[2018.04.11-20.30.13:146][ 53]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.30.13:146][ 53]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2018.04.11-20.30.13:146][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.140107s)
+[2018.04.11-20.30.13:174][ 53]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.30.13:184][ 53]LogInit: FAudioDevice initialized.
+[2018.04.11-20.30.13:272][ 53]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.30.13:307][ 53]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.30.13
+[2018.04.11-20.30.13:313][ 53]LogWorld: Bringing up level for play took: 0.040229
+[2018.04.11-20.30.13:331][ 53]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.253
+[2018.04.11-20.30.13:331][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.15:096][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.15:283][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.27:899][793]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.30.29:042][814]LogSavePackage: Save=184.03ms
+[2018.04.11-20.30.29:043][814]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn93D0ED89430FCC5350C0E7BED16D6435.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.30.29:045][814]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.30.31:343][944]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.30.31:395][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.31:395][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.30.31:395][944]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:30:31 PM)
+[2018.04.11-20.30.31:395][944]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.30.31:527][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132724s)
+[2018.04.11-20.30.31:528][944]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.30.31:528][944]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2018.04.11-20.30.31:529][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.134034s)
+[2018.04.11-20.30.31:559][944]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.30.31:571][944]LogInit: FAudioDevice initialized.
+[2018.04.11-20.30.31:662][944]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.30.31:694][944]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.30.31
+[2018.04.11-20.30.31:700][944]LogWorld: Bringing up level for play took: 0.037935
+[2018.04.11-20.30.31:718][944]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.64
+[2018.04.11-20.30.31:719][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.37:252][138]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.37:437][138]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.39:106][263]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.30.39:132][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.30.39:132][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.30.39:132][263]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:30:39 PM)
+[2018.04.11-20.30.39:132][263]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.30.39:269][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137006s)
+[2018.04.11-20.30.39:269][263]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.30.39:270][263]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.04.11-20.30.39:270][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.138153s)
+[2018.04.11-20.30.39:300][263]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.30.39:309][263]LogInit: FAudioDevice initialized.
+[2018.04.11-20.30.39:399][263]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.30.39:431][263]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.30.39
+[2018.04.11-20.30.39:437][263]LogWorld: Bringing up level for play took: 0.036959
+[2018.04.11-20.30.39:455][263]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.377
+[2018.04.11-20.30.39:456][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.31.19:400][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.31.19:578][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.33.36:245][227]LogWindows: LaunchFileInExternalEditor d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\engine\private\playercameramanager.cpp 
+[2018.04.11-20.33.36:247][227]LogWindows: Launch application code for d:\build\++ue4+release-4.18+compile\sync\engine\source\runtime\engine\private\playercameramanager.cpp : 2
+[2018.04.11-20.33.36:247][227]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:250][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:251][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:252][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.33.36:283][227]LogVSAccessor: Warning: Couldn't access module table
+[2018.04.11-20.36.51:328][368]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.04.11-20.38.50:441][503]LogSavePackage: Save=191.49ms
+[2018.04.11-20.38.50:441][503]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn9FDA11E24499CA014B77939AAE72DA4E.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.38.50:443][503]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.38.57:079][997]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.39.27:293][749]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.39.28:440][772]LogSavePackage: Save=205.70ms
+[2018.04.11-20.39.28:440][772]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn926331914E407632F6C697A3EC179059.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.39.28:440][772]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.41.03:745][438]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.41.05:311][486]LogSavePackage: Save=193.14ms
+[2018.04.11-20.41.05:311][486]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn16FEE38E4781AFFD13BACDAFFAFC3A91.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.41.05:313][486]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.41.09:221][750]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.41.09:275][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.41.09:275][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.41.09:275][750]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:41:09 PM)
+[2018.04.11-20.41.09:275][750]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.41.09:415][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140087s)
+[2018.04.11-20.41.09:416][750]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.41.09:416][750]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.04.11-20.41.09:416][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.141184s)
+[2018.04.11-20.41.09:444][750]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.41.09:455][750]LogInit: FAudioDevice initialized.
+[2018.04.11-20.41.09:540][750]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.41.09:573][750]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.41.09
+[2018.04.11-20.41.09:579][750]LogWorld: Bringing up level for play took: 0.037673
+[2018.04.11-20.41.09:593][750]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.515
+[2018.04.11-20.41.09:593][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.41.38:643][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.41.38:955][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.44.12:939][371]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.44.14:733][426]LogSavePackage: Save=197.41ms
+[2018.04.11-20.44.14:733][426]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn031E0D4F4DC1B90B8A7FE0BD1310B78F.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.44.14:735][426]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.44.16:757][530]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.44.16:814][530]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.44.16:814][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.44.16:814][530]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:44:16 PM)
+[2018.04.11-20.44.16:814][530]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.44.16:956][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141531s)
+[2018.04.11-20.44.16:957][530]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.44.16:957][530]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2018.04.11-20.44.16:957][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.142588s)
+[2018.04.11-20.44.16:988][530]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.44.17:000][530]LogInit: FAudioDevice initialized.
+[2018.04.11-20.44.17:083][530]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.44.17:117][530]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.44.17
+[2018.04.11-20.44.17:123][530]LogWorld: Bringing up level for play took: 0.039040
+[2018.04.11-20.44.17:136][530]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.058
+[2018.04.11-20.44.17:137][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.44.27:226][910]LogNet: Browse: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.44.27:232][910]LogLoad: LoadMap: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.44.30:379][910]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.11-20.44.30:379][910]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.44.30:420][910]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.11-16.44.30
+[2018.04.11-20.44.30:421][910]LogWorld: Bringing up level for play took: 0.041202
+[2018.04.11-20.44.30:445][910]LogLoad: Took 3.213042 seconds to LoadMap(/Game/Maps/Levels/Auction_Block)
+[2018.04.11-20.44.36:840][448]LogNet: Browse: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.44.36:851][448]LogLoad: LoadMap: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.44.37:566][448]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.11-20.44.37:566][448]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.44.37:612][448]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.11-16.44.37
+[2018.04.11-20.44.37:612][448]LogWorld: Bringing up level for play took: 0.045420
+[2018.04.11-20.44.37:615][448]LogLoad: Took 0.763796 seconds to LoadMap(/Game/Maps/Levels/Auction_Block)
+[2018.04.11-20.44.40:303][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.44.40:576][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.45.11:211][664]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.11-20.45.12:367][686]LogSavePackage: Save=197.76ms
+[2018.04.11-20.45.12:367][686]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawnB8D5A68B4D8398656906D6BD4D2FD22A.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.45.12:369][686]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.45.22:590][389]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.45.22:640][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.45.22:640][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.45.22:640][389]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:45:22 PM)
+[2018.04.11-20.45.22:640][389]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.45.22:784][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144395s)
+[2018.04.11-20.45.22:785][389]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.45.22:785][389]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.04.11-20.45.22:785][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.145479s)
+[2018.04.11-20.45.22:814][389]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.45.22:825][389]LogInit: FAudioDevice initialized.
+[2018.04.11-20.45.22:913][389]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.45.22:946][389]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.45.22
+[2018.04.11-20.45.22:952][389]LogWorld: Bringing up level for play took: 0.039048
+[2018.04.11-20.45.22:966][389]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship -0.112
+[2018.04.11-20.45.22:966][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.45.37:392][962]LogNet: Browse: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.45.37:415][962]LogLoad: LoadMap: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.45.38:146][962]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.11-20.45.38:146][962]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.45.38:187][962]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.11-16.45.38
+[2018.04.11-20.45.38:188][962]LogWorld: Bringing up level for play took: 0.040775
+[2018.04.11-20.45.38:190][962]LogLoad: Took 0.775400 seconds to LoadMap(/Game/Maps/Levels/Auction_Block)
+[2018.04.11-20.45.48:965][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.45.49:268][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.47.09:879][508]LogSavePackage: Save=194.97ms
+[2018.04.11-20.47.09:880][508]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/MotionControllerPawn2E0C7B114201CBA9EB5D19999C5F5157.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.11-20.47.09:883][508]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.11-20.47.58:456][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.47.58:854][862]LogSavePackage: Save=390.69ms
+[2018.04.11-20.47.58:854][862]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTreeDBAE1B6049C78D85B2A9C189FFCB2B0E.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.47.58:856][862]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.48.11:556][802]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.48.11:581][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.48.11:585][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.48.11:585][802]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:48:11 PM)
+[2018.04.11-20.48.11:585][802]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.48.11:725][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140013s)
+[2018.04.11-20.48.11:725][802]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.48.11:726][802]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2018.04.11-20.48.11:726][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.141052s)
+[2018.04.11-20.48.11:755][802]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.48.11:765][802]LogInit: FAudioDevice initialized.
+[2018.04.11-20.48.11:857][802]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.48.11:890][802]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.48.11
+[2018.04.11-20.48.11:897][802]LogWorld: Bringing up level for play took: 0.039081
+[2018.04.11-20.48.11:913][802]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.835
+[2018.04.11-20.48.11:914][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.48.51:254][768]LogCharacterMovement: NPC4_5 is stuck and failed to move! Velocity: X=85.61 Y=51.68 Z=0.00 Location: X=-376.46 Y=-3590.43 Z=1819.52 Normal: X=0.68 Y=-0.23 Z=-0.69 PenetrationDepth:0.601 Actor:BP_PickupBucket_2 Component:SkeletalMeshComponent0 BoneName:Bucket (0 other events since notify)
+[2018.04.11-20.49.14:575][815]LogNet: Browse: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.49.14:598][815]LogLoad: LoadMap: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.49.15:314][815]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.11-20.49.15:314][815]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.49.15:351][815]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.11-16.49.15
+[2018.04.11-20.49.15:352][815]LogWorld: Bringing up level for play took: 0.036776
+[2018.04.11-20.49.15:355][815]LogLoad: Took 0.756183 seconds to LoadMap(/Game/Maps/Levels/Auction_Block)
+[2018.04.11-20.49.19:058][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.49.19:225][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.49.25:277][647]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.49.25:301][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.49.25:304][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.49.25:305][647]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:49:25 PM)
+[2018.04.11-20.49.25:305][647]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.49.25:445][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140191s)
+[2018.04.11-20.49.25:446][647]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.49.25:446][647]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2018.04.11-20.49.25:446][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.141248s)
+[2018.04.11-20.49.25:475][647]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.49.25:485][647]LogInit: FAudioDevice initialized.
+[2018.04.11-20.49.25:578][647]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.49.25:612][647]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.49.25
+[2018.04.11-20.49.25:618][647]LogWorld: Bringing up level for play took: 0.039769
+[2018.04.11-20.49.25:639][647]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.561
+[2018.04.11-20.49.25:639][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.49.38:437][164]LogScript: Warning: Accessed None trying to read property AIController
+	BP_PickupCube_C /Game/Maps/Levels/UEDPIE_0_Ship.Ship:PersistentLevel.Food
+	Function /Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:ExecuteUbergraph_BP_PickupCube:0057
+[2018.04.11-20.49.38:437][164]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIController from function: 'ExecuteUbergraph_BP_PickupCube' from node: Call AIListener in graph: EventGraph in object: BP_PickupCube with description: Accessed None trying to read property AIController
+[2018.04.11-20.50.07:228][525]LogNet: Browse: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.50.07:251][525]LogLoad: LoadMap: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.50.07:964][525]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.11-20.50.07:964][525]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.50.08:001][525]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.11-16.50.08
+[2018.04.11-20.50.08:002][525]LogWorld: Bringing up level for play took: 0.036592
+[2018.04.11-20.50.08:005][525]LogLoad: Took 0.753675 seconds to LoadMap(/Game/Maps/Levels/Auction_Block)
+[2018.04.11-20.50.30:464][188]LogNet: Browse: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.50.30:487][188]LogLoad: LoadMap: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.50.31:196][188]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.11-20.50.31:197][188]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.50.31:234][188]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.11-16.50.31
+[2018.04.11-20.50.31:235][188]LogWorld: Bringing up level for play took: 0.037455
+[2018.04.11-20.50.31:238][188]LogLoad: Took 0.750877 seconds to LoadMap(/Game/Maps/Levels/Auction_Block)
+[2018.04.11-20.50.32:564][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.50.32:741][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.50.35:882][546]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.50.35:908][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.50.35:911][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.50.35:912][546]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:50:35 PM)
+[2018.04.11-20.50.35:912][546]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.50.36:055][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143174s)
+[2018.04.11-20.50.36:055][546]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.50.36:056][546]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.04.11-20.50.36:056][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.144503s)
+[2018.04.11-20.50.36:084][546]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.50.36:094][546]LogInit: FAudioDevice initialized.
+[2018.04.11-20.50.36:186][546]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.50.36:225][546]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.50.36
+[2018.04.11-20.50.36:230][546]LogWorld: Bringing up level for play took: 0.043363
+[2018.04.11-20.50.36:251][546]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 1.173
+[2018.04.11-20.50.36:252][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.50.50:347][164]LogActor: Warning: BP_PickupBucket_2 is outside the world bounds!
+[2018.04.11-20.50.50:569][177]LogActor: Warning: Scrubber is outside the world bounds!
+[2018.04.11-20.51.12:663][412]LogScript: Warning: Accessed None trying to read property AIController
+	BP_PickupCube_C /Game/Maps/Levels/UEDPIE_0_Ship.Ship:PersistentLevel.Food
+	Function /Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:ExecuteUbergraph_BP_PickupCube:0057
+[2018.04.11-20.51.12:663][412]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIController from function: 'ExecuteUbergraph_BP_PickupCube' from node: Call AIListener in graph: EventGraph in object: BP_PickupCube with description: Accessed None trying to read property AIController
+[2018.04.11-20.51.44:797][ 80]LogNet: Browse: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.51.44:819][ 80]LogLoad: LoadMap: /Game/Maps/Levels/Auction_Block
+[2018.04.11-20.51.45:527][ 80]LogAIModule: Creating AISystem for world Auction_Block
+[2018.04.11-20.51.45:527][ 80]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.51.45:565][ 80]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Auction_Block.Auction_Block up for play (max tick rate 0) at 2018.04.11-16.51.45
+[2018.04.11-20.51.45:566][ 80]LogWorld: Bringing up level for play took: 0.037742
+[2018.04.11-20.51.45:569][ 80]LogLoad: Took 0.749164 seconds to LoadMap(/Game/Maps/Levels/Auction_Block)
+[2018.04.11-20.51.48:832][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.51.48:996][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.54.47:367][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.54.47:412][815]LogSavePackage: Save=38.27ms
+[2018.04.11-20.54.47:412][815]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree901907F245CA2D2277563083FD141D75.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.54.47:414][815]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.54.49:883][ 53]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.54.49:908][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.54.49:911][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.54.49:911][ 53]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:54:49 PM)
+[2018.04.11-20.54.49:911][ 53]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.54.50:045][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133574s)
+[2018.04.11-20.54.50:046][ 53]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.54.50:046][ 53]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2018.04.11-20.54.50:046][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.134626s)
+[2018.04.11-20.54.50:074][ 53]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.54.50:084][ 53]LogInit: FAudioDevice initialized.
+[2018.04.11-20.54.50:171][ 53]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.54.50:209][ 53]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.54.50
+[2018.04.11-20.54.50:215][ 53]LogWorld: Bringing up level for play took: 0.043380
+[2018.04.11-20.54.50:233][ 53]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 1.155
+[2018.04.11-20.54.50:234][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.55.27:221][522]LogScript: Warning: Accessed None trying to read property AIController
+	BP_PickupCube_C /Game/Maps/Levels/UEDPIE_0_Ship.Ship:PersistentLevel.Food
+	Function /Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:ExecuteUbergraph_BP_PickupCube:0057
+[2018.04.11-20.55.27:221][522]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIController from function: 'ExecuteUbergraph_BP_PickupCube' from node: Call AIListener in graph: EventGraph in object: BP_PickupCube with description: Accessed None trying to read property AIController
+[2018.04.11-20.57.34:009][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.57.34:198][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.58.46:881][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BehaviorTree/TestAIBehaviorTree" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset" SILENT=true
+[2018.04.11-20.58.46:923][148]LogSavePackage: Save=39.56ms
+[2018.04.11-20.58.46:923][148]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/TestAIBehaviorTree2BD214A442A9C12B5FB6CE8B7409FAAE.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset'
+[2018.04.11-20.58.46:925][148]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/AI/BehaviorTree/TestAIBehaviorTree.uasset
+[2018.04.11-20.59.01:178][584]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-20.59.01:208][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.59.01:212][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-20.59.01:212][584]PIE: New page: PIE session: Ship (Apr 11, 2018, 12:59:01 PM)
+[2018.04.11-20.59.01:212][584]LogPlayLevel: Creating play world package: /Game/Maps/Levels/UEDPIE_0_Ship
+[2018.04.11-20.59.01:350][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138160s)
+[2018.04.11-20.59.01:351][584]LogAIModule: Creating AISystem for world Ship
+[2018.04.11-20.59.01:351][584]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2018.04.11-20.59.01:351][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Levels/Ship.Ship to /Game/Maps/Levels/UEDPIE_0_Ship.Ship (0.139308s)
+[2018.04.11-20.59.01:379][584]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.11-20.59.01:389][584]LogInit: FAudioDevice initialized.
+[2018.04.11-20.59.01:478][584]LogLoad: Game class is 'NewGameMode_C'
+[2018.04.11-20.59.01:520][584]LogWorld: Bringing World /Game/Maps/Levels/UEDPIE_0_Ship.Ship up for play (max tick rate 0) at 2018.04.11-16.59.01
+[2018.04.11-20.59.01:527][584]LogWorld: Bringing up level for play took: 0.047311
+[2018.04.11-20.59.01:543][584]PIE: Play in editor start time for /Game/Maps/Levels/UEDPIE_0_Ship 0.465
+[2018.04.11-20.59.01:544][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-20.59.53:863][785]LogCharacterMovement: NPC4_5 is stuck and failed to move! Velocity: X=-48.47 Y=-87.47 Z=0.00 Location: X=-855.14 Y=-263.67 Z=-2401.85 Normal: X=1.00 Y=-0.01 Z=0.00 PenetrationDepth:0.000 Actor:Food Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2018.04.11-21.00.10:450][483]LogActor: Warning: BP_PickupBucket_2 is outside the world bounds!
+[2018.04.11-21.00.10:851][505]LogActor: Warning: Scrubber is outside the world bounds!
+[2018.04.11-21.00.21:655][165]LogCharacterMovement: NPC3_2 is stuck and failed to move! Velocity: X=87.13 Y=-49.08 Z=0.00 Location: X=-4589.95 Y=-3634.31 Z=2814.90 Normal: X=0.31 Y=0.95 Z=-0.00 PenetrationDepth:0.000 Actor:Food Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2018.04.11-21.02.00:557][735]LogScript: Warning: Accessed None trying to read property AIController
+	BP_PickupCube_C /Game/Maps/Levels/UEDPIE_0_Ship.Ship:PersistentLevel.Food
+	Function /Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C:ExecuteUbergraph_BP_PickupCube:0057
+[2018.04.11-21.02.00:557][735]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIController from function: 'ExecuteUbergraph_BP_PickupCube' from node: Call AIListener in graph: EventGraph in object: BP_PickupCube with description: Accessed None trying to read property AIController
+[2018.04.11-21.02.48:836][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-21.02.48:998][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Levels/Ship.Ship:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship' with GeneratedClass '/Game/Maps/Levels/Ship.Ship_C' with ClassGeneratedBy '/Game/Maps/Levels/Ship.Ship:PersistentLevel.Ship'
+[2018.04.11-21.03.03:019][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/Ship" FILE="../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.11-21.03.03:036][771]LogFileManager: Warning: Error deleting file: ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Backup/Ship_BuiltData_2018-04-11-14-24-28.uasset (Error Code 32)
+[2018.04.11-21.03.05:256][771]LogSavePackage: Save=2208.09ms
+[2018.04.11-21.03.05:256][771]LogSavePackage: Moving '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Ship165028C7407171C9FB4E24A0B99F373C.tmp' to '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap'
+[2018.04.11-21.03.05:260][771]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Maps/Levels/Ship.umap
+[2018.04.11-21.03.05:302][771]LogFileHelpers: Saving map 'Ship' took 2.338
+[2018.04.11-21.03.06:266][867]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.11-21.03.06:470][868]Cmd: QUIT_EDITOR
+[2018.04.11-21.03.06:880][868]LogExit: Preparing to exit.
+[2018.04.11-21.03.07:566][868]LogDirectoryWatcher: A directory notification for 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' was aborted.
+[2018.04.11-21.03.07:762][868]LogExit: Editor shut down
+[2018.04.11-21.03.07:767][868]LogExit: Transaction tracking system shut down
+[2018.04.11-21.03.07:981][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.11-21.03.07:981][868]LogDirectoryWatcher: A directory notification for '../../../../../GitHub/VR_SlaveExperience/SlaveVRExperience/Content/' was aborted.
+[2018.04.11-21.03.07:981][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.11-21.03.07:981][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.11-21.03.07:981][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.11-21.03.07:981][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.11-21.03.07:981][868]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.11-21.03.08:903][868]LogExit: Object subsystem successfully closed.
+[2018.04.11-21.03.09:062][868]LogD3D11RHI: Shutdown
+[2018.04.11-21.03.09:062][868]LogD3D11RHI: CleanupD3DDevice
+[2018.04.11-21.03.09:068][868]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.11-21.03.09:080][868]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2018.04.11-21.03.09:080][868]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.04.11-21.03.09:080][868]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.04.11-21.03.09:080][868]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.04.11-21.03.09:080][868]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.04.11-21.03.09:080][868]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.11-21.03.09:089][868]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.04.11-21.03.09:089][868]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.04.11-21.03.09:089][868]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.04.11-21.03.09:089][868]LogDirectoryWatcher: A directory notification for 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Collections/' was aborted.
+[2018.04.11-21.03.09:089][868]LogDirectoryWatcher: A directory notification for 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Content/Developers/ja999455/Collections/' was aborted.
+[2018.04.11-21.03.09:089][868]LogDirectoryWatcher: A directory notification for 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Saved/Collections/' was aborted.
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module BspMode (522)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module HardwareSurvey (518)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (516)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module AutomationWorker (514)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (512)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (510)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module PlacementMode (509)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (506)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (504)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (502)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (500)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (498)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (496)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (494)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (492)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (490)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module CharacterAI (488)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module AudioCapture (486)
+[2018.04.11-21.03.09:090][868]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module SessionServices (480)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module ViewportSnapping (478)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module ViewportInteraction (476)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module ClothPainter (474)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (473)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module LogVisualizer (470)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module IntroTutorials (468)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (467)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (464)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (462)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (460)
+[2018.04.11-21.03.09:091][868]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (459)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (456)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (454)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (452)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module InputBindingEditor (450)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module MergeActors (448)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module SizeMap (446)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module TreeMap (444)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module ReferenceViewer (442)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
+[2018.04.11-21.03.09:392][868]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module XmlParser (430)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module Blutility (428)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
+[2018.04.11-21.03.09:393][868]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module AutomationController (408)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module Layers (404)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module Persona (396)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
+[2018.04.11-21.03.09:459][868]LogModuleManager: Shutting down and abandoning module Kismet (390)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module ClassViewer (388)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module Toolbox (386)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module ModuleUI (384)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module MovieSceneTools (382)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module OutputLog (380)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module GammaUI (378)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module Documentation (376)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (374)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module MovieScene (372)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (370)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module LauncherPlatform (368)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module AnalyticsET (366)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module PortalServices (364)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module PortalRpc (362)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module MessagingRpc (360)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module AIModule (358)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module GameplayDebugger (357)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module AITestSuite (355)
+[2018.04.11-21.03.09:467][868]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module OculusInput (342)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module CableComponent (336)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
+[2018.04.11-21.03.09:666][868]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2018.04.11-21.03.09:667][868]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
+[2018.04.11-21.03.09:668][868]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
+[2018.04.11-21.03.09:668][868]LogModuleManager: Shutting down and abandoning module MainFrame (278)
+[2018.04.11-21.03.09:668][868]LogModuleManager: Shutting down and abandoning module HotReload (277)
+[2018.04.11-21.03.09:669][868]LogDirectoryWatcher: A directory notification for 'D:/GitHub/VR_SlaveExperience/SlaveVRExperience/Binaries/Win64' was aborted.
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module SlaveVRExperience (272)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2018.04.11-21.03.09:669][868]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2018.04.11-21.03.09:770][868]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2018.04.11-21.03.09:871][868]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2018.04.11-21.03.09:871][868]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2018.04.11-21.03.09:871][868]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2018.04.11-21.03.09:871][868]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
+[2018.04.11-21.03.09:871][868]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
+[2018.04.11-21.03.09:871][868]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.04.11-21.03.09:873][868]LogModuleManager: Shutting down and abandoning module Media (223)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2018.04.11-21.03.09:879][868]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2018.04.11-21.03.09:880][868]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2018.04.11-21.03.09:880][868]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2018.04.11-21.03.09:880][868]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2018.04.11-21.03.09:880][868]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module Core (174)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module LevelSequence (170)
+[2018.04.11-21.03.09:882][868]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (168)
+[2018.04.11-21.03.09:888][868]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
+[2018.04.11-21.03.09:888][868]LogModuleManager: Shutting down and abandoning module MeshUtilities (164)
+[2018.04.11-21.03.09:889][868]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (163)
+[2018.04.11-21.03.09:889][868]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (162)
+[2018.04.11-21.03.09:889][868]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (161)
+[2018.04.11-21.03.09:889][868]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (159)
+[2018.04.11-21.03.09:889][868]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (157)
+[2018.04.11-21.03.09:889][868]LogModuleManager: Shutting down and abandoning module MaterialBaking (153)
+[2018.04.11-21.03.09:889][868]LogModuleManager: Shutting down and abandoning module DerivedDataCache (150)
+[2018.04.11-21.03.09:897][868]LogDerivedDataCache: Shutdown
+[2018.04.11-21.03.09:897][868]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
+[2018.04.11-21.03.09:897][868]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
+[2018.04.11-21.03.09:897][868]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.04.11-21.03.09:898][868]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2018.04.11-21.03.09:899][868]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2018.04.11-21.03.09:899][868]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.11-21.03.09:899][868]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4C7B103B-427A-A309-C474-5E9834A981EE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=3aa562054dff56c1de0b62a146de3239%7Cc4a40f5a9b8144829c3e1d00b7a7855b%7C980a9087-8783-4042-bea6-f203b1f08300&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.11-21.03.09:912][868]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2018.04.11-21.03.09:913][868]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2018.04.11-21.03.09:914][868]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.11-21.03.09:914][868]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.11-21.03.09:914][868]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.11-21.03.09:914][868]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.11-21.03.09:914][868]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.11-21.03.09:914][868]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.11-21.03.09:914][868]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.11-21.03.09:917][868]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.11-21.03.09:920][868]LogExit: Exiting.
+[2018.04.11-21.03.09:924][868]Log file closed, 04/11/18 17:03:09
